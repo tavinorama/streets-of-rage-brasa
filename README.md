@@ -32,4 +32,4 @@ Música instrumental com velocidade ajustável e efeitos procedurais. Créditos 
 
 ## Pacotes de teste Android/iOS
 
-[Baixar a beta técnica](https://github.com/tavinorama/streets-of-rage-brasa/releases/tag/beta-2026-10-20). APK Android de depuração e pacote iOS para o simulador do Xcode. Para instalar em iPhone físico ou enviar às lojas, veja [NATIVE.md](NATIVE.md).
+[Baixar a beta técnica](https://github.com/tavinorama/streets-of-rage-brasa/releases/tag/beta-online-2026-10-20). APK Android de depuração e pacote iOS para o simulador do Xcode. Para instalar em iPhone físico ou enviar às lojas, veja [NATIVE.md](NATIVE.md).

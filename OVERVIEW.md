@@ -14,7 +14,7 @@ Estado conferido em 20/10/2026. Dois protótipos funcionais independentes para n
 | Confronto final | Janela e sequência de finalização individual | Chefão master: Flávio na campanha de esquerda; Lula na de direita |
 | Fatalities | Implementados como cenas fictícias e estilizadas | Finalizações estilizadas de chefes com janela de vulnerabilidade |
 | Multijogador | Duas pessoas no mesmo computador | Duas pessoas no mesmo computador |
-| Pela internet | Salas de convite; publicação do servidor pendente | Salas de convite; publicação do servidor pendente |
+| Pela internet | Salas de convite no servidor Cloudflare publicado | Salas de convite no servidor Cloudflare publicado |
 | Repositório público | https://github.com/tavinorama/street-brasa | https://github.com/tavinorama/streets-of-rage-brasa |
 
 ## Conteúdo comum
