@@ -49,7 +49,7 @@ A PWA contém manifesto, ícones, instalação pela tela inicial e cache de arqu
 
 `npm run check` verifica referências estáticas, importações, entradas da PWA, arquivos do service worker, limites das imagens e 48 poses do elenco. Depois executa os testes das regras de jogo. Há testes específicos para a queda após o fim de round, inimigos derrotados no ar e jogadores derrotados antes do reaparecimento ou do game over.
 
-A integração passou em 55 testes em 20/10/2026. As distribuições executam seus próprios subconjuntos, além dos testes do servidor online. Existem testes compartilhados, portanto os números não devem ser somados como casos únicos.
+A integração passou em 61 testes em 20/10/2026. As distribuições executam seus próprios subconjuntos, além dos testes do servidor online. Existem testes compartilhados, portanto os números não devem ser somados como casos únicos.
 
 Os dois repositórios GitHub são públicos. Existe uma versão integrada hospedada em https://street-brasa-2026.otaviofranca.chatgpt.site, com acesso privado que exige login ChatGPT. Ela não é um endereço Pages da conta Cloudflare do usuário.
 
@@ -60,3 +60,5 @@ Cloudflare Pages: a central pública está em https://brasa-arcade.pages.dev, co
 Foram implementados ciclos procedurais e transições, três dificuldades, preparação dos ataques, limites de ataques simultâneos, retomada da campanha, remapeamento, acessibilidade, medição local de desempenho, inventário de mídia, salas online e projetos Android/iOS. A música foi substituída por gravações com condições de redistribuição documentadas.
 
 O estado de publicação e compilação está em [RELEASE-STATUS.md](RELEASE-STATUS.md). Os testes em aparelhos físicos, sessões de balanceamento com jogadores, latência em redes diferentes e envio às lojas exigem validação externa. [DEVICE-TESTS.md](DEVICE-TESTS.md) registra o roteiro sem alegar que essas verificações já ocorreram.
+
+Os adversários e chefes regionais da campanha agora são criminosos fictícios, com referências datadas a facções e limites das fontes em BAIRROS & FONTES. As roupas regionais e a diversidade de aparência foram mantidas. Lula e Flávio seguem como masters satíricos, sem vínculo atribuído às facções. Corpos derrotados mantêm pose rígida, sem ciclos de caminhada ou respiração.

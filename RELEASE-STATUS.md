@@ -11,6 +11,7 @@ Atualizado em 20/10/2026. Este arquivo distingue implementação de validação 
 - [x] Medição local de 20 segundos com exportação de FPS/tempos de quadro; cache de texturas limitado.
 - [x] Gravações substituídas por fontes com condições documentadas; quatro fotografias com termos insuficientes retiradas do pacote; verificador de inventário.
 - [x] Servidor de salas para dois convidados com WebSockets, host autoritativo, validação de pacotes e limite de participantes; verificação local com dois clientes.
+- [x] Criação, entrada e presença de dois jogadores conferidas no navegador no endereço público para os dois jogos; desconexão com pausa verificada.
 - [x] Servidor online publicado no Cloudflare; teste remoto com dois WebSockets e restrições de participantes/pacotes aprovado.
 - [x] Projetos Android e iOS gerados para os dois jogos, com ícones derivados do SVG próprio e workflow de compilação.
 - [x] Builds remotos Android/iOS concluídos para os dois jogos; APK de depuração e aplicativo iOS para simulador disponíveis nas releases beta dos repositórios.
