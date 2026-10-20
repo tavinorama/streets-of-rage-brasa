@@ -1,0 +1,157 @@
+{
+  "mode": "built-in image_gen",
+  "date": "2026-10-20",
+  "note": "Reconstruções fictícias de aparência fotográfica. Fotos documentais originais preservadas em assets/portraits e no dossiê. Não são fotografias de combates reais.",
+  "assets": [
+    {
+      "id": "lula",
+      "file": "dist/assets/sprites/lula.png",
+      "source": "/Users/otaviofranca/.codex/generated_images/01a1598a-2c4f-7370-9438-a173fcbbf985/exec-5f93854a-b06a-42fa-b241-7db849d53165.png",
+      "prompt": "Image 1 is the photographic edit target: preserve its natural photographic fabric weave, photographic hands, studio light and precise three-column pose layout. Image 2 supplies ONLY the facial identity and natural build of the person who replaces the man in all three exposures of image 1. This must look like a photograph of the actual person in image 2, not an illustrated character. Keep all three complete head-to-toe bodies separated on true alpha. Preserve image 1's realism, no painted folds or ink contours. Identity/wardrobe: elderly white-haired and white-bearded man, stocky natural body. Navy wool suit, white shirt, red tie, black shoes.",
+      "references": "Tarcísio photographic style + original identity photo",
+      "identityReference": "dist/assets/portraits/lula.jpg"
+    },
+    {
+      "id": "flavio",
+      "file": "dist/assets/sprites/flavio.png",
+      "source": "/Users/otaviofranca/.codex/generated_images/01a1598a-2c4f-7370-9438-a173fcbbf985/exec-d3929df5-a567-4e7c-9184-f9f60873b749.png",
+      "prompt": "Image 1 is the photographic edit target: preserve its natural photographic fabric weave, photographic hands, studio light and precise three-column pose layout. Image 2 supplies ONLY the facial identity and natural build of the person who replaces the man in all three exposures of image 1. This must look like a photograph of the actual person in image 2, not an illustrated character. Keep all three complete head-to-toe bodies separated on true alpha. Preserve image 1's realism, no painted folds or ink contours. Identity/wardrobe: middle-aged clean-shaven brown-haired man. Charcoal wool suit, white shirt, pale blue tie, black shoes.",
+      "references": "Tarcísio photographic style + original identity photo",
+      "identityReference": "dist/assets/portraits/flavio.jpg"
+    },
+    {
+      "id": "dino",
+      "file": "dist/assets/sprites/dino.png",
+      "source": "/Users/otaviofranca/.codex/generated_images/01a1598a-2c4f-7370-9438-a173fcbbf985/exec-3939803c-73d7-4638-b38b-a7b37abd8303.png",
+      "prompt": "Image 1 is the photographic edit target: preserve its natural photographic fabric weave, photographic hands, studio light and precise three-column pose layout. Image 2 supplies ONLY the facial identity and natural build of the person who replaces the man in all three exposures of image 1. This must look like a photograph of the actual person in image 2, not an illustrated character. Keep all three complete head-to-toe bodies separated on true alpha. Preserve image 1's realism, no painted folds or ink contours. Identity/wardrobe: middle-aged stocky grey-haired man wearing thin glasses. Charcoal wool suit, white shirt, blue patterned tie, black shoes.",
+      "references": "Tarcísio photographic style + original identity photo",
+      "identityReference": "dist/assets/portraits/dino.jpg"
+    },
+    {
+      "id": "moraes",
+      "file": "dist/assets/sprites/moraes.png",
+      "source": "/Users/otaviofranca/.codex/generated_images/01a1598a-2c4f-7370-9438-a173fcbbf985/exec-81aa989c-e174-44d9-aaa2-4e91db57feee.png",
+      "prompt": "Image 1 is the photographic edit target: preserve its natural photographic fabric weave, photographic hands, studio light and precise three-column pose layout. Image 2 supplies ONLY the facial identity and natural build of the person who replaces the man in all three exposures of image 1. This must look like a photograph of the actual person in image 2, not an illustrated character. Keep all three complete head-to-toe bodies separated on true alpha. Preserve image 1's realism, no painted folds or ink contours. Identity/wardrobe: bald middle-aged man. Matte black judicial robe with red cords, navy suit, white shirt, blue patterned tie, black shoes.",
+      "references": "Tarcísio photographic style + original identity photo",
+      "identityReference": "dist/assets/portraits/moraes.jpg"
+    },
+    {
+      "id": "jair",
+      "file": "dist/assets/sprites/jair.png",
+      "source": "/Users/otaviofranca/.codex/generated_images/01a1598a-2c4f-7370-9438-a173fcbbf985/exec-f0855e69-60aa-40d9-a72a-b917d5702aee.png",
+      "prompt": "Image 1 is the photographic edit target: preserve its natural photographic fabric weave, photographic hands, studio light and precise three-column pose layout. Image 2 supplies ONLY the facial identity and natural build of the person who replaces the man in all three exposures of image 1. This must look like a photograph of the actual person in image 2, not an illustrated character. Keep all three complete head-to-toe bodies separated on true alpha. Preserve image 1's realism, no painted folds or ink contours. Identity/wardrobe: Older clean-shaven man with greying brown hair, natural older body, navy wool suit, white shirt, green tie, black dress shoes.",
+      "references": "Tarcísio photographic style + original identity photo",
+      "alphaExtraction": {
+        "source": "/Users/otaviofranca/.codex/generated_images/01a1598a-2c4f-7370-9438-a173fcbbf985/exec-41a0aa72-dd29-438a-8dc7-dfae29b12c8f.png",
+        "note": "Imagegen background-extraction, preserving person and photographic texture.",
+        "prompt": "Use case: background-extraction. Edit only the background and alpha channel of this photographic sheet. Remove the entire studio backdrop, every glow, colored haze, ground shadow and halo, making every empty space fully transparent alpha=0 including gaps between the three figures, gaps between legs and arms. Preserve all three photographic people EXACTLY, same face, hair, body, suit, green tie, hands, shoes, positions, lighting, scale and original fine photographic texture. Do not repaint or stylize any person. Ensure the three complete bodies remain separate isolated cutouts with transparent empty gaps, no clipped hands or feet. True transparent background only."
+      },
+      "identityReference": "dist/assets/portraits/jair.jpg"
+    },
+    {
+      "id": "mendonca",
+      "file": "dist/assets/sprites/mendonca.png",
+      "source": "/Users/otaviofranca/.codex/generated_images/01a1598a-2c4f-7370-9438-a173fcbbf985/exec-e4650946-cf63-4447-b844-bec8d02f1b38.png",
+      "prompt": "Image 1 is the photographic edit target: preserve its natural photographic fabric weave, photographic hands, studio light and precise three-column pose layout. Image 2 supplies ONLY the facial identity and natural build of the person who replaces the man in all three exposures of image 1. This must look like a photograph of the actual person in image 2, not an illustrated character. Keep all three complete head-to-toe bodies separated on true alpha. Preserve image 1's realism, no painted folds or ink contours. Identity/wardrobe: Middle-aged clean-shaven man with short grey-brown hair, natural build, black matte judicial robe over navy wool suit, white shirt, blue tie, black shoes.",
+      "references": "Tarcísio photographic style + original identity photo",
+      "identityReference": "dist/assets/portraits/mendonca.jpg"
+    },
+    {
+      "id": "lulinha",
+      "file": "dist/assets/sprites/lulinha.png",
+      "source": "/Users/otaviofranca/.codex/generated_images/01a1598a-2c4f-7370-9438-a173fcbbf985/exec-e0c2f841-76c4-422c-8979-4b4fe561e180.png",
+      "prompt": "Image 1 is the photographic edit target: preserve its natural photographic fabric weave, photographic hands, studio light and precise three-column pose layout. Image 2 supplies ONLY the facial identity and natural build of the person who replaces the man in all three exposures of image 1. This must look like a photograph of the actual person in image 2, not an illustrated character. Keep all three complete head-to-toe bodies separated on true alpha. Preserve image 1's realism, no painted folds or ink contours. Identity/wardrobe: Fuller heavy/stocky clean-shaven brown-haired man, preserving the natural heavier body in image 2. Olive-grey plain cotton T-shirt without text or graphics, dark blue jeans, black casual sneakers. Do not slim or make athletic.",
+      "references": "Tarcísio photographic style + original identity photo",
+      "identityReference": "dist/assets/portraits/lulinha.jpg"
+    },
+    {
+      "id": "tarcisio",
+      "file": "dist/assets/sprites/tarcisio.png",
+      "source": "/Users/otaviofranca/.codex/generated_images/01a1598a-2c4f-7370-9438-a173fcbbf985/exec-36d92c25-8e9f-4fcf-98f1-2180392ae8ed.png",
+      "prompt": "Image 1 defines ONLY the layout: 3 separated full-body people of identical scale in three columns, guard / compact straight punch right / controlled front kick right. Image 2 defines the exact facial identity. Reconstruct all three bodies as extremely photorealistic live-action studio cutout photographs of the person in Image 2. Real pores, hair strands, fabric weave, soft neutral lighting, natural human proportions. NO cartoon outlines, NO brush strokes, NO stylized shading or sculpted 3D skin. Preserve the same identity, age, build, outfit in all 3. Entire shoes and hands visible, clear transparent gaps between poses. True transparent background, no floor, no shadow, no halo or blue rim lighting. PERSON: Tarcísio de Freitas, greying brown short hair, natural sturdy middle-aged build, navy suit, pale blue shirt, patterned dark blue tie, black leather shoes.",
+      "references": "Nikolas photographic layout + original identity photo",
+      "identityReference": "dist/assets/portraits/tarcisio.jpg"
+    },
+    {
+      "id": "janja",
+      "file": "dist/assets/sprites/janja.png",
+      "source": "/Users/otaviofranca/.codex/generated_images/01a1598a-2c4f-7370-9438-a173fcbbf985/exec-9d0e1618-dff8-4618-88db-b9dbc20a6e7c.png",
+      "prompt": "Image 1 defines ONLY the layout: 3 separated full-body people of identical scale in three columns, guard / compact straight punch right / controlled front kick right. Image 2 defines the exact facial identity. Reconstruct all three bodies as extremely photorealistic live-action studio cutout photographs of the person in Image 2. Real pores, hair strands, fabric weave, soft neutral lighting, natural human proportions. NO cartoon outlines, NO brush strokes, NO stylized shading or sculpted 3D skin. Preserve the same identity, age, build, outfit in all 3. Entire shoes and hands visible, clear transparent gaps between poses. True transparent background, no floor, no shadow, no halo or blue rim lighting. PERSON: Janja, shoulder-length honey brown wavy hair, no glasses, natural middle-aged build; deep purple tailored jacket and trousers over cream top, black practical low shoes.",
+      "references": "Nikolas photographic layout + original identity photo",
+      "identityReference": "dist/assets/portraits/janja.jpg"
+    },
+    {
+      "id": "daniella",
+      "file": "dist/assets/sprites/daniella.png",
+      "source": "/Users/otaviofranca/.codex/generated_images/01a1598a-2c4f-7370-9438-a173fcbbf985/exec-3fe7ac4b-d1f8-469d-a70d-4fe528694121.png",
+      "prompt": "Image 1 defines ONLY the layout: 3 separated full-body people of identical scale in three columns, guard / compact straight punch right / controlled front kick right. Image 2 defines the exact facial identity. Reconstruct all three bodies as extremely photorealistic live-action studio cutout photographs of the person in Image 2. Real pores, hair strands, fabric weave, soft neutral lighting, natural human proportions. NO cartoon outlines, NO brush strokes, NO stylized shading or sculpted 3D skin. Preserve the same identity, age, build, outfit in all 3. Entire shoes and hands visible, clear transparent gaps between poses. True transparent background, no floor, no shadow, no halo or blue rim lighting. PERSON: Daniella Marques, blonde hair pulled back, pearl necklace, black lace high-neck blouse with sleeves, black tailored trousers, black low closed shoes, natural middle-aged body.",
+      "references": "Nikolas photographic layout + original identity photo",
+      "identityReference": "dist/assets/portraits/daniella.jpg"
+    },
+    {
+      "id": "masters",
+      "file": "dist/assets/chefes-master-rio.png",
+      "source": "/Users/otaviofranca/.codex/generated_images/01a1598a-2c4f-7370-9438-a173fcbbf985/exec-a7e13b00-f999-4f8e-8a99-dccb3be617f6.png",
+      "prompt": "Identity-preserve photographic wardrobe edit. Image 1 is the photographic reference for the white-haired bearded elderly man. Image 2 is the photographic reference for the clean-shaven dark-haired middle-aged man. Preserve their recognizable faces and natural builds, and the photographic skin, hair, hands and fabric realism. Make a 2 columns by 2 rows contact sheet of four full-length PHOTO cutouts. Column 1: the elderly man from image 1, change outfit to red cotton polo shirt, beige knee-length shorts, dark flip flops. Column 2: the middle-aged man from image 2, change outfit to navy cotton sleeveless shirt, blue knee-length shorts with white floral pattern, dark flip flops. Top row relaxed guarded stance facing right; bottom row compact straight punch right. Four whole separate bodies, at identical scale, entirely within their quadrants; generous fully transparent horizontal AND vertical gutters. True transparent alpha, no floor, no glow, no rim light. Natural diffuse photography, no illustrated edges, no painted folds. Fictional studio performance.",
+      "references": "Photographic Lula and Flávio reconstructions generated in this batch; original identity photos preserved.",
+      "layoutExtraction": {
+        "source": "/Users/otaviofranca/.codex/generated_images/01a1598a-2c4f-7370-9438-a173fcbbf985/exec-bea2b648-c188-4ff0-ba55-627114b32e49.png",
+        "prompt": "Precise layout edit of this photographic four-pose contact sheet. Preserve every person's identity, realistic photographic texture, expression, wardrobe and exact pose. Scale each of the FOUR bodies down by 18 percent, independently around the CENTER OF ITS OWN QUADRANT, creating a large empty transparent safety margin around each whole person. The resulting image must be a strict 2-column, 2-row atlas: all pixels of each person, including feet, must lie within x=5%-45% or x=55%-95% of width and y=5%-43% or y=57%-95% of height. In particular top-row shoes must be comfortably ABOVE the middle horizontal line, and bottom-row heads BELOW it. Remove all backdrop gradients, haze and glows; every empty pixel fully transparent alpha=0. No body, hand, head or foot may overlap a quadrant boundary. Do not redraw in cartoon style. Preserve photographic realism."
+      }
+    },
+    {
+      "id": "nikolas",
+      "file": "dist/assets/sprites/nikolas.png",
+      "source": "/Users/otaviofranca/.codex/generated_images/01a1598a-2c4f-7370-9438-a173fcbbf985/exec-d9cf93e2-27e3-4702-baaa-2c59e62c0274.png",
+      "prompt": "Image 1 is the photographic edit target: preserve its natural photographic fabric weave, photographic hands, studio light and precise three-column pose layout. Image 2 supplies ONLY the facial identity and natural build of the person who replaces the man in all three exposures of image 1. This must look like a photograph of the actual person in image 2, not an illustrated character. Keep all three complete head-to-toe bodies separated on true alpha. Preserve image 1's realism, no painted folds or ink contours. Neutral diffuse lighting, no artificial blue rim light or beauty smoothing. Identity/wardrobe: Young adult clean-shaven man, short curly brown hair, natural slender build. Navy wool suit, white shirt, blue tie, black leather dress shoes.",
+      "references": "Tarcísio photographic style + original identity photo",
+      "identityReference": "dist/assets/portraits/nikolas.jpg"
+    },
+    {
+      "id": "janones",
+      "file": "dist/assets/sprites/janones.png",
+      "source": "/Users/otaviofranca/.codex/generated_images/01a1598a-2c4f-7370-9438-a173fcbbf985/exec-495e83cb-0419-4354-b971-512b98623d2f.png",
+      "prompt": "Image 1 is the photographic edit target: preserve its natural photographic fabric weave, photographic hands, studio light and precise three-column pose layout. Image 2 supplies ONLY the facial identity and natural build of the person who replaces the man in all three exposures of image 1. This must look like a photograph of the actual person in image 2, not an illustrated character. Keep all three complete head-to-toe bodies separated on true alpha. Preserve image 1's realism, no painted folds or ink contours. Neutral diffuse lighting, no artificial blue rim light or beauty smoothing. Identity/wardrobe: Middle-aged man with short curly dark hair and neatly trimmed dark beard, natural body build. Black suit, dark purple burgundy patterned shirt and tie, black leather dress shoes.",
+      "references": "Tarcísio photographic style + original identity photo",
+      "identityReference": "dist/assets/portraits/janones.jpg"
+    },
+    {
+      "id": "ana",
+      "file": "dist/assets/sprites/ana.png",
+      "source": "/Users/otaviofranca/.codex/generated_images/01a1598a-2c4f-7370-9438-a173fcbbf985/exec-7bc426fa-ea14-4fa8-8a20-6f4ce0d7cb5d.png",
+      "prompt": "Image 1 is the photographic edit target: preserve its natural photographic fabric weave, photographic hands, studio light and precise three-column pose layout. Image 2 supplies ONLY the facial identity and natural build of the person who replaces the man in all three exposures of image 1. This must look like a photograph of the actual person in image 2, not an illustrated character. Keep all three complete head-to-toe bodies separated on true alpha. Preserve image 1's realism, no painted folds or ink contours. Neutral diffuse lighting, no artificial blue rim light or beauty smoothing. Identity/wardrobe: Black Brazilian woman with pulled-back braided dark hair, naturally curvy build as in image 2, red sleeveless high-neck blouse, black tailored trousers, black ballet flats, pale floral earrings. Preserve her exact face and complexion from image 2.",
+      "references": "Tarcísio photographic style + original identity photo",
+      "identityReference": "dist/assets/portraits/ana.jpg"
+    },
+    {
+      "id": "roberta",
+      "file": "dist/assets/sprites/roberta.png",
+      "source": "/Users/otaviofranca/.codex/generated_images/01a1598a-2c4f-7370-9438-a173fcbbf985/exec-9abebe9e-dabd-4e80-b037-a8306c845221.png",
+      "prompt": "Image 1 is the photographic edit target: preserve its natural photographic fabric weave, photographic hands, studio light and precise three-column pose layout. Image 2 supplies ONLY the facial identity and natural build of the person who replaces the man in all three exposures of image 1. This must look like a photograph of the actual person in image 2, not an illustrated character. Keep all three complete head-to-toe bodies separated on true alpha. Preserve image 1's realism, no painted folds or ink contours. Neutral diffuse lighting, no artificial blue rim light or beauty smoothing. Identity/wardrobe: Middle-aged blonde woman with long wavy hair, natural build. Cream floral high-neck long-sleeved blouse with pale pink green flowers and lace details, black tailored trousers, practical black low-heel closed shoes. Preserve her exact facial structure from image 2.",
+      "references": "Tarcísio photographic style + original identity photo",
+      "identityReference": "dist/assets/portraits/roberta.jpg"
+    },
+    {
+      "id": "vorcaro",
+      "file": "dist/assets/sprites/vorcaro.png",
+      "source": "/Users/otaviofranca/.codex/generated_images/01a1598a-2c4f-7370-9438-a173fcbbf985/exec-b38cab23-4943-427c-bd9a-b26f0d002153.png",
+      "prompt": "Image 1 is the photographic edit target: preserve its natural photographic fabric weave, photographic hands, studio light and precise three-column pose layout. Image 2 supplies ONLY the facial identity and natural build of the person who replaces the man in all three exposures of image 1. This must look like a photograph of the actual person in image 2, not an illustrated character. Keep all three complete head-to-toe bodies separated on true alpha. Preserve image 1's realism, no painted folds or ink contours. Neutral diffuse lighting, no artificial blue rim light or beauty smoothing. Identity/wardrobe: Middle-aged man with brown swept-back hair and a full neatly trimmed beard, natural build as in image 2. Charcoal wool suit, white shirt, dark navy patterned tie, black leather dress shoes.",
+      "references": "Tarcísio photographic style + original identity photo",
+      "identityReference": "dist/assets/portraits/vorcaro.jpg"
+    },
+    {
+      "id": "marcal",
+      "file": "dist/assets/sprites/marcal.png",
+      "source": "/Users/otaviofranca/.codex/generated_images/01a1598a-2c4f-7370-9438-a173fcbbf985/exec-f43da4e6-d68e-4a13-9eb7-5f7808285d06.png",
+      "prompt": "Image 1 is the photographic edit target: preserve its natural photographic fabric weave, photographic hands, studio light and precise three-column pose layout. Image 2 supplies ONLY the facial identity and natural build of the person who replaces the man in all three exposures of image 1. This must look like a photograph of the actual person in image 2, not an illustrated character. Keep all three complete head-to-toe bodies separated on true alpha. Preserve image 1's realism, no painted folds or ink contours. Neutral diffuse lighting, no artificial blue rim light or beauty smoothing. Identity/wardrobe: Middle-aged man with short dark hair and neatly trimmed salt-and-pepper beard, natural build as in image 2. Charcoal wool suit, open-collar white shirt without tie, black leather dress shoes.",
+      "references": "Tarcísio photographic style + original identity photo",
+      "identityReference": "dist/assets/portraits/marcal.jpg"
+    }
+  ],
+  "coverage": {
+    "publicFigures": 16,
+    "combatPoses": 48,
+    "masterPoses": 4,
+    "portraitMethod": "Head crop of the same reconstructed idle pose, identical framing, backdrop and camera style; original photographs in dossier only."
+  }
+}

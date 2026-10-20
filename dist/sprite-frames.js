@@ -1,6 +1,7 @@
 // Source artwork is kept untouched; each pose uses its own silhouette and bounds.
 const cache=new WeakMap();
-export const spriteFrames=fetch('assets/sprite-frames.json?v=20261020-3').then(r=>{if(!r.ok)throw Error('Sprite geometry unavailable');return r.json()});
+export const SPRITE_REVISION='20261020-6';
+export const spriteFrames=fetch(`assets/sprite-frames.json?v=${SPRITE_REVISION}`).then(r=>{if(!r.ok)throw Error('Sprite geometry unavailable');return r.json()});
 export function isolatedFrame(image,frame,geometry){
  let poses=cache.get(image);if(!poses){poses=new Map();cache.set(image,poses)}if(poses.has(frame))return poses.get(frame);
  const meta=geometry[frame],c=document.createElement('canvas'),[sx,sy,w,h]=meta.source;c.width=w;c.height=h;const ctx=c.getContext('2d');

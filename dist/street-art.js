@@ -8,7 +8,7 @@ import {drawFighter} from './realistic-art.js';
 const street=new Image();street.src='assets/ruas-brasa.png';
 const enemies=new Image();enemies.src='assets/inimigos-rua.png';
 const regionBosses=new Image();regionBosses.src='assets/chefes-regionais-clima.png';
-const mastersRio=new Image();mastersRio.src='assets/chefes-master-rio.png';
+const mastersRio=new Image();mastersRio.src='assets/chefes-master-rio.png?v=20261020-6';
 // Bounds follow the transparent gutters in the generated atlas, preserving extended hands.
 const diverseLayout={columns:[0,.28,.5,.75,1],rows:[0,.54,1]};
 const lightEnemies=new Image();lightEnemies.src='assets/inimigos-diversos.png';

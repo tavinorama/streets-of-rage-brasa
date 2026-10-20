@@ -21,7 +21,7 @@ Estado conferido em 20/10/2026. Dois protótipos funcionais independentes para n
 
 Elenco: Lula, Flávio Bolsonaro, Nikolas Ferreira, Janja, André Janones, Daniella Marques, Tarcísio de Freitas, Flávio Dino, Alexandre de Moraes, André Mendonça, Daniel Vorcaro, Jair Bolsonaro, Ana Elisa, Roberta Luchsinger, Lulinha e Pablo Marçal. Nem todos são candidatos presidenciais; o elenco é satírico.
 
-As telas de seleção usam fotografias com créditos. As lutas usam reconstruções por IA, com três poses de base por personagem e deformação procedural para caminhada, cabelo, roupa, capas e expressões. Os recortes usam silhuetas próprias, evitando partes de poses vizinhas. Isso não equivale a animação 3D, captura de movimento ou reprodução perfeita da aparência real.
+Seleção e combate usam o mesmo elenco reconstruído por IA em aparência fotográfica uniforme: 16 folhas refeitas, 48 poses e quatro poses dos chefes finais. Os retratos são enquadrados a partir da própria pose de guarda; as fotografias documentais originais permanecem no dossiê, com créditos. Prompts e arquivos estão registrados em `PHOTOREAL-ART-PROMPTS.json`. As lutas usam essas reconstruções, com três poses de base por personagem e deformação procedural para caminhada, cabelo, roupa, capas e expressões. Os recortes usam silhuetas próprias, evitando partes de poses vizinhas. Isso não equivale a animação 3D, captura de movimento ou reprodução perfeita da aparência real.
 
 A simulação funciona em passos fixos de 1/60 s, com gravidade, aceleração, frenagem, impulso, amortecimento e reações ao impacto. Sombras de contato e apoios dos pés acompanham a pose. Marcas de dano são sobreposições visuais estilizadas. A gravidade também continua depois de um round terminar, durante a derrota de inimigos e enquanto uma personagem aguarda reaparecer. As finalizações possuem exageros intencionais de ficção.
 
@@ -49,11 +49,11 @@ A PWA contém manifesto, ícones, instalação pela tela inicial e cache de arqu
 
 `npm run check` verifica referências estáticas, importações, entradas da PWA, arquivos do service worker, limites das imagens e 48 poses do elenco. Depois executa os testes das regras de jogo. Há testes específicos para a queda após o fim de round, inimigos derrotados no ar e jogadores derrotados antes do reaparecimento ou do game over.
 
-A integração possui 32 testes; as distribuições possuem 12 (Street Brasa) e 21 (Streets of Rage Brasa). Existem testes compartilhados, portanto os números não devem ser somados como casos únicos.
+A integração possui 36 testes; as distribuições possuem 14 (Street Brasa) e 25 (Streets of Rage Brasa). Existem testes compartilhados, portanto os números não devem ser somados como casos únicos.
 
 Os dois repositórios GitHub são públicos. Existe uma versão integrada hospedada em https://street-brasa-2026.otaviofranca.chatgpt.site, com acesso privado que exige login ChatGPT. Ela não é um endereço Pages da conta Cloudflare do usuário.
 
-Cloudflare Pages: arquivos estáticos, configuração Wrangler e pacotes ZIP estão preparados. Os nomes configurados são `tavinorama-street-brasa` e `tavinorama-streets-of-rage-brasa`; nenhum endereço foi reservado nem publicado nessa conta. A conexão foi adiada pelo usuário. Cada README contém os passos para publicar após o login.
+Cloudflare Pages: a central pública está em https://brasa-arcade.pages.dev, com os jogos em `/fighter` e `/streets`. As distribuições independentes também foram publicadas em https://tavinorama-street-brasa.pages.dev e https://tavinorama-streets-of-rage-brasa.pages.dev. Publicação por Direct Upload de `dist`, sem exigir login para jogar.
 
 ## Próximas entregas, por prioridade
 
@@ -62,7 +62,7 @@ Cloudflare Pages: arquivos estáticos, configuração Wrangler e pacotes ZIP est
 3. Balancear dano, alcance, cadência, dificuldade da CPU e chefes com sessões de jogadores; ajustar feedback, legibilidade e duração das partidas.
 4. Acrescentar progresso e retomada da campanha, configuração de controles e opções de acessibilidade. São entregas planejadas, ainda não implementadas.
 5. Completar a revisão editorial das fontes e o inventário de licenças: algumas fotografias e gravações ainda têm autorização de redistribuição sem confirmação nos registros do projeto.
-6. Conectar a conta Cloudflare, publicar os dois projetos e verificar HTTPS, instalação PWA e comportamento com rede instável.
+6. Publicação Cloudflare concluída e HTTPS conferido; continuar a validação da instalação PWA em aparelhos reais e do comportamento com rede instável.
 7. Preparar e testar os pacotes nativos caso a distribuição nas lojas continue como objetivo.
 
 As prioridades acima não representam um prazo ou uma estimativa de custo. O próximo marco é uma beta técnica validada em aparelhos reais, antes de tratar os jogos como produto final.

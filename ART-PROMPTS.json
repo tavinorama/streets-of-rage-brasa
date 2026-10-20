@@ -59,5 +59,7 @@
   "spriteRepair": {
     "tool": "Built-in Imagegen",
     "reason": "Four original sheets had joined silhouettes; regenerated before computing source-frame bounds. All 16 sheets use silhouette-specific pose clipping at runtime."
-  }
+  },
+  "supersededBy": "PHOTOREAL-ART-PROMPTS.json",
+  "note": "Registro histórico da primeira arte. Todas as 16 folhas de personagens foram substituídas pela revisão fotográfica registrada em PHOTOREAL-ART-PROMPTS.json."
 }

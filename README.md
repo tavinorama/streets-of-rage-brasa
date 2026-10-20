@@ -4,8 +4,6 @@ Jogo independente de navegador para PC e celular, com controles por teclado e to
 
 [Jogar Streets of Rage Brasa](https://brasa-arcade.pages.dev/streets) · [Central Brasa Arcade](https://brasa-arcade.pages.dev/)
 
-Repositório público: [tavinorama/streets-of-rage-brasa](https://github.com/tavinorama/streets-of-rage-brasa).
-
 Panorama dos dois produtos e próximas entregas: [OVERVIEW.md](OVERVIEW.md).
 
 ## Rodar
@@ -14,7 +12,11 @@ Node.js 20+: execute `npm start` e abra http://localhost:4173. Os arquivos de `d
 
 ## Cloudflare Pages gratuito
 
-Publicado em [Streets of Rage Brasa](https://brasa-arcade.pages.dev/streets). A central compartilhada está em [Brasa Arcade](https://brasa-arcade.pages.dev/). Para atualizar esta distribuição, execute `npm run check` e depois `npm run deploy` com a conta Cloudflare conectada.
+Publicado em [Streets of Rage Brasa](https://brasa-arcade.pages.dev/streets). O projeto independente Cloudflare é `tavinorama-streets-of-rage-brasa`.
+
+1. Execute `npx wrangler@4.151.3 login` e conclua o acesso no navegador.
+2. Execute `npx wrangler@4.151.3 pages project create tavinorama-streets-of-rage-brasa --production-branch main`.
+3. Execute `npm run deploy`.
 
 Alternativa: no painel Cloudflare, Workers & Pages → criar Pages → conectar este repositório GitHub → branch main → sem framework → comando de build vazio → pasta de saída `dist`. Nunca envie a pasta inteira do projeto como arquivos públicos.
 
@@ -24,8 +26,6 @@ O manifesto e o service worker permitem instalar a PWA no Android e no Safari do
 
 ## Física e arte
 
-Simulação 2D em passos de 1/60 s: gravidade, aceleração, frenagem, impulso e molas amortecidas para cabelo/tecido. As 48 poses do elenco usam recorte por silhueta, apoios dos pés e sombras de contato. Esta técnica não equivale a corpos 3D ou captura de movimento. As fotografias de seleção têm créditos em `dist/photo-credits.json`; poses de combate e cenários são reconstruções fictícias. Prompts e registros de pesquisa acompanham o projeto.
+Simulação 2D em passos de 1/60 s: gravidade, aceleração, frenagem, impulso e molas amortecidas para cabelo/tecido. As 48 poses do elenco usam recorte por silhueta, apoios dos pés e sombras de contato. Esta técnica não equivale a corpos 3D ou captura de movimento. Retratos da seleção e poses de combate compartilham as mesmas reconstruções de aparência fotográfica. As fotografias documentais do dossiê têm créditos em `dist/photo-credits.json`; poses de combate e cenários são reconstruções fictícias. Prompts e registros de pesquisa acompanham o projeto.
 
-Música instrumental com volume inicial de 10% e reprodução 25% mais rápida, com ajustes independentes para trilha e efeitos. Créditos em `dist/music-credits.html`. Paródia independente; citações reais estão separadas das falas e ações fictícias.
-
-Os adversários combinam personagens regionais e brancos em todas as fases, sem alterar suas regras de combate. Jogadores e inimigos compartilham a mesma altura visual; pesos pesados têm 6% a mais e chefões 8%. Registro da arte complementar: [DIVERSIDADE-ARTE.json](DIVERSIDADE-ARTE.json).
+Música instrumental com velocidade ajustável e efeitos procedurais. Créditos em `dist/music-credits.html`. Paródia independente; citações reais estão separadas das falas e ações fictícias.
