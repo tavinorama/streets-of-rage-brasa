@@ -1,18 +1,167 @@
 {
   "researchedAt": "2026-10-20",
   "methodology": "Seleção editorial de sete cenários nas cinco regiões, com violência documentada e identidade territorial. Não é um ranking dos sete bairros mais violentos do Brasil. As fontes têm períodos, limites e indicadores diferentes; números absolutos não são taxas por habitante. Sol Nascente/Pôr do Sol é uma região administrativa, e Complexo do Alemão é um conjunto de comunidades/bairro. A dificuldade e a ordem das fases são decisões de jogo, não índices de violência.",
-  "fiction": "Cenários são interpretações artísticas, não levantamentos arquitetônicos. Os seis pares de chefões regionais são personagens originais de ficção. Lula e Flávio Bolsonaro aparecem somente como personagens satíricos do confronto final. Os combates não indicam vínculos com crime, controle de territórios ou acontecimentos reais. Moradores e equipamentos culturais não são inimigos.",
+  "fiction": "Todos os capangas e chefões regionais são criminosos adultos fictícios. Os nomes das facções vêm de registros públicos com datas e limites; os encontros, a hierarquia e os equipamentos são criação do jogo. As roupas regionais e a cor da pele não identificam criminosos reais. Moradores, trabalhadores e equipamentos culturais não são inimigos. Lula e Flávio Bolsonaro permanecem personagens satíricos do confronto final, sem atribuição de vínculo com facções. A rota política da campanha não descreve orientação política de organizações criminosas.",
   "sources": [
-    {"id":"am-2026","title":"SSP-AM · Anuário do Amazonas de Segurança Pública 2026","url":"https://www.ssp.am.gov.br/wp-content/uploads/2026/03/Anuario_do_Amazonas_de_Seguranca_Publica_2026-1.pdf","period":"2025","kind":"Órgão público · análise de segurança","note":"Registra atuação de inteligência sobre uma sequência de homicídios no Jorge Teixeira. Não estabelece ranking nacional de bairros."},
-    {"id":"jorge-study","title":"A geografia da violência: homicídios dolosos no Jorge Teixeira (2019–2023)","url":"https://journalppc.com/RPPC/article/view/2626","period":"2019–2023 · publicado em 2025","kind":"Pesquisa acadêmica territorial","note":"Estudo específico sobre distribuição de homicídios no bairro. Não extrapolar seus resultados para uma posição nacional em 2026."},
-    {"id":"ccbj","title":"Governo do Ceará · Centro Cultural Bom Jardim e prevenção à violência","url":"https://www.ce.gov.br/2024/10/28/politicas-culturais-como-o-centro-cultural-bom-jardim-apresentam-caminho-alternativo-a-violencia/","period":"2024","kind":"Órgão público · contexto territorial e cultural","note":"Documenta violência e vulnerabilidade no Grande Bom Jardim, além do papel cultural do CCBJ. Grande Bom Jardim abrange vários bairros; a referência visual ao CCBJ não torna a instituição parte do combate."},
-    {"id":"ce-security","title":"Governo do Ceará · investigação de homicídio no Bom Jardim","url":"https://www.ce.gov.br/2025/10/22/pcce-captura-segundo-suspeito-envolvido-em-homicidio-no-bairro-bom-jardim/","period":"2025","kind":"Órgão público · registro de ocorrência","note":"Ocorrência documentada, sem inferência de taxa ou posição em ranking."},
-    {"id":"pcba-2025","title":"Polícia Civil da Bahia · Anuário 2025","url":"https://www.ba.gov.br/policiacivil/sites/site-pcba/files/2025-09/Anuario%20PCBA.pdf","period":"2024","kind":"Órgão público · CVLI por bairro","note":"Mapa 14 e gráfico 9: Pernambués, 30; Valéria, 27 ocorrências de CVLI no recorte apresentado. São contagens absolutas locais, não taxas e não um ranking nacional. PDF indexado na busca; abertura direta pelo leitor excedeu o limite de tamanho."},
-    {"id":"ba-culture","title":"Governo da Bahia · escolas de Pernambués e Valéria","url":"https://www.ba.gov.br/educacao/noticias/2024-12/1059/com-novos-projetos-governo-baiano-amplia-investimentos-em-educacao-no","period":"2024","kind":"Órgão público · referência territorial","note":"Identifica Aliomar Baleeiro em Pernambués e Dinah Gonçalves em Valéria. Equipamentos educacionais contextualizam a vida dos bairros; não participam do combate."},
-    {"id":"df-data","title":"SSP-DF · dados por região administrativa","url":"https://www.ssp.df.gov.br/dados-por-regiao-administrativa/","period":"Séries por RA","kind":"Órgão público · base territorial","note":"No Distrito Federal, os recortes de segurança são regiões administrativas, não bairros diretamente comparáveis aos de outros municípios. Endereços antigos dos PDFs do anuário retornaram erro; não foram usados para inventar números."},
-    {"id":"df-sol","title":"Crime Brasil · Sol Nascente/Pôr do Sol (base declarada SSP-DF)","url":"https://crimebrasil.com.br/bairro/df/brasilia/sol-nascente-por-do-sol","period":"Setembro de 2025 a agosto de 2026","kind":"Fonte secundária · agregação de registros oficiais","note":"Publica 311 ocorrências no recorte de crimes cobertos e 13ª posição entre 33 RAs. Não é um dos maiores totais do DF e não sustenta chamá-lo de um dos sete mais violentos do país. Incluído pela representação do Centro-Oeste e identidade urbana solicitada."},
-    {"id":"restinga-security","title":"GZH · homicídios por bairro em Porto Alegre em 2024","url":"https://gauchazh.clicrbs.com.br/seguranca/noticia/2025/02/confira-o-numero-de-homicidios-e-de-jovens-assassinados-por-bairro-de-porto-alegre-em-2024-cm752j9gp00on015adyhsnb5m.html","period":"2024 · publicado em 15/02/2025","kind":"Jornalismo local · levantamento territorial","note":"Aponta Restinga entre os bairros com mais vítimas. Restinga, Sarandi, Lomba do Pinheiro e Rubem Berta somam 58; esse total é de quatro bairros e não deve ser atribuído só à Restinga."},
-    {"id":"restinga-culture","title":"Prefeitura de Porto Alegre · Semana da Restinga","url":"https://www.prefeitura.poa.br/smgov/noticias/semana-da-restinga-comeca-nesta-sexta-com-atracoes-culturais-e-sociais","period":"2024","kind":"Órgão público · cultura e referências locais","note":"Identifica Esplanada da Restinga na Avenida João Antônio da Silveira e participação de entidades culturais. Cores e salões na arte são alusões visuais, sem afiliação das entidades ao jogo."},
-    {"id":"alemao-violence","title":"UNICEF, Fogo Cruzado e GENI/UFF · Percursos interrompidos","url":"https://fogocruzado.org.br/wp-content/uploads/2026/03/Relatorio-completo-Percursos-interrompidos-Fogo-Cruzado-UNICEF-e-GENI.pdf","period":"Janeiro de 2023 a julho de 2025; estudo de caso de outubro de 2025","kind":"Pesquisa original · efeitos da violência armada","note":"Documenta interrupções de mobilidade e educação por violência armada, incluindo o Alemão. Não é uma taxa de homicídios por bairro. A torre do teleférico na arte é uma referência visual, não uma afirmação de funcionamento atual."}
+    {
+      "id": "am-2026",
+      "title": "SSP-AM · Anuário do Amazonas de Segurança Pública 2026",
+      "url": "https://www.ssp.am.gov.br/wp-content/uploads/2026/03/Anuario_do_Amazonas_de_Seguranca_Publica_2026-1.pdf",
+      "period": "2025",
+      "kind": "Órgão público · análise de segurança",
+      "note": "Registra atuação de inteligência sobre uma sequência de homicídios no Jorge Teixeira. Não estabelece ranking nacional de bairros."
+    },
+    {
+      "id": "jorge-study",
+      "title": "A geografia da violência: homicídios dolosos no Jorge Teixeira (2019–2023)",
+      "url": "https://journalppc.com/RPPC/article/view/2626",
+      "period": "2019–2023 · publicado em 2025",
+      "kind": "Pesquisa acadêmica territorial",
+      "note": "Estudo específico sobre distribuição de homicídios no bairro. Não extrapolar seus resultados para uma posição nacional em 2026."
+    },
+    {
+      "id": "ccbj",
+      "title": "Governo do Ceará · Centro Cultural Bom Jardim e prevenção à violência",
+      "url": "https://www.ce.gov.br/2024/10/28/politicas-culturais-como-o-centro-cultural-bom-jardim-apresentam-caminho-alternativo-a-violencia/",
+      "period": "2024",
+      "kind": "Órgão público · contexto territorial e cultural",
+      "note": "Documenta violência e vulnerabilidade no Grande Bom Jardim, além do papel cultural do CCBJ. Grande Bom Jardim abrange vários bairros; a referência visual ao CCBJ não torna a instituição parte do combate."
+    },
+    {
+      "id": "ce-security",
+      "title": "Governo do Ceará · investigação de homicídio no Bom Jardim",
+      "url": "https://www.ce.gov.br/2025/10/22/pcce-captura-segundo-suspeito-envolvido-em-homicidio-no-bairro-bom-jardim/",
+      "period": "2025",
+      "kind": "Órgão público · registro de ocorrência",
+      "note": "Ocorrência documentada, sem inferência de taxa ou posição em ranking."
+    },
+    {
+      "id": "pcba-2025",
+      "title": "Polícia Civil da Bahia · Anuário 2025",
+      "url": "https://www.ba.gov.br/policiacivil/sites/site-pcba/files/2025-09/Anuario%20PCBA.pdf",
+      "period": "2024",
+      "kind": "Órgão público · CVLI por bairro",
+      "note": "Mapa 14 e gráfico 9: Pernambués, 30; Valéria, 27 ocorrências de CVLI no recorte apresentado. São contagens absolutas locais, não taxas e não um ranking nacional. PDF indexado na busca; abertura direta pelo leitor excedeu o limite de tamanho."
+    },
+    {
+      "id": "ba-culture",
+      "title": "Governo da Bahia · escolas de Pernambués e Valéria",
+      "url": "https://www.ba.gov.br/educacao/noticias/2024-12/1059/com-novos-projetos-governo-baiano-amplia-investimentos-em-educacao-no",
+      "period": "2024",
+      "kind": "Órgão público · referência territorial",
+      "note": "Identifica Aliomar Baleeiro em Pernambués e Dinah Gonçalves em Valéria. Equipamentos educacionais contextualizam a vida dos bairros; não participam do combate."
+    },
+    {
+      "id": "df-data",
+      "title": "SSP-DF · dados por região administrativa",
+      "url": "https://www.ssp.df.gov.br/dados-por-regiao-administrativa/",
+      "period": "Séries por RA",
+      "kind": "Órgão público · base territorial",
+      "note": "No Distrito Federal, os recortes de segurança são regiões administrativas, não bairros diretamente comparáveis aos de outros municípios. Endereços antigos dos PDFs do anuário retornaram erro; não foram usados para inventar números."
+    },
+    {
+      "id": "df-sol",
+      "title": "Crime Brasil · Sol Nascente/Pôr do Sol (base declarada SSP-DF)",
+      "url": "https://crimebrasil.com.br/bairro/df/brasilia/sol-nascente-por-do-sol",
+      "period": "Setembro de 2025 a agosto de 2026",
+      "kind": "Fonte secundária · agregação de registros oficiais",
+      "note": "Publica 311 ocorrências no recorte de crimes cobertos e 13ª posição entre 33 RAs. Não é um dos maiores totais do DF e não sustenta chamá-lo de um dos sete mais violentos do país. Incluído pela representação do Centro-Oeste e identidade urbana solicitada."
+    },
+    {
+      "id": "restinga-security",
+      "title": "GZH · homicídios por bairro em Porto Alegre em 2024",
+      "url": "https://gauchazh.clicrbs.com.br/seguranca/noticia/2025/02/confira-o-numero-de-homicidios-e-de-jovens-assassinados-por-bairro-de-porto-alegre-em-2024-cm752j9gp00on015adyhsnb5m.html",
+      "period": "2024 · publicado em 15/02/2025",
+      "kind": "Jornalismo local · levantamento territorial",
+      "note": "Aponta Restinga entre os bairros com mais vítimas. Restinga, Sarandi, Lomba do Pinheiro e Rubem Berta somam 58; esse total é de quatro bairros e não deve ser atribuído só à Restinga."
+    },
+    {
+      "id": "restinga-culture",
+      "title": "Prefeitura de Porto Alegre · Semana da Restinga",
+      "url": "https://www.prefeitura.poa.br/smgov/noticias/semana-da-restinga-comeca-nesta-sexta-com-atracoes-culturais-e-sociais",
+      "period": "2024",
+      "kind": "Órgão público · cultura e referências locais",
+      "note": "Identifica Esplanada da Restinga na Avenida João Antônio da Silveira e participação de entidades culturais. Cores e salões na arte são alusões visuais, sem afiliação das entidades ao jogo."
+    },
+    {
+      "id": "alemao-violence",
+      "title": "UNICEF, Fogo Cruzado e GENI/UFF · Percursos interrompidos",
+      "url": "https://fogocruzado.org.br/wp-content/uploads/2026/03/Relatorio-completo-Percursos-interrompidos-Fogo-Cruzado-UNICEF-e-GENI.pdf",
+      "period": "Janeiro de 2023 a julho de 2025; estudo de caso de outubro de 2025",
+      "kind": "Pesquisa original · efeitos da violência armada",
+      "note": "Documenta interrupções de mobilidade e educação por violência armada, incluindo o Alemão. Não é uma taxa de homicídios por bairro. A torre do teleférico na arte é uma referência visual, não uma afirmação de funcionamento atual."
+    },
+    {
+      "id": "crime-am",
+      "title": "A Crítica · prisão atribuída ao CV no Jorge Teixeira",
+      "url": "https://www.acritica.com/policia/peruano-do-cv-e-preso-com-drogas-e-armas-na-zona-leste-1.400532",
+      "period": "06/04/2026",
+      "kind": "Jornalismo local · relato policial",
+      "note": "A reportagem situa uma prisão e apreensões no Jorge Teixeira e atribui a ligação ao CV às informações policiais. Não demonstra domínio exclusivo nem culpa de moradores. Nenhum retrato ou nome do investigado é usado no jogo."
+    },
+    {
+      "id": "crime-ce",
+      "title": "Acervo municipal de Fortaleza · pesquisa Eles dizem",
+      "url": "https://acervo.fortaleza.ce.gov.br/download-file/documentById?id=1e8426b3-7c09-453f-86f4-094b835ca7a8",
+      "period": "2019",
+      "kind": "Pesquisa de campo · referência histórica",
+      "note": "Trecho indexado descreve pichações de CV no Conjunto Palmares, Bom Jardim. A abertura integral pelo leitor falhou; serve como contexto histórico auxiliar, não atualização de controle territorial."
+    },
+    {
+      "id": "crime-ce-recent",
+      "title": "O POVO · operação da Polícia Civil e célula do CV",
+      "url": "https://www.opovo.com.br/noticias/seguranca-publica/2026/04/23/amp/celula-do-cv-articulou-ataque-ao-pcc-para-se-instalar-em-milagres.html",
+      "period": "23/04/2026",
+      "kind": "Jornalismo local · investigação policial",
+      "note": "Registra capturas em Bonsucesso e Bom Jardim numa investigação sobre célula do CV. A disputa com PCC descrita no texto refere-se a Milagres e Mauriti; não foi transferida para o bairro de Fortaleza."
+    },
+    {
+      "id": "crime-pernambues",
+      "title": "R7 / Cidade Alerta BA · ocorrência atribuída ao CV em Pernambués",
+      "url": "https://noticias.r7.com/bahia/cidade-alerta-ba/adolescente-faz-sinal-de-faccao-rival-e-e-sequestrado-torturado-e-decapitado-em-salvador-ba-12012026/",
+      "period": "12/01/2026",
+      "kind": "Reportagem · atribuição de autoria",
+      "note": "A reportagem atribui a integrantes do CV um crime ocorrido em Pernambués. O jogo não reproduz o caso nem suas vítimas; os adversários são personagens adultos fictícios."
+    },
+    {
+      "id": "crime-valeria",
+      "title": "A TARDE · Katiara e disputa anterior com BDM em Valéria",
+      "url": "https://atarde.com.br/salvador/traficantes-da-katiara-tentam-executar-policiais-dentro-de-viatura-1315986",
+      "period": "28/04/2025 · referência a 2023–2025",
+      "kind": "Jornalismo local · fontes policiais, parte anônimas",
+      "note": "Menciona Katiara associada ao CV e confronto territorial anterior com BDM. A atribuição é da reportagem, incluindo fontes anônimas. O encontro artístico combina referências desse recorte e não representa um mapa atual de domínio."
+    },
+    {
+      "id": "crime-df",
+      "title": "Correio Braziliense · prisão de integrante apontado como PCC no Sol Nascente",
+      "url": "https://www.correiobraziliense.com.br/cidades-df/2023/06/5100281-integrante-do-pcc-envolvido-em-serie-de-mortes-e-preso-no-sol-nascente.html",
+      "period": "07/06/2023",
+      "kind": "Jornalismo local · relato da PMDF",
+      "note": "Registra captura no Sol Nascente de homem apontado como integrante do PCC, procurado por crimes no Entorno. Local de captura não prova comando ou controle do bairro. Não é base para reproduzir sua aparência ou acusar moradores."
+    },
+    {
+      "id": "crime-df-operation",
+      "title": "Polícia Federal · Operação Jubilados no DF",
+      "url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/ficco-df-deflagra-operacao-contra-organizacao-criminosa-no-distrito-federal",
+      "period": "08/10/2026",
+      "kind": "Órgão público · operação contra crime organizado",
+      "note": "Lista o Sol Nascente entre as regiões com medidas judiciais. A nota institucional consultada não nomeia a organização; a sigla PCC da fase usa o registro separado de 2023, não uma inferência sobre esta nota."
+    },
+    {
+      "id": "crime-rs",
+      "title": "STJ · acórdão com depoimentos sobre facções na Restinga",
+      "url": "https://scon.stj.jus.br/SCON/GetInteiroTeorDoAcordao?dt_publicacao=15%2F12%2F2022&num_registro=202202578206",
+      "period": "Publicado em 15/12/2022 · fatos anteriores",
+      "kind": "Autos judiciais · depoimentos, alguns contestados",
+      "note": "As páginas 7–10 reproduzem depoimentos com menções a Bala na Cara, Milton e outros grupos na Restinga de Porto Alegre. Parte do material é relato indireto ou contestado. É contexto histórico limitado, não comprovação de domínio presente e não se refere a Restinga Sêca."
+    },
+    {
+      "id": "crime-rj",
+      "title": "MPRJ · notícia institucional com menção ao CV no Alemão",
+      "url": "https://mca.mp.rj.gov.br/web/guest/visualizar?noticiaId=203901",
+      "period": "18/11/2025 · fatos de 2023",
+      "kind": "Ministério Público · caso judicial",
+      "note": "A notícia menciona integrantes do CV na Fazendinha, no Complexo do Alemão. O jogo não reproduz vítimas, condenados ou o episódio. Os chefões master políticos permanecem em confronto satírico separado, sem atribuição de filiação criminosa."
+    }
   ]
 }

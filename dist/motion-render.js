@@ -6,7 +6,10 @@ const xs=mobile?[0,.3,.5,.7,1]:[0,.2,.35,.45,.55,.65,.8,1],ys=mobile?[0,.08,.13,
 const gauss=(v,r)=>Math.exp(-v*v/(r*r));
 function frames(image){if(cache.has(image))return cache.get(image);const w=Math.floor(image.naturalWidth/3),h=image.naturalHeight;const out=Array.from({length:3},(_,i)=>{const c=document.createElement('canvas');c.width=w;c.height=h;c.getContext('2d').drawImage(image,i*w,0,w,h,0,0,w,h);return c});cache.set(image,out);return out}
 function point(u,v,w,h,anchor,bottom,top,f,t,feet=[]){const m=f.motion||{},minimal=reducedMotion(),walk=minimal?0:m.walk||0,phase=m.gait||0,side=u<anchor?-1:1,step=Math.sin(phase+(side>0?Math.PI:0));let x=(u-anchor)*w,y=(v-bottom)*h;
- const leg=Math.max(0,(v-.53)/.47),foot=feet.reduce((best,a)=>Math.abs(a.x-(u-anchor)*w/h)<Math.abs((best?.x??99)-(u-anchor)*w/h)?a:best,null);y+=leg*(foot?.gap||0)*h;x-=(m.body||0)*Math.max(0,bottom-v)*h;if(!f.attackTime&&f.y===0){x+=step*leg*31*walk;y-=Math.max(0,Math.cos(phase+(side>0?Math.PI:0)))*leg*22*walk}
+ const leg=Math.max(0,(v-.53)/.47),foot=feet.reduce((best,a)=>Math.abs(a.x-(u-anchor)*w/h)<Math.abs((best?.x??99)-(u-anchor)*w/h)?a:best,null);y+=leg*(foot?.gap||0)*h;
+ // A defeated sprite is a rigid pose; its whole-body fall is applied by the caller.
+ if(f.dead||f.hp<=0)return {x,y};
+ x-=(m.body||0)*Math.max(0,bottom-v)*h;if(!f.attackTime&&f.y===0){x+=step*leg*31*walk;y-=Math.max(0,Math.cos(phase+(side>0?Math.PI:0)))*leg*22*walk}
  // Separate action cycles, with fixed grounded feet and gradual wind-up/recovery.
  const bodyV=(v-top)/Math.max(.1,bottom-top),upper=gauss(bodyV-.36,.2),lower=Math.max(0,(bodyV-.52)/.48),attack=Math.sin(Math.PI*Math.min(1,(m.attackPhase||0)*1.3));
  if(!minimal){if(m.action==='guard'){x-=upper*7;y+=upper*9}else if(m.action==='hurt'){x-=upper*8;y+=gauss(bodyV-.25,.25)*4}else if(m.action==='jump'){x+=side*lower*8;y-=lower*9}else if(m.action==='punch'||m.action==='special'||m.action==='super'){x+=upper*attack*9;y-=upper*attack*2}else if(m.action==='kick'){x+=lower*attack*side*8;y-=lower*attack*8}if(!f.attackTime){x-=Math.sin(phase)*walk*gauss(bodyV-.38,.12)*side*6;y+=Math.abs(Math.sin(phase))*walk*gauss(bodyV-.45,.2)*2}}
@@ -31,4 +34,7 @@ export function faceDamage(c,f,meta,height=348){if(!f.injuries?.length)return;co
  for(const injury of f.injuries){const x=injury.x+(meta.faceX||0)*height,y=top+injury.y,r=injury.r;const g=c.createRadialGradient(x,y,0,x,y,r);g.addColorStop(0,injury.kind==='bruise'?'#613e71bb':'#ab554d8c');g.addColorStop(.6,injury.kind==='bruise'?'#8e4d6a70':'#c8705a50');g.addColorStop(1,'#a2686000');c.fillStyle=g;c.beginPath();c.ellipse(x,y,r,r*.7,injury.rotation,0,7);c.fill();if(injury.kind==='cut'){c.strokeStyle='#93453e';c.lineWidth=.9;c.beginPath();c.moveTo(x-2,y-1);c.lineTo(x+3,y+2);c.stroke()}}
  c.restore();}
 
-export function drawFootContacts(c,f,meta,h){if(f.dead||f.y>0)return;const phase=f.motion?.gait||0,walk=f.motion?.walk||0;c.save();c.globalCompositeOperation='multiply';for(const foot of meta.feet||[]){const side=foot.x<0?-1:1,cycle=phase+(side>0?Math.PI:0),lift=!f.attackTime?Math.max(0,Math.cos(cycle))*walk:0,x=foot.x*h+(!f.attackTime?Math.sin(cycle)*31*walk:0);c.save();c.translate(x,0);c.scale(1,.22);c.globalAlpha=.8*(1-lift*.8);const g=c.createRadialGradient(0,0,1,0,0,16);g.addColorStop(0,'#142010b0');g.addColorStop(1,'#14201000');c.fillStyle=g;c.beginPath();c.arc(0,0,16,0,7);c.fill();c.restore()}c.restore()}
+export function drawFootContacts(c,f,meta,h){if(f.dead||f.hp<=0||f.y>0)return;const phase=f.motion?.gait||0,walk=f.motion?.walk||0;c.save();c.globalCompositeOperation='multiply';for(const foot of meta.feet||[]){const side=foot.x<0?-1:1,cycle=phase+(side>0?Math.PI:0),lift=!f.attackTime?Math.max(0,Math.cos(cycle))*walk:0,x=foot.x*h+(!f.attackTime?Math.sin(cycle)*31*walk:0);c.save();c.translate(x,0);c.scale(1,.22);c.globalAlpha=.8*(1-lift*.8);const g=c.createRadialGradient(0,0,1,0,0,16);g.addColorStop(0,'#142010b0');g.addColorStop(1,'#14201000');c.fillStyle=g;c.beginPath();c.arc(0,0,16,0,7);c.fill();c.restore()}c.restore()}
+
+// Equipment layers share the existing body mesh; no second body silhouette is drawn.
+export {point as spriteVertex};
