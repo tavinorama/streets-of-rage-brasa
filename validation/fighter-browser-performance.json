@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "measuredAt": "2026-10-20T21:23:06.498Z",
+  "durationMs": 20010,
+  "frames": 1200,
+  "averageFps": 60,
+  "p95FrameMs": 17.4,
+  "viewport": {
+    "width": 1280,
+    "height": 720,
+    "dpr": 2
+  },
+  "platform": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+  "method": "Tempos de requestAnimationFrame durante 20 segundos neste navegador. Não é certificação de aparelho físico.",
+  "memoryBytes": 20224894
+}

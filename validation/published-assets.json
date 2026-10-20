@@ -1,0 +1,56 @@
+{
+  "site": "https://brasa-arcade.pages.dev",
+  "files": [
+    {
+      "path": "combat-animation.js",
+      "sha256": "6f4eb40a7842d5bc3afc3aa65f4c01e6b9a612312bf207776d54e4d0a49be61c",
+      "matchesSource": true
+    },
+    {
+      "path": "motion-render.js",
+      "sha256": "43fc49c8ddb8c0bc2922c5a4273dc1bd53bd10f768ae8dbb959793b11b68a2b4",
+      "matchesSource": true
+    },
+    {
+      "path": "realistic-art.js",
+      "sha256": "dba72f6db4f26ac94b3984c88d6f941cd38ba3bf25c9be673031972aedc918f0",
+      "matchesSource": true
+    },
+    {
+      "path": "street-art.js",
+      "sha256": "f7fee4ca7e4bb3c4eaaca69aa5a39d9277a109aa56f1abd2cf5278cc0157cffd",
+      "matchesSource": true
+    },
+    {
+      "path": "engine.js",
+      "sha256": "0950d49252c313aff37b6c55555e6690df5ce70f75a7827f85b81d6f65f9526f",
+      "matchesSource": true
+    },
+    {
+      "path": "streets.js",
+      "sha256": "dc85743e60dcf219a375141dadc64f94046fa03e90071e35e23c0a0e446baf32",
+      "matchesSource": true
+    },
+    {
+      "path": "finisher-scenes.js",
+      "sha256": "ab2e31704d2805430da63fbcbaf01f21f805f33e232c82acf78046841623574b",
+      "matchesSource": true
+    },
+    {
+      "path": "online.js",
+      "sha256": "e5aa91669e7da6d9239a0a35d0b34127dd6f3b6c7f34b70533f6632d1d5762ea",
+      "matchesSource": true
+    },
+    {
+      "path": "touch-controls.js",
+      "sha256": "98a37aec935fb71860c806c4ad75ccf7c9d690cf623fc70e51bdf704e355e945",
+      "matchesSource": true
+    },
+    {
+      "path": "sw.js",
+      "sha256": "6edeef9e30dc8f3f0fc902751345e2cf5d10a514281888c2242a8327d19240f1",
+      "matchesSource": true
+    }
+  ],
+  "status": "passed"
+}

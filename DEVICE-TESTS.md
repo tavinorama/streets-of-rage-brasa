@@ -34,3 +34,5 @@ Os níveis História/Padrão/Arcade possuem multiplicadores explícitos de dano,
 ## Evidência da revisão 0.3.3
 
 Execução automática de 28 campanhas (196 fases completas), cobrindo os 16 personagens e uma matriz dos lados/dificuldades/solo/dupla; protocolo remoto aprovado para pausa e retorno dos dois papéis com atrasos artificiais de envio. Arquivos JSON em validation/. Isso amplia a cobertura técnica, mas não substitui a matriz física nem feedback de jogadores. O ambiente local não possui adb ou simuladores Xcode disponíveis.
+
+Medições no navegador da revisão: Streets 60 FPS médios / p95 17,1 ms; Fighter 60 FPS / p95 17,4 ms. JSONs em validation/. Mute conferido em retrato 390×844 e paisagem 844×390; os dois papéis online conectados no navegador. Esses dados não aprovam aparelhos físicos.

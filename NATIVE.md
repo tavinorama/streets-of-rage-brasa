@@ -1,29 +1,18 @@
-# Aplicativos Android e iPhone
+# Aplicativos Android e iPhone — 0.3.3 / build 33
 
-Projetos nativos gerados com Capacitor 8.5.3, contendo os arquivos do jogo no pacote. Não dependem do site para abrir o modo local.
+[Baixar a beta](https://github.com/tavinorama/streets-of-rage-brasa/releases/tag/beta-v33-2026-10-20) · [Compilação](https://github.com/tavinorama/streets-of-rage-brasa/actions/runs/39499358999)
 
-## Preparar
+Projetos Capacitor 8.5.3 em android/ e ios/, contendo o modo local no pacote e o endereço do servidor online público. Node.js 22 ou superior: npm ci e npm run native:sync. npm run native:android abre Android Studio; npm run native:ios abre Xcode.
 
-Use Node.js 22 ou superior, execute `npm ci` e `npm run native:sync`. Os projetos estão em `android/` e `ios/`. `npm run native:android` abre Android Studio; `npm run native:ios` abre Xcode. Requisitos atuais: [Capacitor](https://capacitorjs.com/docs/getting-started/environment-setup).
+## Arquivos da beta
 
-## Artefatos de teste
+- APK Android de depuração: instalável para testes.
+- AAB Android de release **sem assinatura**: precisa da chave do titular antes de enviar ao Google Play.
+- ZIP iOS: aplicativo **para simulador** do Xcode; não instala em iPhone físico.
+- SHA256SUMS: integridade dos downloads.
 
-O workflow **Native builds** executa a compilação Android em Linux e a compilação iOS em macOS. O APK Android é de depuração. O pacote iOS é para simulador e não pode ser instalado em um iPhone físico. Resultados e arquivos aparecem em GitHub → Actions → Native builds.
+Os módulos web dentro dos pacotes foram comparados ao código da versão; versão e build do iOS também foram conferidos. Preparação de assinatura Android, ficha de loja e processo Apple: [STORE-RELEASE.md](STORE-RELEASE.md) e [store-listing.json](store-listing.json). Nenhuma credencial ou chave de release foi criada ou incluída no repositório.
 
-## Publicação nas lojas
+## Limites da validação
 
-Para Google Play: gerar AAB de release com uma chave de assinatura sob controle do titular, criar o cadastro e concluir a ficha, classificação e revisão. Para App Store/TestFlight: conta Apple Developer, equipe de assinatura, identificador, certificados/perfis e envio pelo Xcode/App Store Connect. Nenhuma credencial ou chave de release foi criada ou incluída no repositório.
-
-A política de privacidade está em `dist/privacy.html`. A indicação 16+ no protótipo é editorial; as lojas exigem questionário próprio. Testar em aparelhos físicos antes de distribuir ao público.
-
-## Beta compilada em 20/10/2026
-
-[Baixar pacotes de teste](https://github.com/tavinorama/streets-of-rage-brasa/releases/tag/beta-v31-2026-10-20) · [Compilação verificada](https://github.com/tavinorama/streets-of-rage-brasa/actions/runs/39495282867). Android: APK de depuração. iOS: somente simulador, sem assinatura para iPhone físico.
-
-Esta beta inclui a configuração do servidor online público e a correção da animação dos corpos derrotados. O conteúdo dos pacotes foi comparado aos módulos do commit da release.
-
-Versão 0.3.1 (build 31): mute persistente dentro da arena, finalizações individuais com prévia e correção de queda na derrota por tempo.
-
-## Preparação 0.3.3 / build 33
-
-Projetos atualizados; o workflow também gera AAB de release sem assinatura. Assinatura Android opcional usa variáveis de ambiente e um workflow manual. Veja STORE-RELEASE.md e store-listing.json. A nova compilação e os pacotes serão vinculados na release beta-v33-2026-10-20; o pacote anterior acima permanece histórico até a nova compilação concluir.
+CI compila os projetos; testes de navegador e bots não equivalem a aparelhos físicos ou sessões humanas. Ainda faltam Android/iPhone reais, redes distintas, assinatura/contas de desenvolvedor e revisão das lojas. A indicação 16+ do jogo é editorial. Estado e relatórios: [RELEASE-STATUS.md](RELEASE-STATUS.md), [DEVICE-TESTS.md](DEVICE-TESTS.md) e validation/.

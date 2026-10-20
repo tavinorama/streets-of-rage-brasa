@@ -1,0 +1,41 @@
+[
+  {
+    "game": "street-brasa",
+    "package": "apk",
+    "sha256": "fff4bc15ff27369ad0606487ef33c5997df9ddfd4248164d40760fe3b62c265e",
+    "webModulesMatch": true
+  },
+  {
+    "game": "street-brasa",
+    "package": "aab",
+    "sha256": "487d105b71b1041f9962bbc595870ac883293c80ece09aac191f06242651aff3",
+    "webModulesMatch": true
+  },
+  {
+    "game": "street-brasa",
+    "package": "ios-simulator",
+    "version": "0.3.3",
+    "build": "33",
+    "webModulesMatch": true
+  },
+  {
+    "game": "streets-of-rage-brasa",
+    "package": "apk",
+    "sha256": "1d48ad4a3028227fbee9bd753f926b8b1e6fa762a6cfe4b36a888cc577dd4622",
+    "webModulesMatch": true
+  },
+  {
+    "game": "streets-of-rage-brasa",
+    "package": "aab",
+    "sha256": "48f71ecac269b581bd86ae5074dec669d4c7d2a22373de8c0a047eefd49d1558",
+    "webModulesMatch": true
+  },
+  {
+    "game": "streets-of-rage-brasa",
+    "package": "ios-simulator",
+    "version": "0.3.3",
+    "build": "33",
+    "webModulesMatch": true,
+    "regionalArtMatches": true
+  }
+]

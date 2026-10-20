@@ -36,3 +36,5 @@ Atualização v31: 15 folhas de figurino refeitas com letras nas próprias roupa
 Continuam dependentes de recursos externos: sessões humanas de balanceamento, aparelhos Android/iPhone, redes físicas distintas e assinatura/contas/revisão das lojas. Esses itens não foram marcados como concluídos.
 
 - Toque: testes de múltiplos ponteiros e retomada após segundo plano; limpar todos os dedos na rotação, ao ocultar a página e ao abrir um modal evita comandos presos/inativos ao retornar.
+
+Validação final 0.3.3: as quatro compilações Android/iOS terminaram com sucesso (Street Brasa: run 39499353647; Streets: run 39499358999). Os seis pacotes tiveram os módulos web comparados ao código; iOS conferido em versão 0.3.3/build 33. Downloads publicados em beta-v33-2026-10-20. Conferência no navegador público: mute acessível em retrato/paisagem, persistência entre os dois jogos, dois clientes online conectados e pausa ao desconectar. Os dez módulos alterados publicados no domínio principal coincidem com o código local. Relatórios em validation/.

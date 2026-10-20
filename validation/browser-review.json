@@ -1,0 +1,34 @@
+{
+  "deployment": "https://cff81a2a.brasa-arcade.pages.dev",
+  "games": [
+    "fighter",
+    "streets"
+  ],
+  "consoleErrors": 0,
+  "music": {
+    "landscape": [
+      844,
+      390
+    ],
+    "portrait": [
+      390,
+      844
+    ],
+    "buttonHitTestPassed": true,
+    "audioMuted": true,
+    "audioPaused": true,
+    "persistsBetweenGames": true
+  },
+  "onlineUI": {
+    "game": "fighter",
+    "hostConnected": true,
+    "guestConnected": true,
+    "observedServerRttMs": [
+      96,
+      200
+    ],
+    "scope": "Two browser tabs, same host; not separate physical devices."
+  },
+  "screenshot": "brasa-v33-publicado.png",
+  "physicalDevicesTested": false
+}
