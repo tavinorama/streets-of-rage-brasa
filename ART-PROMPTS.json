@@ -1,0 +1,63 @@
+{
+  "tool": "Built-in Imagegen",
+  "references": "Original photos: references/<id>.jpg. Source registry: dist/photo-credits.json",
+  "commonPrompt": "Use case: identity-preserve. Asset type: ONE horizontal 3-frame photorealistic fighting-game sprite sheet of {NAME}, using the attached real portrait strictly for face identity. Preserve recognizable exact face, age, hair, skin tone and natural body proportions. This is a fictional satirical video game. Three evenly spaced full-body figures of THE SAME PERSON in THREE EQUAL VERTICAL COLUMNS, all feet on same baseline at 94% image height, head at 8%, same scale across columns. Column 1: three-quarter profile facing RIGHT, relaxed guarded fighting stance, knees slightly bent, fists at chest. Column 2: same person and clothing, punch with right arm extended to the RIGHT, grounded stance. Column 3: same person and clothing, controlled front kick to the RIGHT, standing leg firmly grounded. Full head-to-toe including shoes, comfortable margins, no cut off limbs, no overlapping between columns. CLOTHING: {CLOTHES}. Natural anatomy and age, no bodybuilder muscles, no enlarged heads, realistic skin pores, realistic tailored fabric, natural hair. High-quality photographic digitized arcade sprites, clean studio lighting, subtle cool blue rim light. TRUE TRANSPARENT background and clean alpha edge; no backdrop, no floor, no shadow beneath feet, no text, no labels, no grid, no props, no blood. Wide landscape sheet around 3:2 aspect ratio. Each figure centered horizontally within its own equal-width third so game can crop the three frames.",
+  "individuals": [
+    {
+      "id": "flavio",
+      "name": "Flávio Bolsonaro",
+      "clothes": "dark charcoal business suit, white dress shirt, light silver blue tie, black dress shoes; clean-shaven, natural face from reference"
+    },
+    {
+      "id": "jair",
+      "name": "Jair Bolsonaro",
+      "clothes": "navy business suit, white dress shirt, green tie, black dress shoes; clean-shaven actual face and natural older body"
+    },
+    {
+      "id": "tarcisio",
+      "name": "Tarcísio de Freitas",
+      "clothes": "navy business suit, pale blue shirt, patterned navy tie, black dress shoes; natural sturdy body, grey wavy hair"
+    },
+    {
+      "id": "janja",
+      "name": "Rosângela Lula da Silva, Janja",
+      "clothes": "deep purple professional pantsuit and purple blouse, black low formal shoes; wavy honey brown shoulder-length hair as in photo. No glasses, since reference does not have glasses"
+    },
+    {
+      "id": "janones",
+      "name": "André Janones",
+      "clothes": "black professional suit, dark wine shirt and patterned burgundy tie, black dress shoes; short curly dark hair and trimmed full beard exactly as reference"
+    },
+    {
+      "id": "vorcaro",
+      "name": "Daniel Vorcaro",
+      "clothes": "dark charcoal business suit, white shirt, patterned blue tie and black dress shoes; swept back dark brown hair and full short beard as reference"
+    },
+    {
+      "id": "ana",
+      "name": "Ana Elisa Santos Silva",
+      "clothes": "red sleeveless high-neck blouse exactly as reference, tailored black trousers and black flat shoes; dark skin, youthful actual face, dark braided pulled-back hair, earrings as reference"
+    },
+    {
+      "id": "roberta",
+      "name": "Roberta Moreira Luchsinger",
+      "clothes": "cream floral long-sleeve high-neck blouse with pale pink green flower pattern as in reference, tailored dark trousers and black low shoes; long blonde hair and face from reference"
+    },
+    {
+      "id": "lulinha",
+      "name": "Fábio Luís Lula da Silva, Lulinha",
+      "clothes": "olive grey casual T-shirt as in reference, dark jeans and dark casual shoes; natural broad heavier body and actual clean-shaven face, not slim athletic model"
+    },
+    {
+      "id": "marcal",
+      "name": "Pablo Marçal",
+      "clothes": "dark blazer over open-neck white dress shirt, dark trousers and black shoes; short dark hair and salt-and-pepper short beard exactly as reference"
+    }
+  ],
+  "arenaPrompt": "Reconstruct the photographed Band 2026 election studio as a straight-on wide photographic arena, dark blue LED data lines, two podiums at rear edges, glossy dark floor; leave foreground clear for fighters.",
+  "notes": "Generated sprites remain detailed illustrations based on photographic identity references, not unmodified photographs. Roster thumbnails are actual source photographs. Six initial subjects: Lula (navy suit, red tie), Nikolas (navy suit, blue tie), Dino (charcoal suit, rimless glasses), Moraes (black judicial robe, blue tie), Mendonça (black judicial robe, no glasses), Daniella (black pantsuit, pearl necklace).",
+  "spriteRepair": {
+    "tool": "Built-in Imagegen",
+    "reason": "Four original sheets had joined silhouettes; regenerated before computing source-frame bounds. All 16 sheets use silhouette-specific pose clipping at runtime."
+  }
+}

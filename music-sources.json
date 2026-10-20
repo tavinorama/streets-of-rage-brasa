@@ -1,0 +1,60 @@
+{
+  "researchedAt": "2026-10-20",
+  "tracks": [
+    {
+      "id": "hino-nacional",
+      "title": "Hino Nacional Brasileiro — instrumental",
+      "path": "dist/assets/music/hino-nacional.mp3",
+      "sourcePage": "https://www.policiamilitar.sp.gov.br/unidades/26bpmm/downloads/hino.html",
+      "downloadUrl": "https://www.policiamilitar.sp.gov.br/unidades/26bpmm/downloads/2_Hino%20Nacional%20tocado.mp3",
+      "publisher": "26º Batalhão de Polícia Militar Metropolitano — Polícia Militar do Estado de São Paulo",
+      "sourceType": "Portal oficial de instituição militar estadual (.sp.gov.br). Alternativa às fontes federais cujo download instrumental retornou HTTP 403.",
+      "credit": "Francisco Manuel da Silva (composição); autoria da gravação/intérprete não informada na página.",
+      "instrumental": true,
+      "vocalVerification": "A página oficial separa explicitamente canto e instrumental. Estes dois links são rotulados instrumental, seus nomes de arquivo usam tocado, e o título ID3 também usa tocado. Não houve remoção de voz nem alteração do áudio. Não realizada audição integral nesta pesquisa.",
+      "id3Title": "Hino Nacional tocado",
+      "durationSeconds": 115.502333,
+      "bitrate": 192301,
+      "sampleRate": "44100",
+      "channels": 2,
+      "sizeBytes": 2776408,
+      "sha256": "d6b168b239be2aa4444e8118ae4cbf52c41938a06da6799192807788425f7050",
+      "license": "A página disponibiliza download público, mas não declara licença específica da gravação, intérprete ou autorização expressa para adaptações/redistribuição. Não classificar como CC ou gravação livre por inferência.",
+      "licenseUrl": null,
+      "processing": "Cópia exata do MP3 da fonte oficial. Reprodução original 1.0; arquivo não acelerado nem editado."
+    },
+    {
+      "id": "hino-bandeira",
+      "title": "Hino à Bandeira — instrumental",
+      "path": "dist/assets/music/hino-bandeira.mp3",
+      "sourcePage": "https://www.policiamilitar.sp.gov.br/unidades/26bpmm/downloads/hino.html",
+      "downloadUrl": "https://www.policiamilitar.sp.gov.br/unidades/26bpmm/downloads/5_Hino%20a%20Bandeira%20tocado.mp3",
+      "publisher": "26º Batalhão de Polícia Militar Metropolitano — Polícia Militar do Estado de São Paulo",
+      "sourceType": "Portal oficial de instituição militar estadual (.sp.gov.br). Alternativa às fontes federais cujo download instrumental retornou HTTP 403.",
+      "credit": "Francisco Braga (composição); autoria da gravação/intérprete não informada na página.",
+      "instrumental": true,
+      "vocalVerification": "A página oficial separa explicitamente canto e instrumental. Estes dois links são rotulados instrumental, seus nomes de arquivo usam tocado, e o título ID3 também usa tocado. Não houve remoção de voz nem alteração do áudio. Não realizada audição integral nesta pesquisa.",
+      "id3Title": "Hino à Bandeira tocado",
+      "durationSeconds": 293.755833,
+      "bitrate": 192118,
+      "sampleRate": "44100",
+      "channels": 2,
+      "sizeBytes": 7054492,
+      "sha256": "1dd6876ec4d295e46b89b7c18053fdb5050a0596dc0f3c06762d7c8cbf3c2aa5",
+      "license": "A página disponibiliza download público, mas não declara licença específica da gravação, intérprete ou autorização expressa para adaptações/redistribuição. Não classificar como CC ou gravação livre por inferência.",
+      "licenseUrl": null,
+      "processing": "Cópia exata do MP3 da fonte oficial. Reprodução original 1.0; arquivo não acelerado nem editado."
+    }
+  ],
+  "limitations": [
+    "Foram priorizadas duas gravações claramente instrumentais em fonte oficial; Independência e República não foram incluídos porque não houve confirmação e download federal disponível neste levantamento.",
+    "Links me000002.mp3 e me000005.mp3 do Portal Domínio Público/MEC retornaram HTTP 403 nos hosts oficiais testados.",
+    "Não atribuir execução à banda da PMESP: o portal hospeda os arquivos, mas não informa quem gravou.",
+    "Este inventário registra proveniência e limites, sem conclusão jurídica sobre uso em jogo ou alteração de velocidade."
+  ],
+  "requestedPlayback": {
+    "playbackRate": 1.15,
+    "preservesPitch": true,
+    "appliedHere": false
+  }
+}

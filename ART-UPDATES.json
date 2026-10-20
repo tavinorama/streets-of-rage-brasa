@@ -1,0 +1,54 @@
+{
+  "tool": "Built-in Imagegen",
+  "newArenas": [
+    {
+      "id": "stf",
+      "refs": [
+        "stf-plenario.jpg"
+      ],
+      "prompt": "Reconstruct the real plenary chamber of Brazil's Supremo Tribunal Federal from the attached reference: monumental curved reddish-brown wood ceiling with long white light strips; cream marble back wall with repeated carved recesses, small crucifix and national coat of arms; Brazilian flag; curved honey-colored wood U-shaped bench with beige high-backed judge chairs; public gallery benches at far left/right. Preserve the iconic architecture. Move camera forward so audience chairs and railings do NOT obstruct foreground. Empty chamber, no judges or people, pale cream carpet floor across lower 40%."
+    },
+    {
+      "id": "globonews",
+      "refs": [
+        "globonews-estudio.jpg",
+        "globonews-2026.webp"
+      ],
+      "prompt": "Reconstruct a real GloboNews television news studio using attached actual studio references. Recognizable large RED GNEWS / globonews LED wall on left, red and off-white broadcast architecture, warm wooden curved desk at rear right, glass newsroom/control room with many monitors in rear center, two white studio chairs behind fighting plane, broadcast lighting rig overhead, professional cameras at extreme rear edges only. Light grey smooth studio floor with wide empty space across lower 40%. All desks/chairs/cameras behind fight plane, no obstruction. No presenters or people, no Jornal Nacional or other network branding."
+    },
+    {
+      "id": "urna",
+      "refs": [
+        "urna-secao.jpg",
+        "urna-detalhe.jpg"
+      ],
+      "prompt": "Reconstruct a real Brazilian voting polling room as in the attached reference. A simple clean school classroom: off-white walls, voting guidance posters at rear, tile floor, two poll-worker tables and empty chairs far left rear. At rear RIGHT show a real Brazilian grey cardboard privacy booth with exact labels JUSTIÇA ELEITORAL and CABINA DE VOTAÇÃO. At least one real white Brazilian electronic voting machine visible in three-quarter view under the booth: screen on left, physical black number keypad on right, WHITE BRANCO, orange CORRIGE and green CONFIRMA keys, based accurately on detail reference. Respect normal machine scale. No inventing ballot box shape or touch-only tablet. No people, no hands, no real vote choices or candidate numbers on screen; machine in neutral training state. Wide unobstructed tile floor across lower 40%."
+    },
+    {
+      "id": "oval",
+      "refs": [
+        "oval-trump.jpg",
+        "oval-trump-wide.jpg"
+      ],
+      "prompt": "Reconstruct a frontal WIDE view of the White House Oval Office using attached real references. Donald Trump is seated ALONE BEHIND the Resolute Desk, visibly recognizable but SMALL in the rear center, navy suit, white shirt and light blue patterned tie, grey-blonde hair as photographed, brown high-backed leather chair. Keep entire desk and Trump in the REAR THIRD of the room and image. Tall white Georgian windows behind, gold curtains, trees through windows, American flag at rear left and presidential/military flags at rear right, cream oval walls, carved wood desk, framed photographs and two phones discreetly on desk. Omit the standing man from second reference. Empty broad cream oval carpet across entire lower 40% for fighters: nobody and no furniture in foreground, Trump is only a seated background spectator, not fighting. Fictional satirical video game scene, not a real photo of an event."
+    }
+  ],
+  "spriteRepairs": [
+    {
+      "id": "flavio",
+      "prompt": "Edit this existing satirical fighting sprite sheet of flavio. Preserve the same recognizable face, age, outfit and illustrated/realistic rendering. CRITICAL TECHNICAL FIX: render EXACTLY THREE separate FULL-BODY versions of this ONE person in three equal vertical cells across the canvas. Each cell has generous completely transparent gutters. Figure 1 idle guarded stance facing right; figure 2 compact right punch with elbow slightly bent; figure 3 high right kick. ALL FIGURES must fit ENTIRELY within their own cell, including every fingertip, foot, shoe and cloth edge. Leave 12% cell width empty on BOTH left and right of EACH figure, and 10% canvas height top/bottom. Reduce figure scale enough that long arms and kicks fit. NO CONTACT OR OVERLAP between neighboring poses. Same ground baseline and same person scale in all three. No duplicated head, ghost hand, extra limb, cut-off foot, trail, shadow or background. Real transparent background, clean alpha silhouette."
+    },
+    {
+      "id": "lula",
+      "prompt": "Edit this existing satirical fighting sprite sheet of lula. Preserve the same recognizable face, age, outfit and illustrated/realistic rendering. CRITICAL TECHNICAL FIX: render EXACTLY THREE separate FULL-BODY versions of this ONE person in three equal vertical cells across the canvas. Each cell has generous completely transparent gutters. Figure 1 idle guarded stance facing right; figure 2 compact right punch with elbow slightly bent; figure 3 high right kick. ALL FIGURES must fit ENTIRELY within their own cell, including every fingertip, foot, shoe and cloth edge. Leave 12% cell width empty on BOTH left and right of EACH figure, and 10% canvas height top/bottom. Reduce figure scale enough that long arms and kicks fit. NO CONTACT OR OVERLAP between neighboring poses. Same ground baseline and same person scale in all three. No duplicated head, ghost hand, extra limb, cut-off foot, trail, shadow or background. Real transparent background, clean alpha silhouette."
+    },
+    {
+      "id": "janones",
+      "prompt": "Edit this existing satirical fighting sprite sheet of janones. Preserve the same recognizable face, age, outfit and illustrated/realistic rendering. CRITICAL TECHNICAL FIX: render EXACTLY THREE separate FULL-BODY versions of this ONE person in three equal vertical cells across the canvas. Each cell has generous completely transparent gutters. Figure 1 idle guarded stance facing right; figure 2 compact right punch with elbow slightly bent; figure 3 high right kick. ALL FIGURES must fit ENTIRELY within their own cell, including every fingertip, foot, shoe and cloth edge. Leave 12% cell width empty on BOTH left and right of EACH figure, and 10% canvas height top/bottom. Reduce figure scale enough that long arms and kicks fit. NO CONTACT OR OVERLAP between neighboring poses. Same ground baseline and same person scale in all three. No duplicated head, ghost hand, extra limb, cut-off foot, trail, shadow or background. Real transparent background, clean alpha silhouette."
+    },
+    {
+      "id": "vorcaro",
+      "prompt": "Edit this existing satirical fighting sprite sheet of vorcaro. Preserve the same recognizable face, age, outfit and illustrated/realistic rendering. CRITICAL TECHNICAL FIX: render EXACTLY THREE separate FULL-BODY versions of this ONE person in three equal vertical cells across the canvas. Each cell has generous completely transparent gutters. Figure 1 idle guarded stance facing right; figure 2 compact right punch with elbow slightly bent; figure 3 high right kick. ALL FIGURES must fit ENTIRELY within their own cell, including every fingertip, foot, shoe and cloth edge. Leave 12% cell width empty on BOTH left and right of EACH figure, and 10% canvas height top/bottom. Reduce figure scale enough that long arms and kicks fit. NO CONTACT OR OVERLAP between neighboring poses. Same ground baseline and same person scale in all three. No duplicated head, ghost hand, extra limb, cut-off foot, trail, shadow or background. Real transparent background, clean alpha silhouette."
+    }
+  ]
+}

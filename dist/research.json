@@ -1,0 +1,806 @@
+{
+  "updated": "2026-10-20",
+  "method": "Trechos verificados em publicações identificadas. Fontes partidárias registram posições dos próprios autores. Áudio e timestamps não foram conferidos. Todos os golpes e finalizações são ficção.",
+  "profiles": [
+    {
+      "id": "lula",
+      "name": "Luiz Inacio Lula da Silva",
+      "history": "Ex-metalurgico e dirigente sindical do ABC, participou da fundacao do PT em 1980; presidiu o Brasil entre 2003 e 2010 e retornou a Presidencia em 2023.",
+      "historySources": [
+        {
+          "titulo": "Perfil biografico de Lula",
+          "url": "https://pt.wikipedia.org/wiki/Luiz_In%C3%A1cio_Lula_da_Silva",
+          "tipo": "panorama secundario; biografia oficial do Planalto encontrada, mas bloqueada por CAPTCHA durante a leitura"
+        }
+      ],
+      "positions": [
+        {
+          "date": "2023-10-20",
+          "period": "antes da campanha",
+          "text": "Defendeu a transferencia de renda do Bolsa Familia e assumiu a meta politica de acabar com a fome ate dezembro de 2026. A meta anunciada nao deve ser apresentada como resultado comprovado.",
+          "url": "https://pt.org.br/lula-celebra-20-anos-do-bolsa-familia-e-convoca-o-pais-a-acabar-com-a-fome/",
+          "title": "Partido dos Trabalhadores / discurso nos 20 anos do Bolsa Familia"
+        },
+        {
+          "date": "2026-08-20",
+          "period": "campanha de 2026",
+          "text": "Em ato em Natal, defendeu acesso de jovens pobres a universidade, igualdade de oportunidades e continuidade de politicas de inclusao, saude publica e valorizacao do salario minimo.",
+          "url": "https://pt.org.br/lula-esse-pais-nao-pode-voltar-a-ser-governado-por-gente-que-nao-gosta-de-pobre/",
+          "title": "Rede PT de Comunicacao / ato na Arena das Dunas"
+        }
+      ],
+      "quote": {
+        "text": "Esse país não pode voltar a ser governado por gente que não gosta de pobre.",
+        "date": "2026-08-20",
+        "context": "Ato eleitoral na Arena das Dunas, Natal (RN), ao lado de Cadu de Lula. Juizo politico do orador.",
+        "url": "https://pt.org.br/lula-esse-pais-nao-pode-voltar-a-ser-governado-por-gente-que-nao-gosta-de-pobre/"
+      },
+      "notes": [
+        "Nomes de golpes e efeitos sao ficcao, mesmo quando inspirados em politica documentada."
+      ],
+      "motifs": [
+        "microfone de assembleia",
+        "onda de inclusao",
+        "escudo de programa social"
+      ],
+      "debateQuote": {
+        "text": "Nós precisamos fazer, primeiro, o dinheiro circular na mão das pessoas.",
+        "date": "2026-10-18",
+        "context": "Trecho da resposta de Lula sobre economia no debate presidencial da Band. Reprodução textual pela emissora.",
+        "url": "https://www.band.com.br/politica/eleicoes/lula-ataca-flavio-com-master-e-propoe-abertura-de-contas-bancarias-de-ambos"
+      }
+    },
+    {
+      "id": "flavio",
+      "name": "Flavio Bolsonaro",
+      "history": "Flavio Nantes Bolsonaro e senador pelo Rio de Janeiro, com mandato de 2019 a 2027; foi deputado estadual antes de chegar ao Senado. Anunciou pre-candidatura presidencial em dezembro de 2025 com apoio de Jair Bolsonaro.",
+      "historySources": [
+        {
+          "titulo": "Perfil no Senado",
+          "url": "https://www25.senado.leg.br/pt_BR/web/senadores/senador/-/perfil/5894",
+          "tipo": "oficial"
+        },
+        {
+          "titulo": "Entrevista exclusiva a Reuters",
+          "url": "https://noticias.uol.com.br/ultimas-noticias/reuters/2025/12/22/flavio-bolsonaro-defende-governo-enxuto-e-privatizacoes-para-modernizar-o-estado.htm",
+          "tipo": "entrevista jornalistica direta"
+        }
+      ],
+      "positions": [
+        {
+          "date": "2019-05-08",
+          "period": "antes da campanha",
+          "text": "No Senado, defendeu acesso de cidadaos que cumpram requisitos legais a armas para defesa pessoal. E a posicao declarada do parlamentar; seu argumento sobre efeitos da politica nao e adotado como fato.",
+          "url": "https://www25.senado.leg.br/web/atividade/pronunciamentos/-/p/pronunciamento/453390",
+          "title": "Pronunciamento no Senado"
+        },
+        {
+          "date": "2025-12-22",
+          "period": "pre-campanha presidencial 2026",
+          "text": "Em entrevista direta, defendeu reducao do tamanho do governo, gastos e impostos, privatizacao dos Correios e avaliacao de desinvestimentos em segmentos da Petrobras. Apresentou-se como mais moderado e pro-mercado.",
+          "url": "https://noticias.uol.com.br/ultimas-noticias/reuters/2025/12/22/flavio-bolsonaro-defende-governo-enxuto-e-privatizacoes-para-modernizar-o-estado.htm",
+          "title": "Reuters, entrevista de Luciana Magalhaes em Brasilia"
+        }
+      ],
+      "quote": {
+        "text": "Eu me considero, de verdade, um Bolsonaro mais centrado",
+        "date": "2025-12-22",
+        "context": "Entrevista exclusiva a Reuters no gabinete em Brasilia, ao apresentar a pre-candidatura de 2026.",
+        "url": "https://noticias.uol.com.br/ultimas-noticias/reuters/2025/12/22/flavio-bolsonaro-defende-governo-enxuto-e-privatizacoes-para-modernizar-o-estado.htm"
+      },
+      "notes": [],
+      "motifs": [
+        "tesoura de gastos",
+        "carimbo de privatizacao",
+        "medidor de moderacao"
+      ],
+      "debateQuote": {
+        "text": "Eu vou cuidar de você de ponta a ponta",
+        "date": "2026-10-18",
+        "context": "Trecho de declaração de Flávio sobre sua proposta de Ministério da Prosperidade no debate da Band. Reprodução textual pela emissora.",
+        "url": "https://www.band.com.br/politica/eleicoes/flavio-quer-classificar-faccoes-como-terroristas-e-cita-sus-padrao-einstein"
+      }
+    },
+    {
+      "id": "jair",
+      "name": "Jair Bolsonaro",
+      "history": "Militar e ex-presidente da Republica entre 1 de janeiro de 2019 e 31 de dezembro de 2022. Sua participacao no elenco e de personalidade politica e apoiador, nao uma afirmacao de que seja candidato presidencial em 2026.",
+      "historySources": [
+        {
+          "titulo": "Galeria da Biblioteca da Presidencia",
+          "url": "https://www.biblioteca.presidencia.gov.br/presidencia/ex-presidentes/bolsonaro/Bolsonaro",
+          "tipo": "oficial"
+        }
+      ],
+      "positions": [
+        {
+          "date": "2019-01-15",
+          "period": "antes da campanha",
+          "text": "Ao assinar decreto sobre posse de armas, defendeu a flexibilizacao como garantia do direito de defesa. O registro descreve sua justificativa, sem concluir sobre os efeitos da medida.",
+          "url": "https://www.biblioteca.presidencia.gov.br/presidencia/ex-presidentes/bolsonaro/discursos/discurso-do-presidente-da-republica-jair-bolsonaro-durante-assinatura-do-decreto-que-autoriza-posse-de-armas-de-fogo-brasilia-df",
+          "title": "Discurso preservado na Biblioteca da Presidencia"
+        },
+        {
+          "date": "2025-12-25",
+          "period": "pre-campanha presidencial 2026",
+          "text": "Em carta manuscrita distribuida por sua assessoria e lida por Flavio, indicou o filho como pre-candidato a Presidencia em 2026. Registro de apoio, nao programa de governo proprio.",
+          "url": "https://noticias.uol.com.br/ultimas-noticias/reuters/2025/12/25/bolsonaro-confirma-em-carta-flavio-como-seu-candidato.htm",
+          "title": "Reuters / carta de Jair Bolsonaro"
+        }
+      ],
+      "quote": {
+        "text": "Tomo a decisão de indicar o Flávio Bolsonaro como pré-candidato a presidência da república em 2026",
+        "date": "2025-12-25",
+        "context": "Frase escrita em carta manuscrita de indicacao eleitoral, lida por Flavio diante de hospital em Brasilia. Nao e gravacao vocal de Jair.",
+        "url": "https://noticias.uol.com.br/ultimas-noticias/reuters/2025/12/25/bolsonaro-confirma-em-carta-flavio-como-seu-candidato.htm"
+      },
+      "notes": [],
+      "motifs": [
+        "carta de indicacao",
+        "faixa presidencial",
+        "escudo de apoio politico"
+      ]
+    },
+    {
+      "id": "tarcisio",
+      "name": "Tarcisio de Freitas",
+      "history": "Engenheiro e servidor federal, foi ministro da Infraestrutura no governo Jair Bolsonaro e eleito governador de Sao Paulo em 2022. O TSE registra sua reeleicao em 4 de outubro de 2026. Seu personagem nao deve ser rotulado como candidato presidencial de 2026.",
+      "historySources": [
+        {
+          "titulo": "TSE / eleicao de governador paulista",
+          "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/em-sao-paulo-tarcisio-de-freitas-e-eleito-governador-no-1o-turno",
+          "data": "2026-10-04",
+          "tipo": "oficial"
+        }
+      ],
+      "positions": [
+        {
+          "date": "2024-02",
+          "period": "antes da campanha",
+          "text": "Defendeu entrada de capital privado na Sabesp como instrumento para antecipar a universalizacao do saneamento para 2029. A promessa deve ser identificada como justificativa de governo, nao efeito ja confirmado.",
+          "url": "https://semil.sp.gov.br/2024/02/governo-de-sp-abre-consulta-publica-sobre-novo-contrato-da-sabesp/",
+          "title": "Semil / consulta publica sobre novo contrato da Sabesp"
+        },
+        {
+          "date": "2026-08-09",
+          "period": "campanha estadual de 2026",
+          "text": "No primeiro debate estadual da Band, apresentou como compromissos manter a Tabela SUS Paulista, ampliar cirurgias eletivas e telemedicina e continuar obras do metro e do Casa Paulista. Tambem apresentou agenda de matematica e escola integral.",
+          "url": "https://republicanos10sp.org.br/noticias/debate-tarcisio-de-freitas-cita-menores-indices-de-criminalidade-da-historia-e-fala-de-propostas/",
+          "title": "Republicanos SP / relato do debate publicado em 10/08/2026"
+        }
+      ],
+      "quote": {
+        "text": "A gente não vive de promessa, não. A gente vive de resultado",
+        "date": "2026-08-09",
+        "context": "Debate estadual da Band; frase citada pelo Republicanos no dia seguinte, ao defender obras de transporte.",
+        "url": "https://republicanos10sp.org.br/noticias/debate-tarcisio-de-freitas-cita-menores-indices-de-criminalidade-da-historia-e-fala-de-propostas/"
+      },
+      "notes": [],
+      "motifs": [
+        "tunel de metro",
+        "capacete de obra",
+        "onda de saneamento"
+      ]
+    },
+    {
+      "id": "nikolas",
+      "name": "Nikolas Ferreira",
+      "history": "Formado em Direito, foi vereador em Belo Horizonte e deputado federal mais votado do Brasil em 2022. Presidiu a Comissao de Educacao em 2024. A CNN registra sua reeleicao em 2026 e apoio a Flavio Bolsonaro; nao e candidato presidencial.",
+      "historySources": [
+        {
+          "titulo": "Agencia Camara / perfil e presidencia da Comissao de Educacao",
+          "url": "https://www.camara.leg.br/noticias/1040733-copia-copia-copia-116",
+          "data": "2024-03-06",
+          "tipo": "oficial"
+        },
+        {
+          "titulo": "Entrevista Hora H da CNN",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/nikolas-diz-que-primeira-pauta-no-senado-tem-que-ser-impeachment-de-moraes/",
+          "data": "2026-10-07",
+          "tipo": "entrevista jornalistica direta"
+        }
+      ],
+      "positions": [
+        {
+          "date": "2024-03-06",
+          "period": "antes da campanha",
+          "text": "Ao assumir a Comissao de Educacao, anunciou que pautaria educacao domiciliar e violencia nas escolas, com audiencias publicas e fiscalizacao do governo.",
+          "url": "https://www.camara.leg.br/noticias/1040733-copia-copia-copia-116",
+          "title": "Agencia Camara"
+        },
+        {
+          "date": "2026-06-09",
+          "period": "2026, antes da campanha formal",
+          "text": "Solicitou debate de regulamentacao do ensino domiciliar e sustentou que a falta de lei gera inseguranca para familias educadoras.",
+          "url": "https://www.camara.leg.br/noticias/1278871-regulamentacao-da-educacao-domiciliar-e-tema-de-debate-na-camara-nesta-terca",
+          "title": "Agencia Camara / audiencia sobre homeschooling"
+        },
+        {
+          "date": "2026-10-07",
+          "period": "segundo turno presidencial de 2026",
+          "text": "Na entrevista ao Hora H, defendeu priorizar no Senado o impeachment de Alexandre de Moraes e declarou como meta imediata eleger Flavio Bolsonaro. Suas acusacoes contra Moraes sao retorica do entrevistado, nao fatos comprovados por esta pesquisa.",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/nikolas-diz-que-primeira-pauta-no-senado-tem-que-ser-impeachment-de-moraes/",
+          "title": "CNN Brasil / entrevista Hora H"
+        }
+      ],
+      "quote": {
+        "text": "A primeira pauta que tem que ter no Senado é a pauta da Justiça.",
+        "date": "2026-10-07",
+        "context": "Entrevista Hora H da CNN, no argumento a favor de priorizar o impeachment de Alexandre de Moraes.",
+        "url": "https://www.cnnbrasil.com.br/eleicoes/nikolas-diz-que-primeira-pauta-no-senado-tem-que-ser-impeachment-de-moraes/"
+      },
+      "notes": [],
+      "motifs": [
+        "microfone de corte viral",
+        "livro de educacao domiciliar",
+        "onda de redes sociais"
+      ]
+    },
+    {
+      "id": "dino",
+      "name": "Flávio Dino",
+      "history": "Foi juiz federal, deputado federal, presidente da Embratur, governador do Maranhão, senador e ministro da Justiça. Tomou posse no STF em 22 de fevereiro de 2024, na vaga de Rosa Weber.",
+      "historySources": [
+        {
+          "url": "https://www12.senado.leg.br/noticias/infomaterias/2026/04/conheca-os-indicados-para-o-stf-desde-a-constituicao",
+          "titulo": "Referência biográfica"
+        }
+      ],
+      "positions": [
+        {
+          "date": "2024-02-20",
+          "period": "antes de 2026",
+          "text": "No discurso de despedida do Senado, defendeu presunção de inocência no direito penal, presunção de legalidade dos atos administrativos e presunção de constitucionalidade das leis do Congresso.",
+          "url": "https://www12.senado.leg.br/noticias/materias/2024/02/20/201cnao-ha-bom-caminho-para-o-brasil-fora-da-politica201d-diz-flavio-dino-em-despedida",
+          "title": "Agência Senado — despedida de Flávio Dino"
+        },
+        {
+          "date": "2026-05-12",
+          "period": "2026, atuação institucional",
+          "text": "Determinou providências e solicitou informações de órgãos e autoridades para aprimorar transparência e rastreabilidade das emendas parlamentares; a notícia também registra exigências de adaptação dos orçamentos estaduais às regras federais.",
+          "url": "https://noticias.stf.jus.br/postsnoticias/stf-pede-novas-providencias-de-orgaos-para-aprimorar-transparencia-das-emendas-parlamentares/",
+          "title": "STF — novas providências para transparência das emendas"
+        }
+      ],
+      "quote": {
+        "text": "A democracia não é o regime de supremacias individuais.",
+        "date": "2024-12-12",
+        "context": "Discurso no Conselhão, no Itamaraty, representando o presidente do STF; trecho de fala sobre independência judicial e relações institucionais.",
+        "sourceTitle": "STF — participação no Conselho de Desenvolvimento Econômico e Social Sustentável",
+        "url": "https://noticias.stf.jus.br/postsnoticias/stf-participa-de-reuniao-do-conselho-de-desenvolvimento-economico-e-social-sustentavel/",
+        "verification": "Excerto literal reproduzido pela assessoria do STF, corpo do texto."
+      },
+      "notes": [
+        "Ministro do STF. Não foi identificado como candidato; suas decisões e falas institucionais não devem ser apresentadas como programa eleitoral.",
+        "Sugestões criativas são interpretação para paródia, não declarações reais."
+      ],
+      "motifs": [
+        "Transparência de emendas",
+        "Partitura constitucional",
+        "Defesa institucional da democracia"
+      ]
+    },
+    {
+      "id": "moraes",
+      "name": "Alexandre de Moraes",
+      "history": "Integra o STF desde 22 de março de 2017. Relatou ações sobre os ataques de 8 de janeiro e medidas para a população em situação de rua; presidiu o TSE de 2022 a 2024.",
+      "historySources": [
+        {
+          "url": "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=530077&tip=UN",
+          "titulo": "Referência biográfica"
+        }
+      ],
+      "positions": [
+        {
+          "date": "2025-10-30",
+          "period": "antes de 2026",
+          "text": "Em conferência em Madri, defendeu independência judicial, autonomia administrativa e financeira e responsabilização de ataques à Justiça Constitucional. Propôs regulação de big techs e responsabilização pela divulgação de discursos de ódio e antidemocráticos.",
+          "url": "https://noticias.stf.jus.br/postsnoticias/ministro-alexandre-de-moraes-defende-independencia-judicial-e-democracia-em-conferencia-na-espanha/",
+          "title": "STF — independência judicial e democracia em conferência na Espanha"
+        },
+        {
+          "date": "2026-08-24/2026-08-25",
+          "period": "2026, atuação institucional",
+          "text": "Convocou audiência pública sobre o Marco Legal do Combate ao Crime Organizado (Lei 15.358/2026), para ouvir autoridades, especialistas e sociedade civil. Convocação documenta o ato de ouvir diferentes perspectivas, sem demonstrar por si só voto definitivo sobre o mérito da lei.",
+          "url": "https://portal.stf.jus.br/audienciapublica/audienciaPublica.asp?tipo=realizada",
+          "title": "STF — Audiências Públicas Realizadas"
+        }
+      ],
+      "quote": {
+        "text": "essas gravíssimas condutas não afetaram a imparcialidade e a independência dos juízes do Supremo Tribunal Federal",
+        "date": "2025-10-30",
+        "context": "Excerto de declaração sobre os ataques contra as instituições e o julgamento dos envolvidos, na Conferência Mundial sobre Justiça Constitucional, Madri.",
+        "sourceTitle": "STF — independência judicial e democracia em conferência na Espanha",
+        "url": "https://noticias.stf.jus.br/postsnoticias/ministro-alexandre-de-moraes-defende-independencia-judicial-e-democracia-em-conferencia-na-espanha/",
+        "verification": "Excerto literal contínuo de fala reproduzida pela assessoria do STF."
+      },
+      "notes": [
+        "Ministro do STF. Atuação institucional não equivale a candidatura ou adesão a uma campanha.",
+        "Evitar converter acusações de terceiros ou decisões cautelares em culpa definitiva; sátira pode explorar objetos e procedimentos institucionais."
+      ],
+      "motifs": [
+        "Independência judicial",
+        "Redes sociais e moderação",
+        "Constituição e devido processo"
+      ]
+    },
+    {
+      "id": "mendonca",
+      "name": "André Mendonça",
+      "history": "Jurista e professor, pastor presbiteriano, indicado ao STF em julho de 2021 e empossado em 16 de dezembro de 2021.",
+      "historySources": [
+        {
+          "url": "https://portal.stf.jus.br/textos/verTexto.asp?outputType=chromeless&pagina=AndreMendoncaPrincipal&servico=bibliotecaConsultaProdutoBibliotecaPastaMinistro",
+          "titulo": "Referência biográfica"
+        }
+      ],
+      "positions": [
+        {
+          "date": "2025-06-05",
+          "period": "antes de 2026",
+          "text": "No julgamento do Marco Civil da Internet, votou pela constitucionalidade da regra que exige ordem judicial específica para responsabilizar plataformas por conteúdo de terceiros. Defendeu acesso à decisão e possibilidade de recurso; o registro descreve seu voto individual naquele momento, não o resultado final da Corte.",
+          "url": "https://noticias.stf.jus.br/postsnoticias/stf-suspende-julgamento-de-regras-do-marco-civil-da-internet-sobre-responsabilidade-de-plataformas/",
+          "title": "STF — julgamento do Marco Civil da Internet"
+        },
+        {
+          "date": "2026-04-07 (publicação; cerimônia na noite de 6/4 segundo cobertura contemporânea)",
+          "period": "2026, atuação institucional",
+          "text": "Ao receber honraria na Alesp, assumiu compromisso com atuação imparcial, íntegra e responsável. Definiu imparcialidade como tratamento igualitário sem privilegiar amigos nem perseguir inimigos.",
+          "url": "https://www.al.sp.gov.br/noticia/?id=511323",
+          "title": "Alesp — honraria ao ministro André Mendonça"
+        }
+      ],
+      "quote": {
+        "text": "não privilegiar amigos e não perseguir inimigos",
+        "date": "2026-04-07 (publicação)",
+        "context": "Excerto de sua definição de imparcialidade, em discurso de agradecimento pelo Colar de Honra ao Mérito Legislativo da Alesp.",
+        "sourceTitle": "Alesp — honraria ao ministro André Mendonça",
+        "url": "https://www.al.sp.gov.br/noticia/?id=511323",
+        "verification": "Excerto literal no comunicado oficial da instituição anfitriã."
+      },
+      "notes": [
+        "Ministro do STF. Não atribuir a ele campanha presidencial ou plataforma partidária.",
+        "A religião pode informar a biografia, mas não presumir que determine seus votos ou que represente os demais fiéis."
+      ],
+      "motifs": [
+        "Prudência judicial",
+        "Liberdade de expressão",
+        "Tratamento igualitário"
+      ]
+    },
+    {
+      "id": "daniella",
+      "name": "Daniella Marques",
+      "history": "Administradora que atuou no Ministério da Economia e presidiu a Caixa Econômica Federal em 2022. Em 2026, aparece como integrante da coordenação econômica da campanha de Flávio Bolsonaro.",
+      "historySources": [
+        {
+          "url": "https://pt.wikipedia.org/wiki/Daniella_Marques",
+          "titulo": "Referência biográfica"
+        }
+      ],
+      "positions": [
+        {
+          "date": "2022-10-17",
+          "period": "antes de 2026",
+          "text": "Como presidente da Caixa, lançou com o Sebrae o Caixa Pra Elas Empreendedoras, centrado em formalização, capacitação e crédito para microempreendedoras.",
+          "url": "https://caixanoticias.caixa.gov.br/Paginas/Not%C3%ADcias/2022/10-OUTUBRO/caixa-pra-elas-empreendedoras-tem-foco-na-formalizacao-capacitacao-e-solucoes-de-credito-para-microempreendedoras.aspx",
+          "title": "Caixa Notícias — Caixa Pra Elas Empreendedoras"
+        },
+        {
+          "date": "2026-10-13",
+          "period": "campanha de 2026",
+          "text": "Em evento da Confederação das Associações Comerciais do Brasil, defendeu ajuste das contas públicas, expansão da produtividade, redução do custo Brasil e agenda de mobilidade social. Criticou o modelo econômico do governo Lula; suas avaliações e números são afirmações dela, não fatos auditados nesta pesquisa.",
+          "url": "https://veja.abril.com.br/economia/nosso-plano-e-muito-simples-diz-daniella-marques-coordenadora-economica-de-flavio-bolsonaro/",
+          "title": "Veja — declarações de Daniella Marques em evento empresarial"
+        }
+      ],
+      "quote": {
+        "text": "Ninguém aguenta mais sustentar Brasília",
+        "date": "2026-10-13",
+        "context": "Evento empresarial no Clube Monte Líbano, em São Paulo; crítica aos gastos e à tributação que atribui ao governo federal.",
+        "sourceTitle": "Veja — declarações de Daniella Marques em evento empresarial",
+        "url": "https://veja.abril.com.br/economia/nosso-plano-e-muito-simples-diz-daniella-marques-coordenadora-economica-de-flavio-bolsonaro/",
+        "verification": "Declaração literal atribuída na cobertura de Márcio Juliboni, publicada em 13/10/2026."
+      },
+      "notes": [
+        "Atuação na equipe econômica da campanha de Flávio Bolsonaro documentada na cobertura de evento de 13 de outubro de 2026. Isso não a torna candidata à Presidência.",
+        "O nome informado como Dani Marques foi normalizado para Daniella Marques, conforme link do usuário."
+      ],
+      "motifs": [
+        "Choque de produtividade",
+        "Contas no lugar",
+        "Crédito para empreendedoras"
+      ]
+    },
+    {
+      "id": "janja",
+      "name": "Rosângela Lula da Silva (Janja)",
+      "history": "Socióloga e primeira-dama, com atuação pública em igualdade de gênero, enfrentamento da violência contra mulheres e segurança alimentar. Foi Enviada Especial para Mulheres da COP30 em 2025.",
+      "historySources": [
+        {
+          "url": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/07/13/janja-da-silva-lula-dani-lima-frente-a-frente-entrevista.ghtm",
+          "titulo": "Referência biográfica"
+        }
+      ],
+      "positions": [
+        {
+          "date": "2025-08-14",
+          "period": "antes de 2026",
+          "text": "Ao lado da ministra Anielle Franco, participou de escuta com mulheres evangélicas em Salvador e visitou cozinha solidária/comunitária. A fonte documenta essas atividades, não um endosso das participantes a candidatura específica.",
+          "url": "https://www.gov.br/igualdaderacial/pt-br/assuntos/noticias/anielle-franco-e-janja-da-silva-dialogam-com-mulheres-evangelicas-em-salvador/",
+          "title": "Ministério da Igualdade Racial — diálogo com mulheres evangélicas"
+        },
+        {
+          "date": "2026-07-13",
+          "period": "2026, entrevista no período pré-eleitoral",
+          "text": "Em entrevista ao Frente a Frente do Canal UOL, prestou solidariedade a Michelle Bolsonaro e Damares Alves contra ofensas machistas e defendeu apoiar mulheres atingidas por violência independentemente da orientação ideológica. Também relatou conversas internacionais para enfrentar o feminicídio.",
+          "url": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/07/13/janja-da-silva-lula-dani-lima-frente-a-frente-entrevista.ghtm",
+          "title": "UOL — entrevista Frente a Frente com Janja"
+        }
+      ],
+      "quote": {
+        "text": "A questão da violência contra a mulher, a misoginia, ela não tem lado.",
+        "date": "2026-07-13",
+        "context": "Frente a Frente, Canal UOL, ao comentar ofensas dirigidas a Michelle Bolsonaro e Damares Alves.",
+        "sourceTitle": "UOL — entrevista Frente a Frente com Janja",
+        "url": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/07/13/janja-da-silva-lula-dani-lima-frente-a-frente-entrevista.ghtm",
+        "verification": "Excerto literal da transcrição publicada pelo veículo que realizou a entrevista."
+      },
+      "notes": [
+        "Primeira-dama e participante do debate público em 2026; não foi identificada como candidata à Presidência nesta pesquisa.",
+        "Não usar frases de Anielle ou de outras ministras como se fossem falas de Janja."
+      ],
+      "motifs": [
+        "Rede de apoio",
+        "Igualdade de gênero",
+        "Cozinhas solidárias e segurança alimentar"
+      ]
+    },
+    {
+      "id": "janones",
+      "name": "André Janones",
+      "history": "André Luís Gaspar Janones, natural de Ituiutaba/MG, deputado federal. Perfil oficial em 2026 o identifica como REDE-MG, em exercício no mandato 2023–2027. Tornou a defesa do auxílio emergencial uma bandeira pública em 2020.",
+      "historySources": [
+        {
+          "url": "https://www.camara.leg.br/deputados/204515?ano=2026",
+          "titulo": "Perfil Câmara 2026"
+        },
+        {
+          "url": "https://escriba.camara.leg.br/escriba-servicosweb/html/60027",
+          "titulo": "Discurso em Plenário, 20/10/2020"
+        }
+      ],
+      "positions": [
+        {
+          "date": "2020-10-20",
+          "period": "antes de 2026",
+          "text": "Defendeu manter o auxílio emergencial em R$ 600, criticando sua redução a R$ 300 e cobrando votação da MP 1000.",
+          "url": "https://escriba.camara.leg.br/escriba-servicosweb/html/60027",
+          "type": "discurso primário"
+        },
+        {
+          "date": "2026-04-29",
+          "period": "2026 antes da campanha formal",
+          "text": "Defendeu acelerar a proposta que acabaria com a escala 6 por 1 e criticou o atraso da tramitação.",
+          "url": "https://escriba.camara.leg.br/escriba-servicosweb/pdf/81831",
+          "type": "notas taquigráficas primárias"
+        }
+      ],
+      "quote": {
+        "text": "que a gente vote logo essa proposta e acabe com essa maldita escala 6 por 1!",
+        "date": "2026-04-29",
+        "context": "Pronunciamento na tribuna da Câmara; pedido para acelerar tramitação da PEC.",
+        "url": "https://escriba.camara.leg.br/escriba-servicosweb/pdf/81831"
+      },
+      "campaign2026": {
+        "text": "A entrevista coletiva de Ana Elisa publicada pelo PT em 08/10/2026 cita a mobilização de apoiadores por Janones no WhatsApp. É relato de terceira pessoa, não fala dele.",
+        "url": "https://pt.org.br/essa-e-nossa-ultima-chance-de-tirar-o-bolsonarismo-do-poder-alerta-ana-elisa/"
+      },
+      "gameMotifs": [
+        "celular e mensagens em cadeia",
+        "escudo do auxílio",
+        "quebra da escala 6x1"
+      ],
+      "cautions": [
+        "Atualizar partido para REDE, conforme Câmara, evitando Avante como identificação atual.",
+        "Não usar acusações judiciais como golpes que presumam culpa."
+      ],
+      "notes": [
+        "A entrevista coletiva de Ana Elisa publicada pelo PT em 08/10/2026 cita a mobilização de apoiadores por Janones no WhatsApp. É relato de terceira pessoa, não fala dele.",
+        "Atualizar partido para REDE, conforme Câmara, evitando Avante como identificação atual.",
+        "Não usar acusações judiciais como golpes que presumam culpa."
+      ],
+      "motifs": [
+        "celular e mensagens em cadeia",
+        "escudo do auxílio",
+        "quebra da escala 6x1"
+      ]
+    },
+    {
+      "id": "vorcaro",
+      "name": "Daniel Vorcaro",
+      "history": "Empresário e controlador do Banco Master. Seu depoimento à Polícia Federal em 30/12/2025 foi divulgado pela imprensa em janeiro de 2026. Não foi identificada uma plataforma eleitoral própria.",
+      "historySources": [
+        {
+          "url": "https://www.cnnbrasil.com.br/politica/leia-a-integra-do-depoimento-de-vorcaro-a-pf/",
+          "titulo": "CNN: divulgação do depoimento à PF"
+        }
+      ],
+      "positions": [
+        {
+          "date": "2025-12-30",
+          "period": "antes de 2026",
+          "text": "No depoimento, defendeu o modelo de captação do banco ligado ao FGC e reconheceu crise de liquidez; sua afirmação de solvência é versão pessoal em defesa, não conclusão editorial.",
+          "url": "https://static.poder360.com.br/2026/01/Caso-Master-Leia-a-integra-de-depoimento-a-PF-Daniel-Vorcaro-30dez2025.pdf",
+          "locator": "página 19 do PDF (índice 18)",
+          "type": "transcrição de depoimento"
+        },
+        {
+          "date": "2025-12-30",
+          "period": "antes de 2026; publicado em 2026",
+          "text": "Sustentou ter buscado soluções de mercado e negociação de ativos/instituições para evitar a liquidação; defendeu a pertinência de investigar as operações.",
+          "url": "https://static.poder360.com.br/2026/01/Caso-Master-Leia-a-integra-de-depoimento-a-PF-Daniel-Vorcaro-30dez2025.pdf",
+          "locator": "páginas 20 e 56 do PDF",
+          "type": "versão pessoal em depoimento"
+        }
+      ],
+      "quote": {
+        "text": "Acho que essa investigação é pertinente.",
+        "date": "2025-12-30",
+        "context": "Depoimento à PF sobre operações do banco; página 20 do PDF, índice 19.",
+        "url": "https://static.poder360.com.br/2026/01/Caso-Master-Leia-a-integra-de-depoimento-a-PF-Daniel-Vorcaro-30dez2025.pdf"
+      },
+      "campaign2026": {
+        "text": "Não localizada campanha eleitoral ou programa de governo próprio. A presença no debate público de 2026 decorre do caso Banco Master; participação no jogo é ficcional."
+      },
+      "gameMotifs": [
+        "gráficos financeiros",
+        "chuva de contratos",
+        "escudo de liquidez"
+      ],
+      "cautions": [
+        "Não atribuir a ele candidatura presidencial.",
+        "O depoimento contém a versão do investigado. Não constitui validação das declarações ou de acusações."
+      ],
+      "notes": [
+        "Não localizada campanha eleitoral ou programa de governo próprio. A presença no debate público de 2026 decorre do caso Banco Master; participação no jogo é ficcional.",
+        "Não atribuir a ele candidatura presidencial.",
+        "O depoimento contém a versão do investigado. Não constitui validação das declarações ou de acusações."
+      ],
+      "motifs": [
+        "gráficos financeiros",
+        "chuva de contratos",
+        "escudo de liquidez"
+      ]
+    },
+    {
+      "id": "ana",
+      "name": "Ana Elisa Santos Silva",
+      "history": "O nome do link fornecido pelo usuário corresponde a Ana Elisa Santos Silva, influenciadora e estudante de Direito. O PT a apresenta em 08/10/2026 como deputada federal eleita por Minas Gerais. A pesquisa não sustenta resumir seu papel apenas como assessora do PT.",
+      "historySources": [
+        {
+          "url": "https://pt.org.br/essa-e-nossa-ultima-chance-de-tirar-o-bolsonarismo-do-poder-alerta-ana-elisa/",
+          "titulo": "Entrevista coletiva publicada pelo PT"
+        },
+        {
+          "url": "https://pt.wikipedia.org/wiki/Ana_Elisa",
+          "titulo": "Link de identificação fornecido pelo usuário"
+        }
+      ],
+      "positions": [
+        {
+          "date": "2026-10-08",
+          "period": "campanha 2026",
+          "text": "Defendeu diálogo com eleitores da terceira via e mobilização a favor da reeleição de Lula.",
+          "url": "https://pt.org.br/essa-e-nossa-ultima-chance-de-tirar-o-bolsonarismo-do-poder-alerta-ana-elisa/",
+          "type": "entrevista coletiva publicada pelo próprio partido"
+        },
+        {
+          "date": "2026-10-08",
+          "period": "campanha 2026",
+          "text": "Defendeu resposta rápida à desinformação e ampliação da presença de Lula nas redes, relatando sugestões à equipe de comunicação.",
+          "url": "https://pt.org.br/essa-e-nossa-ultima-chance-de-tirar-o-bolsonarismo-do-poder-alerta-ana-elisa/",
+          "type": "fonte primária partidária"
+        }
+      ],
+      "quote": {
+        "text": "Qualquer pessoa, com qualquer número de seguidor, tem capacidade de desmentir uma fake news.",
+        "date": "2026-10-08",
+        "context": "Entrevista à Rede PT sobre mobilização nas redes no segundo turno.",
+        "url": "https://pt.org.br/essa-e-nossa-ultima-chance-de-tirar-o-bolsonarismo-do-poder-alerta-ana-elisa/"
+      },
+      "campaign2026": {
+        "text": "Apoio a Lula no segundo turno documentado na entrevista coletiva de 08/10."
+      },
+      "gaps": [
+        "Não foi localizada, nesta pesquisa delimitada, fonte primária suficiente para posições anteriores a 2026; não inventar trajetória."
+      ],
+      "gameMotifs": [
+        "celular e câmera",
+        "escudo de checagem",
+        "rebate de boatos"
+      ],
+      "cautions": [
+        "Fonte partidária representa suas próprias posições, não comprova acusações sobre adversários contidas no restante da entrevista."
+      ],
+      "notes": [
+        "Apoio a Lula no segundo turno documentado na entrevista coletiva de 08/10.",
+        "Não foi localizada, nesta pesquisa delimitada, fonte primária suficiente para posições anteriores a 2026; não inventar trajetória.",
+        "Fonte partidária representa suas próprias posições, não comprova acusações sobre adversários contidas no restante da entrevista."
+      ],
+      "motifs": [
+        "celular e câmera",
+        "escudo de checagem",
+        "rebate de boatos"
+      ]
+    },
+    {
+      "id": "roberta",
+      "name": "Roberta Moreira Luchsinger",
+      "history": "Empresária entrevistada pela CNN Brasil em 17/10/2026. A emissora informa que ela é investigada; ela nega ter sido operadora de esquema no INSS. Na entrevista afirma ter apoiado Lula no passado e diz sentir-se abandonada por seu círculo político. As duas últimas afirmações são autorrelatos.",
+      "historySources": [
+        {
+          "url": "https://www.cnnbrasil.com.br/politica/veja-a-integra-da-entrevista-concedida-por-luchsinger-a-cnn-brasil/",
+          "titulo": "CNN: transcrição integral da entrevista"
+        }
+      ],
+      "positions": [
+        {
+          "date": "2026-10-17",
+          "period": "campanha 2026",
+          "text": "Defendeu igualdade de tratamento nas investigações e criticou publicamente Lula; apresentou sua versão dos fatos sem que isso comprove as acusações dirigidas a terceiros.",
+          "url": "https://www.cnnbrasil.com.br/politica/veja-a-integra-da-entrevista-concedida-por-luchsinger-a-cnn-brasil/",
+          "type": "entrevista primária"
+        },
+        {
+          "date": "2026-10-17",
+          "period": "relato sobre atuação anterior",
+          "text": "Declarou que defendia Lula publicamente quando ele estava preso e que propôs ação relativa ao domicílio eleitoral de Sergio Moro. São ações relatadas por ela, exigindo checagem processual antes de apresentadas como fatos independentes.",
+          "url": "https://www.cnnbrasil.com.br/politica/veja-a-integra-da-entrevista-concedida-por-luchsinger-a-cnn-brasil/",
+          "type": "autorrelato em entrevista"
+        }
+      ],
+      "quote": {
+        "text": "Eu não tenho atuação profissional com o Lulinha",
+        "date": "2026-10-17",
+        "context": "Resposta à CNN sobre a natureza da relação com Fábio Luís Lula da Silva; é uma declaração de negativa.",
+        "url": "https://www.cnnbrasil.com.br/politica/veja-a-integra-da-entrevista-concedida-por-luchsinger-a-cnn-brasil/"
+      },
+      "campaign2026": {
+        "text": "Entrevista concedida em 17/10/2026, no período entre turnos; não localizada candidatura presidencial própria."
+      },
+      "gameMotifs": [
+        "microfone de entrevista",
+        "réplica em cadeia",
+        "holofotes"
+      ],
+      "cautions": [
+        "Não usar suas acusações como narrador onisciente do jogo.",
+        "Não equiparar investigação a condenação.",
+        "Não incorporar alegações sobre saúde de terceiros como fato ou diagnóstico."
+      ],
+      "notes": [
+        "Entrevista concedida em 17/10/2026, no período entre turnos; não localizada candidatura presidencial própria.",
+        "Não usar suas acusações como narrador onisciente do jogo.",
+        "Não equiparar investigação a condenação.",
+        "Não incorporar alegações sobre saúde de terceiros como fato ou diagnóstico."
+      ],
+      "motifs": [
+        "microfone de entrevista",
+        "réplica em cadeia",
+        "holofotes"
+      ]
+    },
+    {
+      "id": "lulinha",
+      "name": "Fábio Luís Lula da Silva — Lulinha",
+      "history": "Filho de Lula e empresário que foi sócio da Gamecorp, empresa ligada à PlayTV e a conteúdo de games. Em maio de 2020, vendeu sua participação junto com Fernando e Kalil Bittar. A Folha publicou a íntegra da carta de despedida aos funcionários.",
+      "historySources": [
+        {
+          "url": "https://www1.folha.uol.com.br/colunas/monicabergamo/2020/05/fabio-filho-de-lula-vende-participacao-na-gamecorp.shtml",
+          "titulo": "Folha: venda da Gamecorp e carta integral"
+        }
+      ],
+      "positions": [
+        {
+          "date": "2020-05-09",
+          "period": "antes de 2026",
+          "text": "Na carta aos funcionários, defendeu a importância do setor de games e expressou orgulho pela empresa e pelo trabalho de produção de conteúdo.",
+          "url": "https://www1.folha.uol.com.br/colunas/monicabergamo/2020/05/fabio-filho-de-lula-vende-participacao-na-gamecorp.shtml",
+          "type": "carta integral reproduzida pelo jornal"
+        },
+        {
+          "date": "2020-05-09",
+          "period": "antes de 2026",
+          "text": "Declarou que continuaria trabalhando com tecnologia e apoiou seguir recomendações de distanciamento na pandemia, encerrando a carta com #FiqueEmCasa.",
+          "url": "https://www1.folha.uol.com.br/colunas/monicabergamo/2020/05/fabio-filho-de-lula-vende-participacao-na-gamecorp.shtml",
+          "type": "carta integral reproduzida pelo jornal"
+        }
+      ],
+      "quote": {
+        "text": "Hoje a indústria dos games é uma potência",
+        "date": "2020-05-09",
+        "context": "Carta aos funcionários na venda da Gamecorp, publicada integralmente pela Folha.",
+        "url": "https://www1.folha.uol.com.br/colunas/monicabergamo/2020/05/fabio-filho-de-lula-vende-participacao-na-gamecorp.shtml"
+      },
+      "campaign2026": {
+        "text": "Não localizada nesta pesquisa fala direta dele sobre plataforma política ou atuação em campanha de 2026. Atribuições feitas por Roberta ou Lula não são falas de Lulinha."
+      },
+      "gameMotifs": [
+        "controle de videogame",
+        "combo de games retrô",
+        "pixelização"
+      ],
+      "cautions": [
+        "Não usar denúncias, boatos de patrimônio ou acusações de terceiros como fatos.",
+        "É adequado explorar a atuação documentada no setor de games."
+      ],
+      "notes": [
+        "Não localizada nesta pesquisa fala direta dele sobre plataforma política ou atuação em campanha de 2026. Atribuições feitas por Roberta ou Lula não são falas de Lulinha.",
+        "Não usar denúncias, boatos de patrimônio ou acusações de terceiros como fatos.",
+        "É adequado explorar a atuação documentada no setor de games."
+      ],
+      "motifs": [
+        "controle de videogame",
+        "combo de games retrô",
+        "pixelização"
+      ]
+    },
+    {
+      "id": "marcal",
+      "name": "Pablo Marçal",
+      "history": "Empresário, influenciador e ex-coach, disputou a Prefeitura de São Paulo em 2024 pelo PRTB. Na sabatina do SBT/Novabrasil em 16/07/2024 apresentou propostas de transporte, segurança e atendimento público.",
+      "historySources": [
+        {
+          "url": "https://sbtnews.sbt.com.br/noticia/brasil/pablo-marcal-diz-que-vai-ligar-sao-paulo-com-telefericos-e-nao-descarta-projeto-do-aerotrem-veja-integra",
+          "titulo": "SBT News: sabatina integral"
+        }
+      ],
+      "positions": [
+        {
+          "date": "2024-07-16",
+          "period": "antes de 2026",
+          "text": "Propôs integrar comunidades e estações de metrô por teleféricos; defendeu unificação digital de cadastros no atendimento público.",
+          "url": "https://sbtnews.sbt.com.br/noticia/brasil/pablo-marcal-diz-que-vai-ligar-sao-paulo-com-telefericos-e-nao-descarta-projeto-do-aerotrem-veja-integra",
+          "type": "sabatina primária"
+        },
+        {
+          "date": "2026-04-12",
+          "period": "pré-campanha 2026",
+          "text": "Declarou apoio a Flávio Bolsonaro e disposição para atuar como seu escudeiro, segundo entrevista ao Estadão reproduzida pela Gazeta do Povo. A posição é daquele momento e não prova filiação atual em outubro.",
+          "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pablo-marcal-declara-apoio-a-flavio-e-diz-que-sera-escudeiro-na-disputa-pelo-planalto/",
+          "type": "declaração direta reproduzida por veículo secundário"
+        }
+      ],
+      "quote": {
+        "text": "Se ele precisar de escudo, sou escudeiro dele no que for preciso.",
+        "date": "2026-04-12",
+        "context": "Entrevista ao Estadão sobre apoio a Flávio Bolsonaro, reproduzida pela Gazeta do Povo.",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pablo-marcal-declara-apoio-a-flavio-e-diz-que-sera-escudeiro-na-disputa-pelo-planalto/"
+      },
+      "campaign2026": {
+        "text": "Há cobertura de apoio a Flávio em setembro de 2026; confirmar vínculo eleitoral atual em TSE antes de rotular personagem como candidato.",
+        "url": "https://www.gp1.com.br/eleicoes-2026/noticia/2026/9/30/pablo-marcal-anuncia-apoio-a-flavio-bolsonaro-a-presidencia-632756.html"
+      },
+      "gameMotifs": [
+        "teleférico",
+        "escudo do escudeiro",
+        "gráfico de prosperidade"
+      ],
+      "cautions": [
+        "A página SBT contém uma descrição confusa do PROS em 2022; não reproduzir a atribuição de apoio a Lula como posição de Marçal.",
+        "Não utilizar o episódio de laudo médico falso como se a acusação contra Boulos fosse verdadeira."
+      ],
+      "notes": [
+        "Há cobertura de apoio a Flávio em setembro de 2026; confirmar vínculo eleitoral atual em TSE antes de rotular personagem como candidato.",
+        "A página SBT contém uma descrição confusa do PROS em 2022; não reproduzir a atribuição de apoio a Lula como posição de Marçal.",
+        "Não utilizar o episódio de laudo médico falso como se a acusação contra Boulos fosse verdadeira."
+      ],
+      "motifs": [
+        "teleférico",
+        "escudo do escudeiro",
+        "gráfico de prosperidade"
+      ]
+    }
+  ]
+}

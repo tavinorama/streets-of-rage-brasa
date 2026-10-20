@@ -1,0 +1,165 @@
+{
+  "purpose": "Arenas de ficção reconstruídas a partir de referências reais; não se apresentam como registros de acontecimentos.",
+  "sources": [
+    {
+      "collectedAt": "2026-10-20",
+      "purpose": "Referências fotográficas reais para cenários de luta gerados por Imagegen. Arquivos baixados sem edição local.",
+      "references": [
+        {
+          "id": "stf-plenario",
+          "title": "Vista frontal do Plenário do STF vazio",
+          "local": "/Users/otaviofranca/Desktop/Antigravity/Street Brasa/street-brasa/references/stf-plenario.jpg",
+          "sourcePage": "https://noticias.stf.jus.br/postsnoticias/stf-abre-ano-judiciario-de-2026-nesta-segunda-2/",
+          "url": "https://noticias-stf-wp-prd.s3.sa-east-1.amazonaws.com/wp-content/uploads/wpallimport/uploads/2025/02/18191813/WhatsApp-Image-2025-02-05-at-21.18.35-6.jpeg",
+          "credit": "Fellipe Sampaio/STF",
+          "license": "Licença específica desta imagem não localizada na notícia oficial. Crédito institucional identificado.",
+          "width": 2560,
+          "height": 1685,
+          "visualInspection": "Inspecionada via view_image. Vista frontal ampla do plenário principal do STF: bancada angular em U de madeira clara, cadeiras bege, parede posterior de mármore bege com relevos repetidos, brasão central, crucifixo deslocado à direita, bandeira brasileira à esquerda; teto curvo de madeira com faixas longas de iluminação. Plateias nas laterais e cadeiras no primeiro plano. Há apenas uma pequena pessoa distante à esquerda; nenhum rosto ou pessoa no primeiro plano.",
+          "generationNotes": "Preservar a bancada em U, a parede de mármore com relevos, o teto curvo de madeira e o arranjo brasão/crucifixo/bandeira. Criar faixa ampla desimpedida no piso para luta; excluir todas as pessoas."
+        },
+        {
+          "id": "urna-secao",
+          "title": "Demonstração do fluxo de votação das Eleições 2026 no TRE-SP — vista de seção eleitoral",
+          "local": "/Users/otaviofranca/Desktop/Antigravity/Street Brasa/street-brasa/references/urna-secao.jpg",
+          "sourcePage": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/urna-eletronica-completa-30-anos-de-revolucao-nas-eleicoes-do-brasil",
+          "url": "https://imagens.ebc.com.br/cEe2OeooL6XStV61XMPngkz57ho=/754x0/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/09/24/_pin5507.jpg-7.jpg?itok=0yg_OBRO",
+          "originalUrl": "https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/09/24/_pin5507.jpg-7.jpg",
+          "credit": "Paulo Pinto/Agência Brasil",
+          "date": "2026-09-24",
+          "license": "EBC historicamente adota CC BY 3.0 Brasil para conteúdo próprio, salvo exceções; licença específica da fotografia não explicitada na matéria consultada.",
+          "licensePolicySource": "https://www.ebc.com.br/imprensa/2013/coluna-da-ouvidoria-a-quem-de-direito",
+          "width": 754,
+          "height": 503,
+          "visualInspection": "Inspecionada via view_image. Sala clara do TRE-SP montada como seção: mesa de mesários à esquerda; cabine alta de papelão branco Justiça Eleitoral sobre mesa à direita; piso de placas claras; cabos saindo da urna; cartazes instrutivos na parede. Há três mesários sentados à esquerda e eleitor parcialmente oculto pela cabine. Tela/teclado da urna ficam encobertos pela cabine nesta vista.",
+          "downloadNotes": "Servidor original EBC retornou 403; baixada a versão de 754px entregue oficialmente pelo CDN da matéria.",
+          "generationNotes": "Usar como referência espacial da seção e da cabine. Excluir todos os mesários e eleitor, mantendo sala vazia. Usar a referência urna-detalhe para desenhar aparelho visível em cabine aberta lateralmente."
+        },
+        {
+          "id": "urna-detalhe",
+          "title": "Urna eletrônica em demonstração do TRE-SP — tela e teclado reais",
+          "local": "/Users/otaviofranca/Desktop/Antigravity/Street Brasa/street-brasa/references/urna-detalhe.jpg",
+          "sourcePage": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/urna-eletronica-completa-30-anos-de-revolucao-nas-eleicoes-do-brasil",
+          "url": "https://imagens.ebc.com.br/pJ5yxCNarlt1-R8CTRHpJvBVET0=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/09/24/_pin5558.jpg-10.jpg?itok=8hFkf_Nh",
+          "originalUrl": "https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2026/09/24/_pin5558.jpg-10.jpg",
+          "credit": "Paulo Pinto/Agência Brasil",
+          "date": "2026-09-24",
+          "license": "Ver nota de licença da referência urna-secao; ambas são fotografias próprias de Paulo Pinto/Agência Brasil na mesma matéria.",
+          "width": 1170,
+          "height": 700,
+          "visualInspection": "Inspecionada via view_image. Aparelho real branco/cinza em vista 3/4, tela grande acima à esquerda e teclado físico numérico à direita/abaixo; teclas pretas 1–9 e 0; botões BRANCO branco, CORRIGE laranja e CONFIRMA verde. Tela indica TREINAMENTO e Governador. Há mão pressionando CONFIRMA e parte de braço, sem rosto legível.",
+          "generationNotes": "Preservar fielmente o aparelho, proporção da tela e disposição/cores das teclas. Excluir mão/braço. Não substituir por urna de papel ou máquina americana."
+        }
+      ]
+    },
+    {
+      "updated": "2026-10-20",
+      "purpose": "Referências reais para criar arena ficcional reconhecível da GloboNews, com primeiro plano de combate vazio.",
+      "primary": {
+        "file": "references/globonews-estudio.jpg",
+        "width": 1200,
+        "height": 630,
+        "sourcePage": "https://www.bahianoticias.com.br/holofote/noticia/69443-reporteres-da-globonews-passarao-a-usar-celular-para-se-filmar-ao-vivo",
+        "imageUrl": "https://www.bahianoticias.com.br/fotos/holofote_noticias/69443/IMAGEM_NOTICIA_9.jpg",
+        "published": "2023-04-16",
+        "credit": "Divulgação — crédito literal na matéria do Bahia Notícias; fotografia do estúdio GloboNews",
+        "license": "Licença livre não identificada. Uso como referência de criação; não presumir autorização de exploração da fotografia.",
+        "inspected": true,
+        "edited": false,
+        "identity": "Foto publicada em reportagem sobre GloboNews; telões exibem claramente a identidade GNEWS. Não é cenário do Jornal Nacional.",
+        "dateLimitation": "Referência publicada em 2023; não afirmar que representa a configuração de outubro de 2026.",
+        "visualFeatures": [
+          "Grande parede de LED vermelha à esquerda com grandes letras brancas da identidade GNEWS e grafismos diagonais finos.",
+          "Telão separado à direita em moldura preta, mostrando a mesma identidade vermelha.",
+          "Janela retangular central ampla revela controle/redação com dezenas de monitores azuis.",
+          "Duas poltronas brancas baixas no fundo, em frente ao vidro da redação.",
+          "Bancada à direita com tampo de madeira dourada, forma de fita dobrada em C e base branca/prateada.",
+          "Púlpito/mesinha metálica alta e muito fina à esquerda do centro.",
+          "Piso cinza acetinado amplo no primeiro plano; plataforma cinza baixa sinuosa atravessa o fundo e tem acabamento de madeira clara.",
+          "Arquitetura clara em branco e cinza, teto/luminárias visíveis, acentos de luz rosa/vermelha."
+        ],
+        "recommendedArenaAdaptation": "Vista frontal larga em 16:9, piso horizontal livre ocupando 35–40% inferiores, bancada e poltronas recuadas para o fundo, telas e janela visíveis. Omitir pessoas reais e rostos nas telas. Manter identidade GloboNews claramente distinguível do Jornal Nacional."
+      },
+      "additional": [
+        {
+          "file": "references/globonews-2026.webp",
+          "sourcePage": "https://oplanetatv.clickgratis.com.br/noticias/bastidores/dois-estudios-da-globonews-entram-em-operacao-em-3-de-agosto.html",
+          "imageUrl": "https://oplanetatv.clickgratis.com.br/_upload/content/2026/07/17/cenario-globo-news-6a5a0f83445d5.webp",
+          "date": "2026-07-17",
+          "credit": "Beto Roma/Globo",
+          "license": "Licença livre não identificada; fotografia de divulgação reproduzida pelo veículo.",
+          "inspected": true,
+          "edited": false,
+          "width": 1200,
+          "height": 628,
+          "features": "Imagem ampla de bastidores do novo estúdio: telão curvo à esquerda, piso cinza, plataforma branca circular, linhas vermelhas luminosas no teto e no fundo, câmeras e grua. Tela à direita exibe identidade de 30 anos GloboNews.",
+          "limitation": "A foto tem equipamentos e pessoas; usá-la para arquitetura, recuando objetos na arena gerada. Fonte secundária, crédito Globo."
+        },
+        {
+          "file": "references/globonews-j10.jpg",
+          "sourcePage": "https://www.tvpop.com.br/83839/globonews-abre-a-carteira-e-investe-em-novo-cenario-para-o-jornal-das-10/",
+          "imageUrl": "https://www.tvpop.com.br/wp-content/uploads/2022/08/novo-jornal-das-10-cenario-foto-reproducao-globonews-tvpop.jpg",
+          "date": "2022-08-14",
+          "credit": "Reprodução/GloboNews",
+          "license": "Licença livre não identificada.",
+          "inspected": true,
+          "edited": false,
+          "width": 1920,
+          "height": 1080,
+          "features": "Jornal das 10 da GloboNews com grande área livre de piso de madeira clara, telão atrás, arquitetura cinza e luzes amarelas. Bom exemplo de perspectiva e escala de arena.",
+          "limitation": "Há apresentador e convidada no telão; referência histórica, não configuração atual."
+        },
+        {
+          "file": "references/globonews-i.jpg",
+          "sourcePage": "https://memoriaglobo.globo.com/jornalismo/globonews/estudio-i/noticia/estudio-i.ghtml",
+          "imageUrl": "https://i.s3.glbimg.com/v1/AUTH_ee6202d7f3f346a7a5d7affb807d8893/internal_photos/bs/2026/A/r/9WnQ6gRWOfCpr9q97ZfA/20260403-memoria-globo-andreia-sadi-estevam-avellar.jpg",
+          "date": "2026-04-03",
+          "credit": "Estevam Avellar/Globo",
+          "license": "© Globo; licença livre não identificada.",
+          "inspected": true,
+          "edited": false,
+          "width": 4995,
+          "height": 3568,
+          "features": "Fotografia oficial de Andréia Sadi no Estúdio i, telão vermelho e logotipo branco GloboNews; útil para referência de cor/grafismo, mas não para vista ampla.",
+          "limitation": "Fonte primária da emissora; enquadramento fechado em pessoa."
+        }
+      ],
+      "officialContext": {
+        "source": "https://historia.globo.com/historia-grupo-globo/noticias/noticia/globonews-estreia-estudio-no-rio-com-novo-telejornal.ghtml",
+        "note": "Fonte oficial confirma estúdio do Rio e novo GloboNews Radar em agosto de 2026. A imagem da matéria é apenas logomarca de aniversário e não foi escolhida como referência de arquitetura."
+      }
+    },
+    {
+      "researchedAt": "2026-10-20",
+      "primary": {
+        "path": "references/oval-trump.jpg",
+        "title": "President Trump signs Executive Orders in the Oval Office",
+        "eventDate": "2025-04-24",
+        "sourcePage": "https://www.whitehouse.gov/gallery/president-trump-signs-executive-orders-in-the-oval-office-3/",
+        "imageUrl": "https://www.whitehouse.gov/wp-content/uploads/2025/07/p20250424am-0133_54476066970_o.jpg",
+        "credit": "Official White House Photo by Abe McNatt",
+        "license": "Obra oficial do governo federal dos EUA; domínio público nos EUA, conforme política da Casa Branca para materiais produzidos pelo governo.",
+        "licenseUrl": "https://www.whitehouse.gov/copyright/",
+        "dimensions": {
+          "width": 3000,
+          "height": 2000
+        },
+        "visuallyInspected": true,
+        "description": "Donald Trump está sentado sozinho, em cadeira alta de couro castanho capitonê, atrás de mesa presidencial de madeira escura muito polida. Usa terno azul-marinho, camisa branca, gravata azul-clara com pequenos padrões e pin da bandeira americana. Assina pasta aberta com caneta preta, cabeça inclinada. Bandeiras militares azuis e bandeira presidencial se distribuem atrás; janelas altas de caixilho branco com jardim verde ao fundo; cortinas douradas nas laterais. Sobre a mesa há pastas, documentos, porta-canetas, caixas de madeira com medalhões e vários telefones à direita. Aparador atrás contém fotos emolduradas, troféu dourado e escultura equestre escura.",
+        "compositionNotes": "Referência real para aparência, paleta e proporções; recriação solicitada será ficcional. Deixar mesa e Trump ao fundo e chão de luta livre no primeiro plano. O frontal esculpido da Resolute Desk não aparece integralmente nesta foto.",
+        "sha256": "b37f4b43c795c485bbc7c618aa7559eab7f28248ec800905789384851450114a"
+      },
+      "secondary": {
+        "path": "references/oval-trump-wide.jpg",
+        "imageUrl": "https://www.whitehouse.gov/wp-content/uploads/2025/07/p20250424am-0215_54475902119_o.jpg",
+        "sourcePage": "https://www.whitehouse.gov/gallery/president-trump-signs-executive-orders-in-the-oval-office-3/",
+        "credit": "Official White House Photo by Abe McNatt",
+        "date": "2025-04-24",
+        "licenseUrl": "https://www.whitehouse.gov/copyright/",
+        "visuallyInspected": true,
+        "description": "Vista mais frontal e ampla: Trump sentado sorrindo, mãos unidas sobre a mesa; bandeira dos EUA à esquerda da imagem, presidencial e militares à direita, janelas e cortinas douradas atrás. Um assessor de pé está à esquerda; omiti-lo na arena, conforme pedido do usuário."
+      },
+      "processing": "Arquivos baixados diretamente da White House e não editados."
+    }
+  ]
+}

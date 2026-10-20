@@ -1,0 +1,274 @@
+{
+  "janja": [
+    {
+      "anchor": 0.4555,
+      "bottom": 0.9307,
+      "top": 0.0303
+    },
+    {
+      "anchor": 0.3485,
+      "bottom": 0.917,
+      "top": 0.0381
+    },
+    {
+      "anchor": 0.2195,
+      "bottom": 0.9053,
+      "top": 0.0381
+    }
+  ],
+  "flavio": [
+    {
+      "anchor": 0.4626,
+      "bottom": 0.9365,
+      "top": 0.0654
+    },
+    {
+      "anchor": 0.3618,
+      "bottom": 0.9365,
+      "top": 0.0664
+    },
+    {
+      "anchor": 0.2557,
+      "bottom": 0.9238,
+      "top": 0.0645
+    }
+  ],
+  "nikolas": [
+    {
+      "anchor": 0.4624,
+      "bottom": 0.9268,
+      "top": 0.0771
+    },
+    {
+      "anchor": 0.2645,
+      "bottom": 0.9258,
+      "top": 0.0771
+    },
+    {
+      "anchor": 0.1423,
+      "bottom": 0.9199,
+      "top": 0.0781
+    }
+  ],
+  "jair": [
+    {
+      "anchor": 0.4724,
+      "bottom": 0.9326,
+      "top": 0.0732
+    },
+    {
+      "anchor": 0.3287,
+      "bottom": 0.9102,
+      "top": 0.0938
+    },
+    {
+      "anchor": 0.2538,
+      "bottom": 0.917,
+      "top": 0.0918
+    }
+  ],
+  "lulinha": [
+    {
+      "anchor": 0.4747,
+      "bottom": 0.9199,
+      "top": 0.082
+    },
+    {
+      "anchor": 0.3412,
+      "bottom": 0.9209,
+      "top": 0.083
+    },
+    {
+      "anchor": 0.2384,
+      "bottom": 0.9199,
+      "top": 0.082
+    }
+  ],
+  "lula": [
+    {
+      "anchor": 0.5116,
+      "bottom": 0.9082,
+      "top": 0.0723
+    },
+    {
+      "anchor": 0.3534,
+      "bottom": 0.9072,
+      "top": 0.082
+    },
+    {
+      "anchor": 0.2547,
+      "bottom": 0.9082,
+      "top": 0.082
+    }
+  ],
+  "janones": [
+    {
+      "anchor": 0.4982,
+      "bottom": 0.9424,
+      "top": 0.0391
+    },
+    {
+      "anchor": 0.4426,
+      "bottom": 0.9385,
+      "top": 0.0439
+    },
+    {
+      "anchor": 0.2353,
+      "bottom": 0.9219,
+      "top": 0.0518
+    }
+  ],
+  "dino": [
+    {
+      "anchor": 0.4982,
+      "bottom": 0.8926,
+      "top": 0.0791
+    },
+    {
+      "anchor": 0.3744,
+      "bottom": 0.8916,
+      "top": 0.0977
+    },
+    {
+      "anchor": 0.2134,
+      "bottom": 0.874,
+      "top": 0.1006
+    }
+  ],
+  "marcal": [
+    {
+      "anchor": 0.5305,
+      "bottom": 0.9014,
+      "top": 0.084
+    },
+    {
+      "anchor": 0.2908,
+      "bottom": 0.9043,
+      "top": 0.0879
+    },
+    {
+      "anchor": 0.2099,
+      "bottom": 0.8975,
+      "top": 0.0889
+    }
+  ],
+  "ana": [
+    {
+      "anchor": 0.4654,
+      "bottom": 0.9258,
+      "top": 0.0723
+    },
+    {
+      "anchor": 0.3104,
+      "bottom": 0.9229,
+      "top": 0.085
+    },
+    {
+      "anchor": 0.1948,
+      "bottom": 0.916,
+      "top": 0.0771
+    }
+  ],
+  "daniella": [
+    {
+      "anchor": 0.4245,
+      "bottom": 0.9131,
+      "top": 0.0352
+    },
+    {
+      "anchor": 0.2802,
+      "bottom": 0.915,
+      "top": 0.043
+    },
+    {
+      "anchor": 0.2163,
+      "bottom": 0.917,
+      "top": 0.0439
+    }
+  ],
+  "vorcaro": [
+    {
+      "anchor": 0.5264,
+      "bottom": 0.918,
+      "top": 0.0566
+    },
+    {
+      "anchor": 0.3753,
+      "bottom": 0.917,
+      "top": 0.0537
+    },
+    {
+      "anchor": 0.2124,
+      "bottom": 0.9072,
+      "top": 0.0586
+    }
+  ],
+  "moraes": [
+    {
+      "anchor": 0.5014,
+      "bottom": 0.8701,
+      "top": 0.1221
+    },
+    {
+      "anchor": 0.3673,
+      "bottom": 0.8691,
+      "top": 0.1221
+    },
+    {
+      "anchor": 0.264,
+      "bottom": 0.8643,
+      "top": 0.1221
+    }
+  ],
+  "mendonca": [
+    {
+      "anchor": 0.5124,
+      "bottom": 0.8926,
+      "top": 0.0889
+    },
+    {
+      "anchor": 0.397,
+      "bottom": 0.9004,
+      "top": 0.0889
+    },
+    {
+      "anchor": 0.2801,
+      "bottom": 0.8994,
+      "top": 0.1035
+    }
+  ],
+  "tarcisio": [
+    {
+      "anchor": 0.4597,
+      "bottom": 0.9248,
+      "top": 0.0479
+    },
+    {
+      "anchor": 0.3412,
+      "bottom": 0.9209,
+      "top": 0.0508
+    },
+    {
+      "anchor": 0.1615,
+      "bottom": 0.9209,
+      "top": 0.0449
+    }
+  ],
+  "roberta": [
+    {
+      "anchor": 0.4876,
+      "bottom": 0.9082,
+      "top": 0.0371
+    },
+    {
+      "anchor": 0.2744,
+      "bottom": 0.8965,
+      "top": 0.0625
+    },
+    {
+      "anchor": 0.142,
+      "bottom": 0.8955,
+      "top": 0.0381
+    }
+  ]
+}
