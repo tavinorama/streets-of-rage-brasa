@@ -2,8 +2,17 @@ export const clamp=(v,a,b)=>Math.max(a,Math.min(v,b));
 export const approach=(value,target,rate,dt)=>target+(value-target)*Math.exp(-rate*dt);
 export function spring(position,velocity,target,stiffness,damping,dt){const acceleration=(target-position)*stiffness-velocity*damping;velocity+=acceleration*dt;position+=velocity*dt;return [position,velocity]}
 export function createMotion(index=0){return {hair:0,hairV:0,cloth:0,clothV:0,body:0,bodyV:0,gait:0,walk:0,breath:index*1.5,blink:0,blinkClock:2.7+index*.7,pose:0,oldPose:0,blend:1,lastVx:0,landing:0,fall:0,expression:'neutral'}}
+// Vertical motion keeps running when combat input stops or an actor is defeated.
+export function stepVertical(f,dt,gravity=1500,onLand=()=>{}){
+ if(f.y<=0&&f.vy<=0){f.y=0;f.vy=0;return false}
+ f.y+=f.vy*dt;f.vy-=gravity*dt;
+ if(f.y>0)return false;
+ const speed=Math.abs(f.vy);f.y=0;f.vy=0;
+ if(f.motion){f.motion.landing=Math.min(1,speed/700);f.motion.hairV-=speed*.002;f.motion.clothV-=speed*.001}
+ onLand(speed);return true;
+}
 export function stepMotion(f,dt,state='fight'){
- const m=f.motion??=createMotion(f.index),accel=clamp((f.vx-m.lastVx)/Math.max(dt,.001),-2400,2400);m.lastVx=f.vx;m.breath+=dt*(f.hp<35?4.5:2.9);m.walk=approach(m.walk,Math.abs(f.vx)>18&&f.y===0?Math.min(1,Math.abs(f.vx)/230):0,10,dt);m.gait+=Math.abs(f.vx)*dt*.045;
+ const m=f.motion??=createMotion(f.index),accel=clamp((f.vx-m.lastVx)/Math.max(dt,.001),-2400,2400);m.lastVx=f.vx;m.breath+=dt*(f.hp<35?4.5:2.9);m.walk=approach(m.walk,!f.dead&&Math.abs(f.vx)>18&&f.y===0?Math.min(1,Math.abs(f.vx)/230):0,10,dt);m.gait+=Math.abs(f.vx)*dt*.045;
  const hurt=f.stun>0,desiredBody=hurt?-.12*f.facing:clamp(f.vx/4500,-.055,.055);[m.body,m.bodyV]=spring(m.body,m.bodyV,desiredBody,145,18,dt);
  [m.hair,m.hairV]=spring(m.hair,m.hairV,-accel*.000055-f.vx*.00012,65,9,dt);m.hair=clamp(m.hair,-.32,.32);
  [m.cloth,m.clothV]=spring(m.cloth,m.clothV,-accel*.00004-f.vx*.0001,85,10,dt);m.cloth=clamp(m.cloth,-.28,.28);

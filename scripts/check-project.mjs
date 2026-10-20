@@ -1,0 +1,15 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {roster} from '../dist/roster.js';
+const root=path.resolve(import.meta.dirname,'..'),dist=path.join(root,'dist'),failures=[];
+const fail=message=>failures.push(message);
+async function localFile(ref,base=dist){if(!ref||/^(https?:|data:|mailto:|#)/.test(ref)||ref.includes('${'))return;const file=path.resolve(base,ref.split(/[?#]/)[0]);if(!file.startsWith(dist+path.sep)&&file!==dist){fail(`Reference outside dist: ${ref}`);return}try{await fs.access(file)}catch{fail(`Missing file: ${path.relative(root,file)}`)}}
+const files=await fs.readdir(dist);
+for(const file of files){if(!/\.(js|html|css)$/.test(file))continue;const body=await fs.readFile(path.join(dist,file),'utf8');for(const match of body.matchAll(/\b(?:from\s*|import\s*)['"](\.\/[^'"]+)['"]/g))await localFile(match[1]);if(file.endsWith('.html'))for(const match of body.matchAll(/(?:src|href)=["']([^"']+)["']/g))await localFile(match[1]);if(file.endsWith('.css'))for(const match of body.matchAll(/url\(['"]?([^)'"\s]+)['"]?\)/g))await localFile(match[1])}
+const manifest=JSON.parse(await fs.readFile(path.join(dist,'manifest.webmanifest'),'utf8'));await localFile(manifest.start_url);for(const icon of manifest.icons)await localFile(icon.src);for(const shortcut of manifest.shortcuts||[])await localFile(shortcut.url);
+const sw=await fs.readFile(path.join(dist,'sw.js'),'utf8'),core=sw.match(/\bCORE=(\[.*?\]);/);if(!core)fail('Service worker CORE list missing');else for(const file of JSON.parse(core[1].replaceAll("'",'"')))await localFile(file);
+const geometry=JSON.parse(await fs.readFile(path.join(dist,'assets/sprite-frames.json'),'utf8'));
+let poses=0;
+for(const actor of roster){const meta=geometry[actor.id];if(meta?.length!==3){fail(`${actor.id}: expected 3 isolated poses`);continue}const png=await fs.readFile(path.join(dist,'assets/sprites',actor.id+'.png')),width=png.readUInt32BE(16),height=png.readUInt32BE(20);if(png[25]!==6)fail(`${actor.id}: RGBA sprite expected`);await localFile(`assets/portraits/${actor.id}.jpg`);for(const [index,frame] of meta.entries()){poses++;const [x,y,w,h]=frame.source;if(x<0||y<0||w<=0||h<=0||x+w>width||y+h>height)fail(`${actor.id}/${index}: source crop outside image`);if(!(frame.anchor>=0&&frame.anchor<=1&&frame.top>=0&&frame.bottom<=1&&frame.top<frame.bottom))fail(`${actor.id}/${index}: invalid body anchors`);if(!frame.outline?.length||!frame.feet?.length)fail(`${actor.id}/${index}: missing silhouette or foot support`);for(const [u,v]of frame.outline||[])if(u<0||v<0||u>w||v>h){fail(`${actor.id}/${index}: outline outside crop`);break}}}
+async function inspect(folder){for(const item of await fs.readdir(folder,{withFileTypes:true})){const file=path.join(folder,item.name);if(item.isDirectory())await inspect(file);else if((await fs.stat(file)).size>25*1024*1024)fail(`Asset exceeds 25 MiB: ${path.relative(dist,file)}`)}}await inspect(dist);
+if(failures.length){for(const message of failures)console.error(message);process.exitCode=1}else console.log(`Static references, PWA and ${poses} isolated poses OK; assets within 25 MiB per file.`);

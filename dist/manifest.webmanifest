@@ -2,7 +2,7 @@
   "id": "./",
   "name": "Streets of Rage Brasa",
   "short_name": "Streets of Rage Brasa",
-  "description": "Street Brasa e Streets of Rage Brasa: luta, campanha e cooperação local.",
+  "description": "Campanha beat em up com 16 personagens, sete bairros e cooperação local.",
   "lang": "pt-BR",
   "start_url": "./streets.html",
   "scope": "./",

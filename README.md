@@ -2,9 +2,11 @@
 
 Jogo independente de navegador para PC e celular, com controles por teclado e toque.
 
+Panorama dos dois produtos e próximas entregas: [OVERVIEW.md](OVERVIEW.md).
+
 ## Rodar
 
-Node.js 20+: execute `npm start` e abra http://localhost:4173. Os arquivos de `dist/` também funcionam em hospedagem estática HTTPS. `npm test` verifica o motor e as regras do jogo.
+Node.js 20+: execute `npm start` e abra http://localhost:4173. Os arquivos de `dist/` também funcionam em hospedagem estática HTTPS. `npm test` verifica o motor e as regras do jogo. Use `npm run check` para verificar também arquivos, PWA e recortes do elenco.
 
 ## Cloudflare Pages gratuito
 
