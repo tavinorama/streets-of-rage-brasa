@@ -7,8 +7,8 @@ on:
 permissions:
   contents: read
 concurrency:
-  group: native-${{ github.ref }}
-  cancel-in-progress: true
+  group: native-${{ github.ref }}-${{ github.sha }}
+  cancel-in-progress: false
 jobs:
   android:
     runs-on: ubuntu-latest
