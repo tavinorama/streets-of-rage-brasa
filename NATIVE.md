@@ -18,7 +18,7 @@ A política de privacidade está em `dist/privacy.html`. A indicação 16+ no pr
 
 ## Beta compilada em 20/10/2026
 
-[Baixar pacotes de teste](https://github.com/tavinorama/streets-of-rage-brasa/releases/tag/beta-v31-2026-10-20) · [Compilação verificada](https://github.com/tavinorama/streets-of-rage-brasa/actions/runs/39490669189). Android: APK de depuração. iOS: somente simulador, sem assinatura para iPhone físico.
+[Baixar pacotes de teste](https://github.com/tavinorama/streets-of-rage-brasa/releases/tag/beta-v31-2026-10-20) · [Compilação verificada](https://github.com/tavinorama/streets-of-rage-brasa/actions/runs/39495282867). Android: APK de depuração. iOS: somente simulador, sem assinatura para iPhone físico.
 
 Esta beta inclui a configuração do servidor online público e a correção da animação dos corpos derrotados. O conteúdo dos pacotes foi comparado aos módulos do commit da release.
 
