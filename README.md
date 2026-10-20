@@ -22,7 +22,7 @@ Alternativa: no painel Cloudflare, Workers & Pages → criar Pages → conectar 
 
 ## Aplicativo no celular
 
-O manifesto e o service worker permitem instalar a PWA no Android e no Safari do iPhone. Primeiro abra a versão HTTPS e use Instalar ou Adicionar à Tela de Início. O áudio começa depois de tocar em Jogar. Os arquivos já visitados podem funcionar sem rede enquanto o navegador mantiver o cache; trilhas não são garantidas offline. Projetos nativos Android/iOS e instruções de compilação estão em [NATIVE.md](NATIVE.md). Pacotes de teste ficam nos artefatos do workflow Native builds, em GitHub Actions, e na [release beta](https://github.com/tavinorama/streets-of-rage-brasa/releases/tag/beta-online-2026-10-20).
+O manifesto e o service worker permitem instalar a PWA no Android e no Safari do iPhone. Primeiro abra a versão HTTPS e use Instalar ou Adicionar à Tela de Início. O áudio começa depois de tocar em Jogar. Os arquivos já visitados podem funcionar sem rede enquanto o navegador mantiver o cache; trilhas não são garantidas offline. Projetos nativos Android/iOS e instruções de compilação estão em [NATIVE.md](NATIVE.md). Pacotes de teste ficam nos artefatos do workflow Native builds, em GitHub Actions, e na [release beta](https://github.com/tavinorama/streets-of-rage-brasa/releases/tag/beta-v31-2026-10-20).
 
 ## Física e arte
 

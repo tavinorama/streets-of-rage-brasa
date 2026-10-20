@@ -1,3 +1,4 @@
+import {finisherProfile} from './finisher-scenes.js';
 const raw=[
 ['lula','Lula','Lula','Pressão popular','#e74e38','#e4b28c','#f2efe0','beard',3,4,3,'projectile','Onda sindical','Onda de energia em linha reta.','Chuva de palanques','O palanque cresce até arremessar o rival para fora do estúdio.','Companheiro, agora é no mano a mano!','★'],
 ['flavio','Flávio Bolsonaro','Flávio','Avanço de campanha','#7ca659','#d9a482','#342a24','short',4,3,3,'dash','Arrancada eleitoral','Avanço rápido que atravessa a distância.','Virada de palanque','Uma avalanche de bandeiras leva o adversário para os bastidores.','Essa pergunta veio com hitbox!','⚑'],
@@ -16,5 +17,5 @@ const raw=[
 ['lulinha','Lulinha','Lulinha','Linguagem de games','#bd825d','#d4a47d','#3a2920','stubble',4,3,3,'projectile','Pixel de impacto','Projétil que transforma energia em pixels.','Game over','Uma máquina de fliperama captura o adversário em um cartucho.','Aqui o controle é meu!','+'],
 ['marcal','Pablo Marçal','Marçal','Aceleração de palco','#91a795','#dbad88','#342820','stubble',5,3,2,'dash','Arrancada de palco','Corrida de alta velocidade com impacto frontal.','Subida de nível','Um elevador cenográfico dispara o rival para fora do teto.','Desbloqueia essa defesa!','↑']
 ];
-export const roster=raw.map(([id,name,short,style,color,skin,hair,look,speed,power,guard,type,special,specialDescription,fatal,fatalDescription,quip,symbol])=>({id,name,short,style,color,skin,hair,look,speed,power,guard,type,special,specialDescription,fatal,fatalDescription,quip,symbol}));
+export const roster=raw.map(([id,name,short,style,color,skin,hair,look,speed,power,guard,type,special,specialDescription,fatal,fatalDescription,quip,symbol])=>({id,name,short,style,color,skin,hair,look,speed,power,guard,type,special,specialDescription,fatal:finisherProfile(id).name,fatalDescription:finisherProfile(id).description,fatalLine:finisherProfile(id).line,fatalBasis:finisherProfile(id).basis,quip,symbol}));
 export const getFighter=id=>roster.find(f=>f.id===id)||roster[0];

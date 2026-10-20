@@ -20,8 +20,8 @@ export const stageCrime={
 export const crimeRoles={street:'CAPANGA',runner:'OLHEIRO',heavy:'COBRADOR ARMADO',boss:'LÍDER DA CÉLULA'};
 export function factionFor(neighborhoodId,index=0){const ids=stageCrime[neighborhoodId]?.factions||['fictional'];return factions[ids[Math.abs(index)%ids.length]]}
 export function enemyCrime(neighborhoodId,type,index=0,identity=null){
- if(identity?.master)return {criminal:false,factionId:null,crimeRole:'MASTER SATÍRICO',equipment:null};
+ if(identity?.master)return {criminal:false,factionId:null,crimeRole:'MASTER SATÍRICO',equipment:null,costume:null};
  const faction=identity?.factionId?factions[identity.factionId]:factionFor(neighborhoodId,index);
- return {criminal:true,factionId:faction.id,crimeRole:crimeRoles[type]||crimeRoles.street,equipment:{mask:true,radio:true,holster:true,vest:type==='heavy'||type==='boss',sling:type==='heavy'||type==='boss'}};
+ return {criminal:true,factionId:faction.id,crimeRole:crimeRoles[type]||crimeRoles.street,equipment:null,costume:{lettering:faction.short,integrated:true}};
 }
-export function applyEnemyCrime(enemy,neighborhoodId,identity=null){const profile=enemyCrime(neighborhoodId,enemy.enemyType,enemy.index,identity);Object.assign(enemy,profile);enemy.bossIdentity=identity;const faction=factions[profile.factionId];enemy.data={...enemy.data,...(identity||{}),criminal:profile.criminal,factionId:profile.factionId,crimeRole:profile.crimeRole};if(!identity){enemy.data.name=enemy.data.short=profile.crimeRole+' · '+faction.short;enemy.data.color=faction.color}return enemy}
+export function applyEnemyCrime(enemy,neighborhoodId,identity=null){const profile=enemyCrime(neighborhoodId,enemy.enemyType,neighborhoodId==='valeria'?enemy.spriteColumn:enemy.index,identity);Object.assign(enemy,profile);enemy.bossIdentity=identity;const faction=factions[profile.factionId];enemy.data={...enemy.data,...(identity||{}),criminal:profile.criminal,factionId:profile.factionId,crimeRole:profile.crimeRole};if(!identity){enemy.data.name=enemy.data.short=profile.crimeRole+' · '+faction.short;enemy.data.color=faction.color}return enemy}

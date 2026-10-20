@@ -1,0 +1,136 @@
+{
+  "date": "2026-10-20",
+  "tool": "built-in image_gen.imagegen",
+  "mode": "edit",
+  "transparent_background": true,
+  "records": [
+    {
+      "neighborhood": "jorge-teixeira",
+      "appearance": "regional",
+      "path": "dist/assets/neighborhoods/jorge-teixeira-adversarios.png",
+      "prompt": "Use case: identity-preserve. Edit target: this exact transparent game sprite atlas. Keep FOUR columns and TWO rows, each column the same adult fictional criminal, row 1 guard stance, row 2 punch. Preserve identities, existing diverse skin tones, exact body sizes, pose, alignment and all eight complete head-to-toe figures inside their existing cells. Change only clothing details: integrate the exact letters \"CV\" as realistic screen print or embroidery in the actual fabric, following its folds and perspective, NEVER a label or overlay plate. Put the letters on each character's shirt or tank; on the shirtless heavy character put them on his shorts. Add a casual cloth baseball cap with the same embroidered letters to the first man; keep all regional clothing, footwear, proportions and climate adaptation. Manaus must retain tropical open floral shirt, tank top, shorts, sandals; Brasília must retain the existing casual shirts, trousers/shorts and work boots. Photographic game art, natural textured fabric with subtle worn print, readable at game scale. No tactical armor, no weapons, no masks, no straps, no floating text, no panels, no branding other than the specified letters, no extra people, no dropped shadow or floor. Genuine transparent background with clean alpha edges. Maintain original 4x2 atlas layout exactly.",
+      "sha256": "7da4786e94eb8bb957e87ab8396f87526e53e0603b343c7abbbf0e49058c62bc"
+    },
+    {
+      "neighborhood": "jorge-teixeira",
+      "appearance": "light",
+      "path": "dist/assets/neighborhoods/jorge-teixeira-adversarios-brancos.png",
+      "prompt": "Use case: identity-preserve. Edit target: this exact transparent game sprite atlas. Keep FOUR columns and TWO rows, each column the same adult fictional criminal, row 1 guard stance, row 2 punch. Preserve identities, light skin tones, exact body sizes, pose, alignment and all eight complete head-to-toe figures inside their existing cells. Change only clothing details: integrate the exact letters \"CV\" as realistic screen print or embroidery in the actual fabric, following its folds and perspective, NEVER a label or overlay plate. Put the letters on each character's shirt or tank; on the shirtless heavy character put them on his shorts. Add a casual cloth baseball cap with the same embroidered letters to the first man; keep all regional clothing, footwear, proportions and climate adaptation. Manaus must retain tropical open floral shirt, tank top, shorts, sandals; Brasília must retain the existing casual shirts, trousers/shorts and work boots. Photographic game art, natural textured fabric with subtle worn print, readable at game scale. No tactical armor, no weapons, no masks, no straps, no floating text, no panels, no branding other than the specified letters, no extra people, no dropped shadow or floor. Genuine transparent background with clean alpha edges. Maintain original 4x2 atlas layout exactly.",
+      "sha256": "a5fc0c7a8474733c34654ca7589ea56db7bf9a14a908a4149fc0a32d1051f24c"
+    },
+    {
+      "neighborhood": "sol-nascente",
+      "appearance": "regional",
+      "path": "dist/assets/neighborhoods/sol-nascente-adversarios.png",
+      "prompt": "Use case: identity-preserve. Edit target: this exact transparent game sprite atlas. Keep FOUR columns and TWO rows, each column the same adult fictional criminal, row 1 guard stance, row 2 punch. Preserve identities, existing diverse skin tones, exact body sizes, pose, alignment and all eight complete head-to-toe figures inside their existing cells. Change only clothing details: integrate the exact letters \"PCC\" as realistic screen print or embroidery in the actual fabric, following its folds and perspective, NEVER a label or overlay plate. Put the letters on each character's shirt or tank; on the shirtless heavy character put them on his shorts. Add a casual cloth baseball cap with the same embroidered letters to the first man; keep all regional clothing, footwear, proportions and climate adaptation. Manaus must retain tropical open floral shirt, tank top, shorts, sandals; Brasília must retain the existing casual shirts, trousers/shorts and work boots. Photographic game art, natural textured fabric with subtle worn print, readable at game scale. No tactical armor, no weapons, no masks, no straps, no floating text, no panels, no branding other than the specified letters, no extra people, no dropped shadow or floor. Genuine transparent background with clean alpha edges. Maintain original 4x2 atlas layout exactly.",
+      "sha256": "586d3d6a069565f2e19981d2c5bf1c6599462f6a7f4a6103e6ad79abff3400ad"
+    },
+    {
+      "neighborhood": "sol-nascente",
+      "appearance": "light",
+      "path": "dist/assets/neighborhoods/sol-nascente-adversarios-brancos.png",
+      "prompt": "Use case: identity-preserve. Edit target: this exact transparent game sprite atlas. Keep FOUR columns and TWO rows, each column the same adult fictional criminal, row 1 guard stance, row 2 punch. Preserve identities, light skin tones, exact body sizes, pose, alignment and all eight complete head-to-toe figures inside their existing cells. Change only clothing details: integrate the exact letters \"PCC\" as realistic screen print or embroidery in the actual fabric, following its folds and perspective, NEVER a label or overlay plate. Put the letters on each character's shirt or tank; on the shirtless heavy character put them on his shorts. Add a casual cloth baseball cap with the same embroidered letters to the first man; keep all regional clothing, footwear, proportions and climate adaptation. Manaus must retain tropical open floral shirt, tank top, shorts, sandals; Brasília must retain the existing casual shirts, trousers/shorts and work boots. Photographic game art, natural textured fabric with subtle worn print, readable at game scale. No tactical armor, no weapons, no masks, no straps, no floating text, no panels, no branding other than the specified letters, no extra people, no dropped shadow or floor. Genuine transparent background with clean alpha edges. Maintain original 4x2 atlas layout exactly.",
+      "sha256": "43d97f6565102ca86366b8aa5522d91f696b0ab0c4ba64441e6412ce5a54613b"
+    },
+    {
+      "neighborhood": "bom-jardim",
+      "appearance": "regional",
+      "path": "dist/assets/neighborhoods/bom-jardim-adversarios.png",
+      "prompt": "Edit this exact transparent photographic game sprite atlas. Preserve its FOUR columns by TWO rows, eight full adult fictional characters, the exact existing poses and proportions, identities, skin tones, footwear and regional warm-weather clothes. Integrate the exact letters \"CV\" as realistic worn screen printing in each shirt/tank or, for shirtless men, on one thigh of the shorts. Add a casual fabric baseball cap embroidered \"CV\" to the first man, consistent across both rows. Letters follow folds, shading and perspective of the garment. No labels or panels, no tactical vest, no mask, no straps, no weapon, no extra figures, no crops. These are fictional criminal NPC costumes for a Brazilian beat em up. Genuine transparent alpha background. Maintain each figure inside its original cell and retain clean separated silhouettes. Change only costume details, nothing else.",
+      "sha256": "302c68c1297699fb30e8e1e92065d1b1fb10d478a4698bb876a7617e4d29e07e"
+    },
+    {
+      "neighborhood": "bom-jardim",
+      "appearance": "light",
+      "path": "dist/assets/neighborhoods/bom-jardim-adversarios-brancos.png",
+      "prompt": "Edit this exact transparent photographic game sprite atlas. Preserve its FOUR columns by TWO rows, eight full adult fictional characters, the exact existing poses and proportions, identities, skin tones, footwear and regional warm-weather clothes. Integrate the exact letters \"CV\" as realistic worn screen printing in each shirt/tank or, for shirtless men, on one thigh of the shorts. Add a casual fabric baseball cap embroidered \"CV\" to the first man, consistent across both rows. Letters follow folds, shading and perspective of the garment. No labels or panels, no tactical vest, no mask, no straps, no weapon, no extra figures, no crops. These are fictional criminal NPC costumes for a Brazilian beat em up. Genuine transparent alpha background. Maintain each figure inside its original cell and retain clean separated silhouettes. Change only costume details, nothing else.",
+      "sha256": "6a608ffbe84f1206be9bd0f65fa3c84a6019ef3fd1ef3186c43720714e4a86a5"
+    },
+    {
+      "neighborhood": "pernambues",
+      "appearance": "regional",
+      "path": "dist/assets/neighborhoods/pernambues-adversarios.png",
+      "prompt": "Edit this exact transparent photographic game sprite atlas. Preserve its FOUR columns by TWO rows, eight full adult fictional characters, the exact existing poses and proportions, identities, skin tones, footwear and regional warm-weather clothes. Integrate the exact letters \"CV\" as realistic worn screen printing in each shirt/tank or, for shirtless men, on one thigh of the shorts. Add a casual fabric baseball cap embroidered \"CV\" to the first man, consistent across both rows. Letters follow folds, shading and perspective of the garment. No labels or panels, no tactical vest, no mask, no straps, no weapon, no extra figures, no crops. These are fictional criminal NPC costumes for a Brazilian beat em up. Genuine transparent alpha background. Maintain each figure inside its original cell and retain clean separated silhouettes. Change only costume details, nothing else.",
+      "sha256": "b07d0620c87f704cadbe9bcc0f236f3caad121454bd76f371156d22b2d8a88e3"
+    },
+    {
+      "neighborhood": "pernambues",
+      "appearance": "light",
+      "path": "dist/assets/neighborhoods/pernambues-adversarios-brancos.png",
+      "prompt": "Edit this exact transparent photographic game sprite atlas. Preserve its FOUR columns by TWO rows, eight full adult fictional characters, the exact existing poses and proportions, identities, skin tones, footwear and regional warm-weather clothes. Integrate the exact letters \"CV\" as realistic worn screen printing in each shirt/tank or, for shirtless men, on one thigh of the shorts. Add a casual fabric baseball cap embroidered \"CV\" to the first man, consistent across both rows. Letters follow folds, shading and perspective of the garment. No labels or panels, no tactical vest, no mask, no straps, no weapon, no extra figures, no crops. These are fictional criminal NPC costumes for a Brazilian beat em up. Genuine transparent alpha background. Maintain each figure inside its original cell and retain clean separated silhouettes. Change only costume details, nothing else.",
+      "sha256": "d7d2312f88dc7ca28c32f826a7ddebfa1336fb9e8fb7bd1873af2c3c9bb1e829"
+    },
+    {
+      "neighborhood": "valeria",
+      "appearance": "regional",
+      "path": "dist/assets/neighborhoods/valeria-adversarios.png",
+      "prompt": "Use case: identity-preserve. Edit target is this transparent photographic sprite atlas for fictional criminals. Maintain original FOUR columns and TWO rows (guard stance above, punch below), all identities, light skin tones, exact full-body poses, body proportions and separate silhouettes. Change only clothing detail: Columns 1 and 3: exact text \"KATIARA\". Columns 2 and 4: exact text \"BDM\". Integrate the letters as realistic embroidery or screen printing in the actual shirts/jackets, following wrinkles, seams, lighting and perspective; never on a plate or overlay. Add a casual cloth baseball cap to the first man, with matching embroidered letters. Repeat the same wardrobe details consistently on both poses. Preserve Salvador warm-weather casual shirts, tanks, shorts, workwear and existing footwear. No tactical gear, straps, vests, masks or weapons. No additional people, no labels, no boxes or floating lettering. Keep all eight complete figures inside their original cells and preserve transparent alpha background.",
+      "sha256": "4bfc0c31485430058de82cb893d27e9308e73b5a89a913476c25b26e0474aa26"
+    },
+    {
+      "neighborhood": "valeria",
+      "appearance": "light",
+      "path": "dist/assets/neighborhoods/valeria-adversarios-brancos.png",
+      "prompt": "Use case: identity-preserve. Edit target is this transparent photographic sprite atlas for fictional criminals. Maintain original FOUR columns and TWO rows (guard stance above, punch below), all identities, light skin tones, exact full-body poses, body proportions and separate silhouettes. Change only clothing detail: Columns 1 and 3: exact text \"KATIARA\". Columns 2 and 4: exact text \"BDM\". Integrate the letters as realistic embroidery or screen printing in the actual shirts/jackets, following wrinkles, seams, lighting and perspective; never on a plate or overlay. Add a casual cloth baseball cap to the first man, with matching embroidered letters. Repeat the same wardrobe details consistently on both poses. Preserve Salvador warm-weather casual shirts, tanks, shorts, workwear and existing footwear. No tactical gear, straps, vests, masks or weapons. No additional people, no labels, no boxes or floating lettering. Keep all eight complete figures inside their original cells and preserve transparent alpha background.",
+      "sha256": "1533913a6794214d3ae9729fbb6ba1de31557b291d08f4d2cad2915d539e4edf"
+    },
+    {
+      "neighborhood": "restinga",
+      "appearance": "regional",
+      "path": "dist/assets/neighborhoods/restinga-adversarios.png",
+      "prompt": "Use case: identity-preserve. Edit target is this transparent photographic sprite atlas for fictional criminals. Maintain original FOUR columns and TWO rows (guard stance above, punch below), all identities, light skin tones, exact full-body poses, body proportions and separate silhouettes. Change only clothing detail: All four columns: exact text \"BNC\". Integrate the letters as realistic embroidery or screen printing in the actual shirts/jackets, following wrinkles, seams, lighting and perspective; never on a plate or overlay. Add a casual cloth baseball cap to the first man, with matching embroidered letters. Repeat the same wardrobe details consistently on both poses. Preserve southern Brazilian cool-night hoodies, windbreakers, jeans, jackets and closed footwear. No tactical gear, straps, vests, masks or weapons. No additional people, no labels, no boxes or floating lettering. Keep all eight complete figures inside their original cells and preserve transparent alpha background.",
+      "sha256": "135197408886b262b785feff36a58a390f75453fe7c21a0d611314f2a67e36db"
+    },
+    {
+      "neighborhood": "restinga",
+      "appearance": "light",
+      "path": "dist/assets/neighborhoods/restinga-adversarios-brancos.png",
+      "prompt": "Use case: identity-preserve. Edit target is this transparent photographic sprite atlas for fictional criminals. Maintain original FOUR columns and TWO rows (guard stance above, punch below), all identities, light skin tones, exact full-body poses, body proportions and separate silhouettes. Change only clothing detail: All four columns: exact text \"BNC\". Integrate the letters as realistic embroidery or screen printing in the actual shirts/jackets, following wrinkles, seams, lighting and perspective; never on a plate or overlay. Add a casual cloth baseball cap to the first man, with matching embroidered letters. Repeat the same wardrobe details consistently on both poses. Preserve southern Brazilian cool-night hoodies, windbreakers, jeans, jackets and closed footwear. No tactical gear, straps, vests, masks or weapons. No additional people, no labels, no boxes or floating lettering. Keep all eight complete figures inside their original cells and preserve transparent alpha background.",
+      "sha256": "800a06d897a9659e0911f3199e3e6dd483cec255f29d5fc471dea3264f169cb2"
+    },
+    {
+      "neighborhood": "alemao",
+      "appearance": "regional",
+      "path": "dist/assets/neighborhoods/alemao-adversarios.png",
+      "prompt": "Use case: identity-preserve. Edit the supplied transparent photographic sprite atlas: preserve FOUR columns and TWO rows with all eight complete adult fictional criminals in EXACT original stances, sizes, identities, light skin tones, anatomy and coordinates. Preserve Rio warm-weather regionalism: shirtless first and heavy men stay shirtless; tank top and floral top stay; shorts and flip flops stay; the runner remains BAREFOOT. Add the exact letters \"CV\" as realistic worn screen print on the shorts of shirtless men, and on the tank/floral top of the other characters. Add a casual embroidered \"CV\" cloth baseball cap on the first man, consistent in both rows. Integrate lettering in real fabric folds, perspective and lighting; no sticker panels or digital labels. No tactical armor, masks, weapons, straps, UI, additional people, floor or shadow. Keep all eight figures isolated inside the same 4x2 atlas cells on genuine transparent alpha background. Change only these clothing details.",
+      "sha256": "e9987cb7e2971c3f255adc34d340729761cc615169c37e381656412452c63045"
+    },
+    {
+      "neighborhood": "alemao",
+      "appearance": "light",
+      "path": "dist/assets/neighborhoods/alemao-adversarios-brancos.png",
+      "prompt": "Use case: identity-preserve. Edit the supplied transparent photographic sprite atlas: preserve FOUR columns and TWO rows with all eight complete adult fictional criminals in EXACT original stances, sizes, identities, light skin tones, anatomy and coordinates. Preserve Rio warm-weather regionalism: shirtless first and heavy men stay shirtless; tank top and floral top stay; shorts and flip flops stay; the runner remains BAREFOOT. Add the exact letters \"CV\" as realistic worn screen print on the shorts of shirtless men, and on the tank/floral top of the other characters. Add a casual embroidered \"CV\" cloth baseball cap on the first man, consistent in both rows. Integrate lettering in real fabric folds, perspective and lighting; no sticker panels or digital labels. No tactical armor, masks, weapons, straps, UI, additional people, floor or shadow. Keep all eight figures isolated inside the same 4x2 atlas cells on genuine transparent alpha background. Change only these clothing details.",
+      "sha256": "36a2b9a013ca47d05242fb7bad7a5bc7ef88614e63d78d165ee63a4f77af1643"
+    },
+    {
+      "neighborhood": "bosses",
+      "appearance": "regional",
+      "path": "dist/assets/chefes-regionais-clima.png",
+      "prompt": "Use case: identity-preserve. Edit this EXACT transparent photographic game atlas of TWELVE fictional regional crime bosses, SIX columns by TWO rows. Every cell is a DIFFERENT adult identity. Preserve every person, face, skin color, pose, size and full-body placement, and every regional climate-adapted outfit and shoe. Change ONLY the clothing by adding naturally screen-printed or embroidered letters integrated in the fabric and its folds. BOTH rows columns 1,2,3 have exact text \"CV\". Column 4 upper row has \"KATIARA\", column 4 lower row \"BDM\". Column 5 both rows \"PCC\". Column 6 both rows \"BNC\". Put lettering on existing tank or shirt or on visible T-shirt beneath open shirt. Some casual baseball caps can be added but keep all heads within their cells. No other lettering. No floating label, no plaques, no panels, no mask, no weapons, no tactical vest. Warm weather shorts and sandals stay; southern jackets/jeans/shoes stay. Maintain original SIX by TWO layout exactly, all twelve whole silhouettes separated on a truly transparent alpha background.",
+      "sha256": "fddd7afdef5892d9f59b8c6211d35d03f947be6c4ee1f155647c01bd79e5fb91"
+    }
+  ],
+  "neighborhoods": {
+    "jorge-teixeira": {
+      "wardrobe": "Manaus, humid tropical evening: light open floral shirt with green shorts and flip flops; grey tank top/navy running shorts/trainers; shirtless stocky man in red/navy shorts/sandals; older man faded white T shirt denim shorts slip ons."
+    },
+    "bom-jardim": {
+      "wardrobe": "Fortaleza warm evening: pale yellow cotton T shirt with green trim and blue shorts/flip flops; red tank top and navy running shorts/trainers; stocky man grey sleeveless shirt olive cargo shorts/sandals; older woman white floral short sleeve blouse olive capri pants/sandals."
+    },
+    "pernambues": {
+      "wardrobe": "Salvador warm evening: shirtless athletic man in floral board shorts/flip flops; woman white sleeveless crop top denim shorts/trainers; stocky man open blue white botanical short sleeve shirt denim shorts/sandals; older woman yellow cotton T shirt colorful floral loose pants orange headband/sandals."
+    },
+    "valeria": {
+      "wardrobe": "Salvador workshop district warm evening: beige short sleeve work overshirt grey T shirt denim cargo shorts/flip flops; woman muted burgundy tank top denim bermuda shorts/canvas trainers; stocky mechanic faded white tank top navy work trousers navy work shirt tied at waist/work boots; older woman blue short sleeve work shirt dark grey work pants/closed work shoes."
+    },
+    "sol-nascente": {
+      "wardrobe": "Brasilia Cerrado evening: white cotton T shirt striped blue shorts/flip flops; woman burgundy cotton T shirt light grey joggers/pink trainers; stocky worker short sleeve blue work shirt faded blue jeans/tan work boots; older woman pink T shirt light beige cardigan olive loose pants/sandals."
+    },
+    "restinga": {
+      "wardrobe": "Porto Alegre chilly misty evening: man charcoal hoodie blue jeans/grey trainers; woman pastel light windbreaker over white T shirt black joggers/trainers; stocky man fleece lined blue denim jacket dark hoodie olive cargo trousers/brown boots; older woman black quilted jacket dark scarf black trousers/closed black shoes. All four wear long trousers and jackets, nobody shirtless, no shorts or flip flops."
+    },
+    "alemao": {
+      "wardrobe": "Rio de Janeiro warm evening: athletic man shirtless tattooed arms black red floral bermuda board shorts/dark flip flops; lean young man white tank top black athletic shorts/BARE FEET; stocky man shirtless tattoos denim bermuda shorts/white flip flops; woman white orange floral sleeveless blouse black shorts/flip flops."
+    }
+  }
+}

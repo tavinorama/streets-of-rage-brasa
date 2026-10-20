@@ -1,3 +1,4 @@
+export const isDefeated=f=>!!(f.dead||f.defeated||f.hp<=0);
 export const clamp=(v,a,b)=>Math.max(a,Math.min(v,b));
 export const approach=(value,target,rate,dt)=>target+(value-target)*Math.exp(-rate*dt);
 export function spring(position,velocity,target,stiffness,damping,dt){const acceleration=(target-position)*stiffness-velocity*damping;velocity+=acceleration*dt;position+=velocity*dt;return [position,velocity]}
@@ -12,7 +13,7 @@ export function stepVertical(f,dt,gravity=1500,onLand=()=>{}){
  onLand(speed);return true;
 }
 export function stepMotion(f,dt,state='fight'){
- const m=f.motion??=createMotion(f.index),defeated=f.dead||f.hp<=0,accel=clamp((f.vx-m.lastVx)/Math.max(dt,.001),-2400,2400);m.lastVx=f.vx;const dx=Number.isFinite(f.x)?f.x-(m.lastX??f.x):0,dl=Number.isFinite(f.lane)?f.lane-(m.lastLane??f.lane):0; m.lastX=f.x;m.lastLane=f.lane;const travel=Math.hypot(dx,dl*.8),distance=travel<60?travel:0,groundSpeed=f.y===0?distance/Math.max(dt,.001):0;
+ const m=f.motion??=createMotion(f.index),defeated=isDefeated(f),accel=clamp((f.vx-m.lastVx)/Math.max(dt,.001),-2400,2400);m.lastVx=f.vx;const dx=Number.isFinite(f.x)?f.x-(m.lastX??f.x):0,dl=Number.isFinite(f.lane)?f.lane-(m.lastLane??f.lane):0; m.lastX=f.x;m.lastLane=f.lane;const travel=Math.hypot(dx,dl*.8),distance=travel<60?travel:0,groundSpeed=f.y===0?distance/Math.max(dt,.001):0;
  // Defeat keeps gravity and the contact rotation, but stops all living action cycles.
  if(defeated){m.walk=0;m.action='fall';m.actionTime=0;m.attackPhase=0;m.pose=0;m.oldPose=0;m.blend=1;m.body=m.bodyV=m.hair=m.hairV=m.cloth=m.clothV=m.landing=m.blink=0;m.expression='exhausted';m.fall=approach(m.fall,1,5,dt);if(1-m.fall<.001)m.fall=1;return}
  m.breath+=dt*(f.hp<35?4.5:2.9);m.walk=approach(m.walk,!f.dead&&groundSpeed>18?Math.min(1,groundSpeed/230):0,10,dt);if(f.y===0&&!f.dead)m.gait+=distance*.045;

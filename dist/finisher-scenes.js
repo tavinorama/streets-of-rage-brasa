@@ -1,0 +1,83 @@
+// Choreographed satire. The lines below are invented game dialogue, never real quotations.
+export const FINISHER_DURATION=4.4;
+export const finisherBeat=p=>p<.2?0:p<.49?1:p<.68?2:3;
+const entries=[
+ ['lula','Assembleia do nocaute','Microfone de assembleia e mobilização sindical','Companheiro, esse round entrou em votação!','assembly','launch','Um microfone convoca a assembleia; ondas de som erguem o palanque e lançam o rival entre faixas de papel.'],
+ ['flavio','Tesoura do orçamento','Discurso de redução de gastos e campanha parlamentar','Vou cortar essa barra pela metade!','budget','fold','Uma tesoura cenográfica corta fitas de orçamento; o piso vira um recibo que dobra e leva o rival.'],
+ ['nikolas','Corte de quinze segundos','Vídeos curtos e atuação nas redes','Esse corte vai até o último frame!','shorts','screen','O adversário entra no enquadramento vertical; uma timeline corta a cena e o transforma em pixels.'],
+ ['janja','Rede de apoio','Rede de apoio, igualdade e presença em eventos','Hoje o palco tem outra protagonista!','support','launch','Holofotes se conectam numa rede; fitas de palco cercam o rival e o despacham para trás da cortina.'],
+ ['janones','Live sem direito a replay','Lives, mensagens em cadeia e comunicação digital','A live acabou de ganhar um nocaute!','live','screen','Comentários percorrem uma transmissão; a enxurrada de notificações arrasta o adversário para o feed.'],
+ ['daniella','Balanço fechado','Gestão financeira, produtividade e crédito','Essa conta fecha no nocaute!','ledger','press','Colunas contábeis crescem em lados opostos; um balanço se fecha e expulsa o rival em recibos.'],
+ ['tarcisio','Entrega expressa','Metrô, infraestrutura e engenharia','Próxima estação: fim de jogo!','metro','ride','Uma obra se monta com vigas e trilhos; um vagão cenográfico atravessa a cena e carrega o adversário.'],
+ ['dino','Autos sob os holofotes','Transparência, emendas e atuação judicial','Abra os autos. Feche a guarda!','files','book','Páginas iluminadas cercam o rival; um livro de autos se abre e fecha sobre uma silhueta de papel.'],
+ ['moraes','Sinal suspenso','Jurisdição constitucional e moderação de redes','Essa transmissão fica suspensa!','signal','screen','Circuitos se conectam ao rival; uma ordem cenográfica suspende o sinal e a imagem colapsa em linhas.'],
+ ['mendonca','Último recurso','Prudência judicial e tramitação de recursos','O próximo recurso é subir de fase!','appeal','launch','Recursos formam uma escada; a última pasta abre como uma mola e arremessa o adversário.'],
+ ['vorcaro','Liquidez de fliperama','Gráficos, contratos e linguagem financeira','Vencimento imediato: game over!','vault','vault','Contratos e moedas giram em torno de um cofre cenográfico; a porta fecha e reabre numa chuva de papel.'],
+ ['jair','Passagem da faixa','Faixa presidencial e apoio político','Esse round não tem segundo turno!','sash','spin','Uma faixa verde e amarela atravessa o palco, enrola o rival e o faz rodar até sair da arena.'],
+ ['ana','Checagem final','Câmera, checagem e comunicação digital','Pode conferir: foi nocaute!','check','screen','Uma câmera varre o cenário; quadros de checagem enquadram o rival e fecham a tela como um obturador.'],
+ ['roberta','Direito de réplica','Entrevista, réplica e articulação de comunicação','A última réplica vem com eco!','reply','launch','Microfones retransmitem uma réplica em cadeia; ondas de som expulsam o adversário para os bastidores.'],
+ ['lulinha','Sem ficha para continuar','Videogame, fliperama e linguagem de games','Acabaram os continues!','arcade','screen','Um gabinete de fliperama captura o rival; o contador de continue chega a zero e ejeta um cartucho.'],
+ ['marcal','Teleférico da prosperidade','Teleférico, palco e discurso de prosperidade','Desbloqueia o próximo andar!','cablecar','cable','Cabos se esticam e uma cabine desce; a barra de nível dispara e o rival sobe para fora do quadro.']
+];
+export const finisherProfiles=Object.fromEntries(entries.map(([id,name,basis,line,motif,exit,description])=>[id,{id,name,basis,line,motif,exit,description,duration:FINISHER_DURATION}]));
+export const finisherProfile=id=>finisherProfiles[id]||finisherProfiles.lula;
+const clamp=v=>Math.max(0,Math.min(1,v)),ease=v=>{const t=clamp(v);return t*t*(3-2*t)},part=(p,a,b)=>ease((p-a)/(b-a));
+export function finisherFrame(id,progress,reduced=false){const profile=finisherProfile(id),p=clamp(progress),build=part(p,.16,.47),hit=part(p,.48,.63),exit=part(p,.63,.9),pulse=Math.sin(Math.PI*hit),target={x:850,y:510,scale:1,rotation:0,alpha:1};
+ if(profile.motif==='assembly')target.y-=build*40;
+ if(profile.exit==='ride'){target.x+=exit*600;target.scale=1-build*.18;target.alpha=1-part(p,.87,.99)}
+ if(profile.exit==='launch'){target.x+=exit*360;target.y-=Math.sin(exit*Math.PI*.7)*260;target.rotation=exit*1.5;target.alpha=1-part(p,.84,.97)}
+ if(profile.exit==='fold'){target.scale=1-exit*.88;target.rotation=exit*1.8;target.y+=exit*35;target.alpha=1-part(p,.8,.95)}
+ if(profile.exit==='press'){target.scale=1-exit*.9;target.y+=exit*22;target.alpha=1-part(p,.82,.95)}
+ if(profile.exit==='book'||profile.exit==='vault'){target.scale=1-exit*.95;target.x-=exit*30;target.alpha=1-part(p,.72,.9)}
+ if(profile.exit==='screen'){target.scale=1-exit*.82;target.y-=exit*100;target.alpha=1-part(p,.75,.92)}
+ if(profile.exit==='spin'){target.x+=exit*420;target.rotation=exit*6;target.alpha=1-part(p,.86,.98)}
+ if(profile.exit==='cable'){target.y-=build*65+exit*590;target.scale=1-build*.2-exit*.1;target.alpha=1-part(p,.86,.98)}
+ if(reduced){target.x=850;target.y=510;target.rotation=0;target.scale=1;target.alpha=1-part(p,.67,.86)}
+ return {profile,p,build,hit,exit,pulse,phase:p<.2?'PREPARAÇÃO':p<.49?'ARMAÇÃO':p<.68?'IMPACTO':'DESFECHO',winner:{x:300+(reduced?0:hit*45),y:510,attack:hit>0&&exit<.2},target};
+}
+function box(c,x,y,w,h,color='#273e42',edge='#afbeb3',radius=8){c.fillStyle=color;c.strokeStyle=edge;c.lineWidth=2;c.beginPath();c.roundRect(x,y,w,h,radius);c.fill();c.stroke()}
+function text(c,label,x,y,size=20,color='#f1e9d2',max=500){c.fillStyle=color;c.textAlign='center';c.font=`800 ${size}px Arial`;c.fillText(label,x,y,max)}
+function beam(c,x,y,w,h,color){const g=c.createLinearGradient(x,y,x+w,y+h);g.addColorStop(0,'#fff3d9');g.addColorStop(.18,color);g.addColorStop(1,'#15282e');box(c,x,y,w,h,g,'#122126',3)}
+function mic(c,x,y,s=1){c.save();c.translate(x,y);c.scale(s,s);beam(c,-6,-90,12,98,'#667f82');box(c,-18,-130,36,54,'#98adb0','#d7ded5',18);for(let i=0;i<5;i++){c.strokeStyle='#3b5255';c.beginPath();c.moveTo(-13,-120+i*7);c.lineTo(13,-120+i*7);c.stroke()}c.restore()}
+function paper(c,x,y,w=64,h=90,label=''){c.save();c.translate(x,y);box(c,-w/2,-h,w,h,'#e5dfc8','#8d978c',2);for(let i=0;i<4;i++){c.fillStyle='#788782';c.fillRect(-w*.33,-h+18+i*12,w*.66,2)}if(label)text(c,label,0,-12,11,'#213a3a',w-5);c.restore()}
+function wheel(c,x,y,r){c.fillStyle='#18252a';c.beginPath();c.arc(x,y,r,0,7);c.fill();c.strokeStyle='#d0d5c9';c.lineWidth=5;c.stroke()}
+function burst(c,f,color){if(f.p<.49)return;const a=1-part(f.p,.68,.9);c.save();c.globalAlpha=a;c.translate(850,350);c.strokeStyle=color;c.lineWidth=5;for(let i=0;i<16;i++){const angle=i*Math.PI/8,inner=45+f.hit*30,outer=inner+35+f.hit*70;c.beginPath();c.moveTo(Math.cos(angle)*inner,Math.sin(angle)*inner);c.lineTo(Math.cos(angle)*outer,Math.sin(angle)*outer);c.stroke()}c.restore()}
+function device(c,f,color,label){const k=f.build;box(c,850-130*k,170,260*k,350,'#111f2a','#839d9c',20);if(k<.5)return;box(c,737,194,226,274,color,'#0b2227',7);c.fillStyle='#09182088';c.fillRect(737,194,226,274);text(c,label,850,229,19);c.fillStyle='#263f43';c.fillRect(784,487,132,7);c.beginPath();c.arc(850,182,3,0,7);c.fill()}
+function propScene(c,f,color,front=false){const {profile,p,build:b,hit:h,exit:e}=f,id=profile.motif,t=p*12;c.save();
+ if(!front){
+ if(id==='assembly'){beam(c,650,510-b*40,440,24,'#9e7656');for(const x of [675,855,1060]){beam(c,x,510-b*40,12,40*b,'#687b79');c.strokeStyle='#91a5a0';c.lineWidth=3;c.beginPath();c.moveTo(x,510-b*40);c.lineTo(x+65,532);c.stroke()}box(c,650,445-b*60,440,54,color,'#d5b591',3);text(c,'ASSEMBLEIA',870,480-b*60,22);box(c,397,397,66,99,'#88654b','#b9a98b',4);mic(c,430,415,b);for(let i=0;i<3;i++){c.strokeStyle=color;c.globalAlpha=(1-p)*.4;c.lineWidth=4;c.beginPath();c.ellipse(440,340,100+b*(i+1)*100,80+b*(i+1)*45,0,-1,1);c.stroke()}c.globalAlpha=1}
+ if(id==='budget'){paper(c,850,530,280,340,'ORÇAMENTO');for(let i=0;i<4;i++){c.fillStyle=i%2?'#bd754e':color;c.fillRect(735,270+i*48,230*(1-h*.75),15)}c.save();c.translate(825,290);c.rotate(-.4+h*.8);for(const sign of [-1,1]){c.save();c.rotate(sign*(.75-h*.68));beam(c,0,-7,200,14,'#bec8c2');c.strokeStyle='#d3b16b';c.lineWidth=11;c.beginPath();c.ellipse(-35,0,34,24,0,0,7);c.stroke();c.restore()}c.restore()}
+ if(id==='shorts'||id==='live'||id==='check'||id==='signal'||id==='arcade')device(c,f,color,id==='shorts'?'REC 00:15':id==='live'?'AO VIVO':id==='check'?'CHECAGEM':id==='signal'?'TRANSMISSÃO':'INSERT COIN');
+ if(id==='support'){for(let i=0;i<4;i++){const x=520+i*170;c.globalAlpha=.12+b*.15;c.fillStyle=i%2?color:'#ffe6af';c.beginPath();c.moveTo(x,150);c.lineTo(x-95,530);c.lineTo(x+95,530);c.fill();c.globalAlpha=1;box(c,x-22,120,44,25,'#34494b','#c7c6ac',5)}beam(c,510,151,610,14,'#c4ad79')}
+ if(id==='ledger'){box(c,640,190,430,310,'#142b2b','#91a99d');for(let i=0;i<5;i++){const x=675+i*75,hh=(80+i*20)*b;beam(c,x,465-hh,42,hh,color);text(c,(i+1)*20+'%',x+20,480-hh,12)}text(c,'BALANÇO',855,225,22);}
+ if(id==='metro'){for(let i=0;i<6;i++)beam(c,500+i*110,490-b*180,80,16,'#9ca9a2');beam(c,480,510,660,13,'#acb7af');for(let i=0;i<7;i++)beam(c,500+i*95,510,8,25,'#b0a088');const trainX=1450-h*780+e*600;box(c,trainX,350,360,150,'#c5d0c7','#22373c',20);for(let i=0;i<4;i++)box(c,trainX+20+i*82,370,62,65,'#1d3946','#91a6a7',5);wheel(c,trainX+65,503,18);wheel(c,trainX+295,503,18);}
+ if(id==='files'){box(c,690,225,310,280,'#203b42aa','#c1d1c2');for(let i=0;i<7;i++){const a=i*.9+t*.12;paper(c,850+Math.cos(a)*170*b,360+Math.sin(a)*130*b,52,75,'AUTOS')}text(c,'TRANSPARÊNCIA',850,210,17)}
+ if(id==='appeal'){for(let i=0;i<6;i++){const lift=b*i*36;box(c,650+i*64,510-lift,62,lift+15,i%2?'#a3afa6':color,'#203b3f',3);paper(c,680+i*64,508-lift,48,36,String(i+1))}}
+ if(id==='vault'){box(c,665,190,365,325,'#475c5d','#b8c5b7',18);box(c,692,214,310,276,'#1a2b32','#7e9997',10);for(let i=0;i<6;i++){const a=i*Math.PI/3+t*.2;paper(c,850+Math.cos(a)*190*b,360+Math.sin(a)*135*b,45,65,'CONTRATO')}}
+ if(id==='sash'){for(let i=0;i<3;i++){c.save();c.translate(650+i*160,160);c.rotate(-.1);beam(c,0,0,8,350,'#9ca79a');c.fillStyle=i%2?'#e6c968':'#477655';c.fillRect(8,0,100,75);c.restore()}}
+ if(id==='reply'){for(let i=0;i<4;i++){mic(c,540+i*150,490-(i%2)*25,b);c.strokeStyle=color;c.lineWidth=4;c.beginPath();c.arc(540+i*150,350,50+b*35,0,7);c.stroke()}}
+ if(id==='cablecar'){c.strokeStyle='#b2c5c0';c.lineWidth=5;c.beginPath();c.moveTo(580,110);c.lineTo(1200,50);c.stroke();const y=185-e*570;beam(c,844,y-82,12,90,'#bcc9c2');box(c,740,y,225,260,color,'#c5d5c3',24);box(c,754,y+23,198,175,'#16313a','#96b1ac',9);text(c,'PRÓXIMO NÍVEL',850,y+227,16)}
+ }else{
+ burst(c,f,color);
+ if(id==='budget'&&h>.1){for(let i=0;i<12;i++){const dx=Math.sin(i*2.4)*e*260;paper(c,850+dx,340+e*240+i*5,25,38)}}
+ if(id==='support'){const close=part(p,.68,.9);for(const side of [-1,1]){const x=side<0?690:1015-close*255;const width=35+close*125;const g=c.createLinearGradient(x,0,x+width,0);g.addColorStop(0,'#34263d');g.addColorStop(.5,color);g.addColorStop(1,'#2a2134');box(c,x,185,width,345,g,'#172028',1)}}
+ if(id==='shorts'){box(c,750,445,200,38,'#0e2028','#819996',3);for(let i=0;i<8;i++){c.fillStyle=i*25<200*h?color:'#416268';c.fillRect(758+i*23,454,19,19)}text(c,'00:'+String(Math.round(15*(1-h))).padStart(2,'0'),850,420,22)}
+ if(id==='live'){for(let i=0;i<6;i++){const y=280+((i*52+t*40)%240);box(c,950-h*65,y,220,34,'#204940','#87c5aa',10);text(c,['NOCAUTE!','REPLAY?','AO VIVO','ÚLTIMO COMBO'][i%4],1060-h*65,y+23,14)} }
+ if(id==='signal'&&h>.1){for(let i=0;i<18;i++){c.fillStyle=i%3?color:'#9eaaa6';c.globalAlpha=.5*(1-e);c.fillRect(738,210+i*14+(i%2?h*12:-h*12),226,4)}c.globalAlpha=1;box(c,735,320,230,65,'#ad6c42','#e9c19d',5);text(c,'SINAL SUSPENSO',850,360,22)}
+ if(id==='check'){c.strokeStyle='#c7e5be';c.lineWidth=8;c.strokeRect(760+e*80,230+e*80,180*(1-e),210*(1-e));if(h>.1){box(c,751,407,199,42,'#456a50','#c7e5be',4);text(c,'CHECAGEM K.O.',850,435,19)}}
+ if(id==='arcade'){beam(c,720,472,260,40,'#9f6554');for(let i=0;i<3;i++){c.fillStyle=['#e6b45d','#d97d66','#9fce90'][i];c.beginPath();c.arc(875+i*32,489,8,0,7);c.fill()}text(c,'CONTINUE '+Math.max(0,Math.ceil((1-h)*9)),850,267,24);if(e>.25){box(c,800+e*170,370-e*230,83,55,'#b5b29b','#dbe0c7',4);text(c,'K.O.',842+e*170,404-e*230,16,'#13282f')}}
+ if(id==='files'){c.save();c.translate(850,470);c.rotate(-h*.06);const cover=155*(1-h*.88);beam(c,-cover,-100,cover,125,'#956b53');beam(c,0,-100,cover,125,'#b48f69');text(c,h>.7?'AUTOS ENCERRADOS':'ABERTURA DOS AUTOS',0,55,18);c.restore()}
+ if(id==='vault'){const close=part(p,.58,.76),open=part(p,.84,.98);const w=290*(close-open*.85);box(c,1000-w,222,w,265,'#536d6c','#b6c9b8',9);if(w>100){c.strokeStyle='#c3cbb8';c.lineWidth=7;c.beginPath();c.arc(985-w/2,350,48,0,7);c.stroke();for(let i=0;i<4;i++){c.save();c.translate(985-w/2,350);c.rotate(i*Math.PI/2+h*2);c.beginPath();c.moveTo(0,0);c.lineTo(0,42);c.stroke();c.restore()}}}
+ if(id==='ledger'){const squeeze=part(p,.5,.74);for(const side of [-1,1])beam(c,side<0?620+squeeze*175:1060-squeeze*175,250,45,260,color);if(e>.1){box(c,730,290,240,64,'#ddc9a2','#4a5d50',4);text(c,'SALDO: NOCAUTE',850,331,23,'#233b36')}}
+ if(id==='sash'){c.save();c.translate(850,385);c.rotate(h*.5+e*6);const g=c.createLinearGradient(-200,-40,200,40);g.addColorStop(0,'#47754a');g.addColorStop(.47,'#47754a');g.addColorStop(.48,'#e2c563');g.addColorStop(.7,'#e2c563');g.addColorStop(.71,'#47754a');g.addColorStop(1,'#47754a');box(c,-200,-30,400*b,60,g,'#b0bf98',3);c.restore()}
+ if(id==='reply'){for(let i=0;i<4;i++){c.globalAlpha=.65*(1-e);c.strokeStyle=color;c.lineWidth=5;c.beginPath();c.ellipse(600+h*(160+i*65),355,30,80+i*12,0,-1,1);c.stroke()}c.globalAlpha=1}
+ if(id==='cablecar'){const y=185-e*570;beam(c,737,y+195,230,20,'#d1bb8a');text(c,'NÍVEL '+Math.round(h*100)+'%',850,145,22)}
+ for(let i=0;i<16;i++){if(p<.62)break;const a=i*2.399,x=850+Math.cos(a)*(30+e*300),y=360+Math.sin(a)*e*170+e*90;c.save();c.translate(x,y);c.rotate(i+e*3);c.fillStyle=i%3?color:'#ead6ac';c.globalAlpha=1-part(p,.86,1);c.fillRect(-6,-3,12,6);c.restore()}
+ }
+ c.restore();}
+export function drawFinisherScene(c,{winner,loser,progress,reduced=false,drawWinner,drawLoser}){const f=finisherFrame(winner.data.id,progress,reduced),color=winner.data.color;c.save();const bg=c.createLinearGradient(0,0,1280,620);bg.addColorStop(0,'#071622ee');bg.addColorStop(.55,'#102b34e8');bg.addColorStop(1,'#111a29f5');c.fillStyle=bg;c.fillRect(0,0,1280,620);const glow=c.createRadialGradient(850,350,20,850,350,330);glow.addColorStop(0,color+'60');glow.addColorStop(1,color+'00');c.fillStyle=glow;c.fillRect(470,80,770,460);c.fillStyle='#0007';c.beginPath();c.ellipse(850,521,210,15,0,0,7);c.fill();propScene(c,reduced?{...f,p:.55,build:.9,hit:f.hit>.5?1:0,exit:0}:f,color,false);
+ const pose={...winner,cinematic:true,dead:false,defeated:false,hp:100,y:0,stun:0,block:false,attackTime:f.winner.attack?.2:0,attackKind:'punch',attackHit:true,motion:{...winner.motion,fall:0,walk:0,body:0,hair:0,cloth:0,landing:0,action:f.winner.attack?'punch':'idle',attackPhase:.6,pose:f.winner.attack?1:0,breath:0}};
+ drawWinner(c,pose,f.winner.x,f.winner.y);
+ if(f.target.alpha>0){c.save();c.globalAlpha=f.target.alpha;c.translate(f.target.x,f.target.y);c.rotate(f.target.rotation);c.scale(f.target.scale,f.target.scale);drawLoser(c,{...loser,cinematic:true,dead:false,defeated:false,hp:100,y:0,stun:f.hit>.01?.2:0,block:false,attackTime:0,deathTime:0,motion:{...loser.motion,fall:0,walk:0,body:0,hair:0,cloth:0,landing:0,blink:0,breath:0,action:f.hit>.01?'hurt':'guard',expression:f.hit>.01?'pain':'guard'}},0,0);c.restore()}
+ propScene(c,reduced?{...f,p:.55,build:.9,hit:f.hit>.5?1:0,exit:0}:f,color,true);
+ c.fillStyle='#050e16';c.fillRect(0,0,1280,115);c.fillRect(0,543,1280,77);text(c,winner.data.short.toUpperCase()+' / '+f.phase,640,29,12,'#c5d8cf');text(c,f.profile.name.toUpperCase(),640,75,39,'#f5bb79',1120);text(c,'“'+f.profile.line+'”',640,101,16,'#f3e7d2',1100);text(c,'FALA E CENA DE PARÓDIA · VIOLÊNCIA ESTILIZADA',640,563,10,'#aab9b2');text(c,f.profile.basis,640,586,14,'#e7ddc5',1050);c.fillStyle='#c18c57';c.fillRect(110,607,1060*f.p,3);c.restore();}
