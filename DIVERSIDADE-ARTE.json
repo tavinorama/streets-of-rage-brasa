@@ -1,0 +1,21 @@
+{
+  "tool": "Imagegen incorporado (image_gen.imagegen)",
+  "asset": "dist/assets/inimigos-diversos.png",
+  "prompt": "Use case: stylized-concept. Production sprite atlas for a Brazilian side-scrolling beat em up, supplementary white Brazilian adult opponents with light skin, fictional ordinary humans, same realistic photographic cutout style as reference. Reference image is layout/style reference only. Create exactly four columns and two rows, eight isolated full-body figures on genuine transparent background. Each of the four characters repeats in the same column: top row right-facing combat guard, bottom row right-facing straight punch. Column 1 lean white man, short brown hair, open light floral shirt, green shorts and flip flops; column 2 athletic white woman, brown ponytail, grey tank top, navy athletic shorts and trainers; column 3 stocky white man, short dark hair, shirtless, red/navy shorts and sandals; column 4 older white man with greying hair, faded white T-shirt, denim shorts and slip-on shoes. Light skin clearly visible on faces arms legs, neutral daylight without orange tan. Preserve natural adult anatomy, similar standing height and same ground baseline within each cell. Layout equal rectangular cells, each figure including all hands and feet fully contained with clear transparent margins in its own cell, no touching or overlap across cells. No props, weapons, labels, text, floor, shadows or scenery. Wide atlas 2:1 aspect ratio. High detail natural clothing textures.",
+  "correction": "Fit each complete figure within transparent gutters; preserve all fingers and toes.",
+  "layout": {
+    "columns": [
+      0,
+      0.28,
+      0.5,
+      0.75,
+      1
+    ],
+    "rows": [
+      0,
+      0.54,
+      1
+    ]
+  },
+  "notes": "Folha complementar de quatro adversários brancos fictícios com duas poses. A família regional existente permanece nas ondas; aparência não muda os atributos de combate."
+}

@@ -15,7 +15,7 @@ Estado conferido em 20/10/2026. Dois protótipos funcionais independentes para n
 | Fatalities | Implementados como cenas fictícias e estilizadas | Ainda não há sistema equivalente de execução; possui especiais, supers e nocautes |
 | Multijogador | Duas pessoas no mesmo computador | Duas pessoas no mesmo computador |
 | Pela internet | Não implementado | Não implementado |
-| Repositório privado | https://github.com/tavinorama/street-brasa | https://github.com/tavinorama/streets-of-rage-brasa |
+| Repositório público | https://github.com/tavinorama/street-brasa | https://github.com/tavinorama/streets-of-rage-brasa |
 
 ## Conteúdo comum
 
@@ -25,7 +25,7 @@ As telas de seleção usam fotografias com créditos. As lutas usam reconstruç�
 
 A simulação funciona em passos fixos de 1/60 s, com gravidade, aceleração, frenagem, impulso, amortecimento e reações ao impacto. Sombras de contato e apoios dos pés acompanham a pose. Marcas de dano são sobreposições visuais estilizadas. A gravidade também continua depois de um round terminar, durante a derrota de inimigos e enquanto uma personagem aguarda reaparecer. As finalizações possuem exageros intencionais de ficção.
 
-O áudio combina duas gravações instrumentais de hinos com velocidade ajustável, inicialmente 18% mais rápida, e efeitos procedurais distintos para impactos, defesa, passos e especiais. Música e efeitos possuem volumes separados; as preferências são salvas localmente. Não existem dublagem das falas públicas nem clonagem de voz.
+O áudio combina duas gravações instrumentais de hinos com velocidade ajustável, inicialmente 25% mais rápida e com volume de 10%, e efeitos procedurais distintos para impactos, defesa, passos e especiais. Música e efeitos possuem volumes separados; as preferências são salvas localmente. Não existem dublagem das falas públicas nem clonagem de voz.
 
 O dossiê reúne histórico, posicionamentos e citações com fontes e datas. A conferência registrada foi em textos publicados; áudio e timestamps ainda não foram verificados. Piadas, golpes e cenas de combate são apresentados como ficção.
 
@@ -51,7 +51,7 @@ A PWA contém manifesto, ícones, instalação pela tela inicial e cache de arqu
 
 A integração possui 32 testes; as distribuições possuem 12 (Street Brasa) e 21 (Streets of Rage Brasa). Existem testes compartilhados, portanto os números não devem ser somados como casos únicos.
 
-Os dois repositórios GitHub são privados. Existe uma versão integrada hospedada em https://street-brasa-2026.otaviofranca.chatgpt.site, com acesso privado que exige login ChatGPT. Ela não é um endereço Pages da conta Cloudflare do usuário.
+Os dois repositórios GitHub são públicos. Existe uma versão integrada hospedada em https://street-brasa-2026.otaviofranca.chatgpt.site, com acesso privado que exige login ChatGPT. Ela não é um endereço Pages da conta Cloudflare do usuário.
 
 Cloudflare Pages: arquivos estáticos, configuração Wrangler e pacotes ZIP estão preparados. Os nomes configurados são `tavinorama-street-brasa` e `tavinorama-streets-of-rage-brasa`; nenhum endereço foi reservado nem publicado nessa conta. A conexão foi adiada pelo usuário. Cada README contém os passos para publicar após o login.
 
