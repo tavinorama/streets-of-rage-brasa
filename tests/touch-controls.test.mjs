@@ -1,0 +1,11 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+const listeners={},keys=[],buttons=[];
+function target(){const callbacks={};return {callbacks,addEventListener:(name,fn)=>callbacks[name]=fn,after(){},setAttribute(){},querySelector(){return {onclick:null}},querySelectorAll(){return buttons}}}
+const canvas={focus(){},width:0,height:0,dispatchEvent:event=>keys.push([event.type,event.code]),getContext:()=>({setTransform(){}})};
+const touch=target();globalThis.document={hidden:false,body:{dataset:{game:'streets'}},getElementById:()=>canvas,querySelector:selector=>selector==='.quick-controls'?{after(){}}:null,createElement:name=>name==='div'?touch:target(),addEventListener:(name,fn)=>listeners[name]=fn};
+globalThis.window={addEventListener:(name,fn)=>listeners[name]=fn};globalThis.location={pathname:'/streets.html'};globalThis.matchMedia=()=>({matches:true});globalThis.KeyboardEvent=class{constructor(type,options){this.type=type;Object.assign(this,options)}};
+await import('../dist/touch-controls.js');
+const press=(id,code)=>{const b={dataset:{code},classList:{add(){},remove(){}},setPointerCapture(){}};buttons.push(b);touch.callbacks.pointerdown({target:{closest:()=>b},pointerId:id,preventDefault(){}})};
+const release=id=>touch.callbacks.pointerup({pointerId:id,target:{closest:()=>null}});
+test('multiple fingers preserve a direction until the final finger releases it',()=>{press(1,'KeyD');press(2,'KeyD');press(3,'KeyG');assert.deepEqual(keys.splice(0),[['keydown','KeyD'],['keydown','KeyG']]);release(1);assert.equal(keys.length,0);release(2);release(3);assert.deepEqual(keys.splice(0),[['keyup','KeyD'],['keyup','KeyG']])});
+test('backgrounding releases every pointer; a new touch after return sends keydown again',()=>{press(4,'KeyD');press(5,'KeyF');keys.length=0;document.hidden=true;listeners.visibilitychange();assert.deepEqual(keys.splice(0),[['keyup','KeyD'],['keyup','KeyF']]);document.hidden=false;press(6,'KeyD');assert.deepEqual(keys.splice(0),[['keydown','KeyD']]);listeners.orientationchange();assert.deepEqual(keys.splice(0),[['keyup','KeyD']]);press(7,'KeyG');keys.length=0;listeners['brasa:modal']();assert.deepEqual(keys.splice(0),[['keyup','KeyG']])});
