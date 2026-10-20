@@ -1,60 +1,50 @@
 {
-  "researchedAt": "2026-10-20",
+  "reviewedAt": "2026-10-20",
   "tracks": [
     {
-      "id": "hino-nacional",
-      "title": "Hino Nacional Brasileiro — instrumental",
-      "path": "dist/assets/music/hino-nacional.mp3",
-      "sourcePage": "https://www.policiamilitar.sp.gov.br/unidades/26bpmm/downloads/hino.html",
-      "downloadUrl": "https://www.policiamilitar.sp.gov.br/unidades/26bpmm/downloads/2_Hino%20Nacional%20tocado.mp3",
-      "publisher": "26º Batalhão de Polícia Militar Metropolitano — Polícia Militar do Estado de São Paulo",
-      "sourceType": "Portal oficial de instituição militar estadual (.sp.gov.br). Alternativa às fontes federais cujo download instrumental retornou HTTP 403.",
-      "credit": "Francisco Manuel da Silva (composição); autoria da gravação/intérprete não informada na página.",
+      "id": "nacional",
+      "title": "Hino Nacional Brasileiro",
       "instrumental": true,
-      "vocalVerification": "A página oficial separa explicitamente canto e instrumental. Estes dois links são rotulados instrumental, seus nomes de arquivo usam tocado, e o título ID3 também usa tocado. Não houve remoção de voz nem alteração do áudio. Não realizada audição integral nesta pesquisa.",
-      "id3Title": "Hino Nacional tocado",
-      "durationSeconds": 115.502333,
-      "bitrate": 192301,
-      "sampleRate": "44100",
-      "channels": 2,
-      "sizeBytes": 2776408,
-      "sha256": "d6b168b239be2aa4444e8118ae4cbf52c41938a06da6799192807788425f7050",
-      "license": "A página disponibiliza download público, mas não declara licença específica da gravação, intérprete ou autorização expressa para adaptações/redistribuição. Não classificar como CC ou gravação livre por inferência.",
-      "licenseUrl": null,
-      "processing": "Cópia exata do MP3 da fonte oficial. Reprodução original 1.0; arquivo não acelerado nem editado."
+      "path": "dist/assets/music/hino-nacional-verified.mp3",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Hino_Nacional_Brasileiro_instrumental.ogg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Hino_Nacional_Brasileiro_instrumental.ogg",
+      "credit": "Francisco Manuel da Silva (composição); United States Navy Band (execução)",
+      "license": "Public Domain Mark 1.0, conforme a página do arquivo: composição e execução descritas separadamente.",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "reviewedAt": "2026-10-20",
+      "sha256": "25bac2f47ab4324e655ab1f509d85624ef0e3d1349111f0962a685da18fcca8c",
+      "processing": "Conversão local Ogg → MP3 a 160 kbps para compatibilidade com Safari e WebViews. Velocidade do arquivo preservada; reprodução configurável no jogo.",
+      "vocalVerification": "Fonte descreve a execução por banda instrumental; não é uma gravação de coro. Auditoria de licença e metadados registrada separadamente de audição integral."
     },
     {
-      "id": "hino-bandeira",
-      "title": "Hino à Bandeira — instrumental",
-      "path": "dist/assets/music/hino-bandeira.mp3",
-      "sourcePage": "https://www.policiamilitar.sp.gov.br/unidades/26bpmm/downloads/hino.html",
-      "downloadUrl": "https://www.policiamilitar.sp.gov.br/unidades/26bpmm/downloads/5_Hino%20a%20Bandeira%20tocado.mp3",
-      "publisher": "26º Batalhão de Polícia Militar Metropolitano — Polícia Militar do Estado de São Paulo",
-      "sourceType": "Portal oficial de instituição militar estadual (.sp.gov.br). Alternativa às fontes federais cujo download instrumental retornou HTTP 403.",
-      "credit": "Francisco Braga (composição); autoria da gravação/intérprete não informada na página.",
+      "id": "bandeira",
+      "title": "Hino à Bandeira",
       "instrumental": true,
-      "vocalVerification": "A página oficial separa explicitamente canto e instrumental. Estes dois links são rotulados instrumental, seus nomes de arquivo usam tocado, e o título ID3 também usa tocado. Não houve remoção de voz nem alteração do áudio. Não realizada audição integral nesta pesquisa.",
-      "id3Title": "Hino à Bandeira tocado",
-      "durationSeconds": 293.755833,
-      "bitrate": 192118,
-      "sampleRate": "44100",
-      "channels": 2,
-      "sizeBytes": 7054492,
-      "sha256": "1dd6876ec4d295e46b89b7c18053fdb5050a0596dc0f3c06762d7c8cbf3c2aa5",
-      "license": "A página disponibiliza download público, mas não declara licença específica da gravação, intérprete ou autorização expressa para adaptações/redistribuição. Não classificar como CC ou gravação livre por inferência.",
-      "licenseUrl": null,
-      "processing": "Cópia exata do MP3 da fonte oficial. Reprodução original 1.0; arquivo não acelerado nem editado."
+      "path": "dist/assets/music/hino-bandeira-verified.mp3",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Brazilian_Flag_Anthem.ogg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/6/60/Brazilian_Flag_Anthem.ogg",
+      "credit": "Francisco Braga (composição); banda do Exército Brasileiro (execução, conforme o catálogo)",
+      "license": "Public Domain Mark 1.0, conforme a página do arquivo: composição e execução descritas separadamente.",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "reviewedAt": "2026-10-20",
+      "sha256": "0069be6dd6462e453fe9dde61c90aea8147bcc44aedb308555c714d678f31e23",
+      "processing": "Conversão local Ogg → MP3 a 160 kbps para compatibilidade com Safari e WebViews. Velocidade do arquivo preservada; reprodução configurável no jogo.",
+      "vocalVerification": "Fonte descreve a execução por banda instrumental; não é uma gravação de coro. Auditoria de licença e metadados registrada separadamente de audição integral."
     }
   ],
-  "limitations": [
-    "Foram priorizadas duas gravações claramente instrumentais em fonte oficial; Independência e República não foram incluídos porque não houve confirmação e download federal disponível neste levantamento.",
-    "Links me000002.mp3 e me000005.mp3 do Portal Domínio Público/MEC retornaram HTTP 403 nos hosts oficiais testados.",
-    "Não atribuir execução à banda da PMESP: o portal hospeda os arquivos, mas não informa quem gravou.",
-    "Este inventário registra proveniência e limites, sem conclusão jurídica sobre uso em jogo ou alteração de velocidade."
+  "replaced": [
+    {
+      "path": "dist/assets/music/hino-nacional.mp3",
+      "reason": "Permissão específica da gravação não identificada na fonte anterior; retirada desta distribuição."
+    },
+    {
+      "path": "dist/assets/music/hino-bandeira.mp3",
+      "reason": "Permissão específica da gravação não identificada na fonte anterior; retirada desta distribuição."
+    }
   ],
   "requestedPlayback": {
-    "playbackRate": 1.15,
-    "preservesPitch": true,
-    "appliedHere": false
+    "playbackRate": 1.25,
+    "volume": 0.1,
+    "preservesPitch": true
   }
 }

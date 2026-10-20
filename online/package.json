@@ -1,0 +1,1 @@
+{"name":"brasa-arcade-online","private":true,"type":"module","scripts":{"dev":"wrangler dev --port 8790","deploy":"wrangler deploy","test":"node --test tests/*.test.mjs"},"devDependencies":{"wrangler":"4.151.3"}}

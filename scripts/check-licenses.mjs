@@ -1,0 +1,7 @@
+import fs from 'node:fs/promises';import path from 'node:path';import crypto from 'node:crypto';
+const root=path.resolve(import.meta.dirname,'..'),failures=[];
+const photos=JSON.parse(await fs.readFile(path.join(root,'dist/photo-credits.json'),'utf8'));
+for(const photo of photos.photos){const file=path.join(root,'dist/assets/portraits',photo.id+'.jpg');if(photo.redistributed===false){try{await fs.access(file);failures.push('Excluded photo still distributed: '+photo.id)}catch{}}else if(!photo.credit||!/^https:\/\//.test(photo.licenseUrl||''))failures.push('Missing attribution or terms: '+photo.id)}
+const music=JSON.parse(await fs.readFile(path.join(root,'music-sources.json'),'utf8'));for(const track of music.tracks){if(!track.sourcePage||!track.licenseUrl)failures.push('Music provenance missing: '+track.id);const hash=crypto.createHash('sha256').update(await fs.readFile(path.join(root,track.path))).digest('hex');if(hash!==track.sha256)failures.push('Music does not match reviewed artifact: '+track.id)}
+for(const name of ['hino-nacional.mp3','hino-bandeira.mp3'])try{await fs.access(path.join(root,'dist/assets/music',name));failures.push('Unverified legacy recording still distributed: '+name)}catch{}
+if(failures.length){for(const f of failures)console.error(f);process.exitCode=1}else console.log('Media inventory OK: credited photographs and reviewed recordings; excluded files absent.');

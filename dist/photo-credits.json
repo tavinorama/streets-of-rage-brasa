@@ -9,7 +9,8 @@
       "title": "Foto oficial de Luiz Inácio Lula da Silva (estreita).jpg",
       "date": "2023-02-16",
       "notes": "Recorte pré-existente no Commons do retrato oficial; sem edição local.",
-      "path": "assets/portraits/lula.jpg"
+      "path": "assets/portraits/lula.jpg",
+      "redistributed": true
     },
     {
       "id": "flavio",
@@ -20,7 +21,8 @@
       "title": "Retrato oficial do senador Flávio Bolsonaro",
       "date": "2019-02-01",
       "notes": "Arquivo oficial do Senado. Resolução limitada a 480×600; download da versão maior no Commons retornou 429/403.",
-      "path": "assets/portraits/flavio.jpg"
+      "path": "assets/portraits/flavio.jpg",
+      "redistributed": true
     },
     {
       "id": "jair",
@@ -31,7 +33,8 @@
       "title": "Jair Bolsonaro 2019 Portrait (3x4 cropped center).jpg",
       "date": "2019-04-24",
       "notes": "Recorte pré-existente no Commons de foto do pronunciamento presidencial; sem edição local.",
-      "path": "assets/portraits/jair.jpg"
+      "path": "assets/portraits/jair.jpg",
+      "redistributed": true
     },
     {
       "id": "tarcisio",
@@ -42,7 +45,8 @@
       "title": "Governador do Estado de São Paulo, Tarcísio de Freitas - Foto Oficial.jpg",
       "date": "2023-01-04",
       "notes": "Foto oficial integral do governador; sem edição local.",
-      "path": "assets/portraits/tarcisio.jpg"
+      "path": "assets/portraits/tarcisio.jpg",
+      "redistributed": true
     },
     {
       "id": "nikolas",
@@ -53,17 +57,20 @@
       "title": "Nikolas Ferreira in 2023 (cropped).jpg",
       "date": "2023-02-09",
       "notes": "Recorte pré-existente no Commons de foto na tribuna; sem edição local.",
-      "path": "assets/portraits/nikolas.jpg"
+      "path": "assets/portraits/nikolas.jpg",
+      "redistributed": true
     },
     {
       "id": "dino",
       "credit": "Gustavo Moreno/STF",
-      "license": "Attribution",
-      "licenseUrl": "não localizada",
+      "license": "Uso com atribuição à fonte e ao fotógrafo, conforme os termos do STF reproduzidos na página do arquivo.",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Fl%C3%A1vio_Dino_no_voto_da_A%C3%A7%C3%A3o_Penal_(AP)_2668_(cropped).jpg#Licensing",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Fl%C3%A1vio_Dino_no_voto_da_A%C3%A7%C3%A3o_Penal_(AP)_2668_(cropped).jpg",
       "title": "Flávio_Dino_no_voto_da_Ação_Penal_(AP)_2668_(cropped).jpg",
       "notes": "",
-      "path": "assets/portraits/dino.jpg"
+      "path": "assets/portraits/dino.jpg",
+      "redistributed": true,
+      "reviewedAt": "2026-10-20"
     },
     {
       "id": "moraes",
@@ -73,17 +80,20 @@
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Ministro_Alexandre_de_Moraes_como_presidente_do_TSE.jpg",
       "title": "Ministro_Alexandre_de_Moraes_como_presidente_do_TSE.jpg",
       "notes": "",
-      "path": "assets/portraits/moraes.jpg"
+      "path": "assets/portraits/moraes.jpg",
+      "redistributed": true
     },
     {
       "id": "mendonca",
       "credit": "Rosinei Coutinho/STF",
-      "license": "Attribution",
-      "licenseUrl": "não localizada",
+      "license": "Uso com atribuição à fonte e ao fotógrafo, conforme os termos do STF reproduzidos na página do arquivo.",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ministro_Andr%C3%A9_Mendon%C3%A7a_em_outubro_de_2025_(3x4).jpg#Licensing",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Ministro_Andr%C3%A9_Mendon%C3%A7a_em_outubro_de_2025_(3x4).jpg",
       "title": "Ministro_André_Mendonça_em_outubro_de_2025_(3x4).jpg",
       "notes": "",
-      "path": "assets/portraits/mendonca.jpg"
+      "path": "assets/portraits/mendonca.jpg",
+      "redistributed": true,
+      "reviewedAt": "2026-10-20"
     },
     {
       "id": "daniella",
@@ -93,7 +103,8 @@
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Daniella_Marques_e_Augusto_Aras_06_(cropped).jpg",
       "title": "Daniella_Marques_e_Augusto_Aras_06_(cropped).jpg",
       "notes": "",
-      "path": "assets/portraits/daniella.jpg"
+      "path": "assets/portraits/daniella.jpg",
+      "redistributed": true
     },
     {
       "id": "janja",
@@ -103,7 +114,8 @@
       "sourcePage": "https://commons.wikimedia.org/wiki/File:01.01.2023_-_Solenidade_de_Posse_Presidencial_39%C2%BA_presidente_do_Brasil_(52621118867)_(cropped).jpg",
       "title": "01.01.2023_-_Solenidade_de_Posse_Presidencial_39º_presidente_do_Brasil_(52621118867)_(cropped).jpg",
       "notes": "",
-      "path": "assets/portraits/janja.jpg"
+      "path": "assets/portraits/janja.jpg",
+      "redistributed": true
     },
     {
       "id": "janones",
@@ -113,8 +125,9 @@
       "sourcePage": "https://www.camara.leg.br/banco-imagens/pesquisar?buscar=andr%C3%A9+janones&dtfinal=&dtinicial=",
       "title": "Reunião de Líderes. Dep. André Janones (REDE - MG)",
       "date": "2026-06-16",
-      "notes": "Crédito obrigatório. Pessoas e ambiente ao fundo presentes.",
-      "path": "assets/portraits/janones.jpg"
+      "notes": "Crédito obrigatório. Pessoas e ambiente ao fundo presentes. Versão exata da licença não confirmada; fotografia retirada do pacote, mantendo a referência externa.",
+      "path": "assets/portraits/janones.jpg",
+      "redistributed": false
     },
     {
       "id": "ana",
@@ -124,7 +137,8 @@
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Ana_Elisa_TSE_2026.jpg",
       "title": "Fotografia de Ana Elisa Santos Silva para a urna em 2026",
       "notes": "Original 1080×1509 retornou HTTP 429; versão oficial do thumbnail 960×1341 baixada sem edição. A imagem já é suave/ampliada na origem, não equivale a alta nitidez. Não recortar ou fabricar outra identidade.",
-      "path": "assets/portraits/ana.jpg"
+      "path": "assets/portraits/ana.jpg",
+      "redistributed": true
     },
     {
       "id": "marcal",
@@ -134,15 +148,17 @@
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Pablo_Mar%C3%A7al_entrevista_Kim_Kataguiri_(cropped).jpg",
       "date": "2024-05-27",
       "notes": "Arquivo já foi recortado pelo publicador do Commons; baixado tal como fornecido, sem novas edições.",
-      "path": "assets/portraits/marcal.jpg"
+      "path": "assets/portraits/marcal.jpg",
+      "redistributed": true
     },
     {
       "id": "vorcaro",
       "credit": "Divulgação / Banco Master — origem de assessoria indicada nas fontes de imprensa; atribuição a Márcio Gustavo Vasconcelos no Commons não verificada",
       "license": "Não confirmada; CC0 no Commons está contestada em pedido de exclusão por possível Flickrwashing desde 21/09/2026.",
       "sourcePage": "https://commons.wikimedia.org/wiki/File:Daniel_Vorcaro_-_2024.jpg",
-      "notes": "Não tratar como imagem livre. Original retornou 429; thumbnail 500×548 baixado sem edição. Adequado como referência privada; liberação editorial/comercial precisa de fonte com autorização.",
-      "path": "assets/portraits/vorcaro.jpg"
+      "notes": "Não tratar como imagem livre. Original retornou 429; thumbnail 500×548 baixado sem edição. Adequado como referência privada; liberação editorial/comercial precisa de fonte com autorização. Fotografia retirada da distribuição em 20/10/2026; a referência permanece como link externo e o jogo exibe a reconstrução própria.",
+      "path": "assets/portraits/vorcaro.jpg",
+      "redistributed": false
     },
     {
       "id": "roberta",
@@ -151,8 +167,9 @@
       "sourcePage": "https://www.cnnbrasil.com.br/politica/veja-a-integra-da-entrevista-concedida-por-luchsinger-a-cnn-brasil/",
       "title": "A empresária Roberta Luchsinger em entrevista à CNN Brasil",
       "date": "2026-10-17",
-      "notes": "Frame da entrevista; 1920×1080. Uso como referência/protótipo local. A disponibilização pelo site não comprova autorização para exploração comercial.",
-      "path": "assets/portraits/roberta.jpg"
+      "notes": "Frame da entrevista; 1920×1080. Uso como referência/protótipo local. A disponibilização pelo site não comprova autorização para exploração comercial. Fotografia retirada da distribuição em 20/10/2026; a referência permanece como link externo e o jogo exibe a reconstrução própria.",
+      "path": "assets/portraits/roberta.jpg",
+      "redistributed": false
     },
     {
       "id": "lulinha",
@@ -160,8 +177,9 @@
       "license": "Todos os direitos reservados; licença livre não identificada",
       "sourcePage": "https://www.cnnbrasil.com.br/politica/quem-e-lulinha-que-teve-quebra-de-sigilo-aprovada-pela-cpmi-do-inss/",
       "title": "Fábio Luís Lula da Silva (Lulinha), filho do presidente da República, Luiz Inácio Lula da Silva (PT)",
-      "notes": "Foto histórica 1200×782. Não confundir com o jogador de futebol chamado Lulinha; fonte identifica expressamente o empresário.",
-      "path": "assets/portraits/lulinha.jpg"
+      "notes": "Foto histórica 1200×782. Não confundir com o jogador de futebol chamado Lulinha; fonte identifica expressamente o empresário. Fotografia retirada da distribuição em 20/10/2026; a referência permanece como link externo e o jogo exibe a reconstrução própria.",
+      "path": "assets/portraits/lulinha.jpg",
+      "redistributed": false
     }
   ],
   "generated": "Sprites e arena reconstruídos com Imagegen a partir das fotografias de referência; não representam cenas reais.",

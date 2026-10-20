@@ -3,3 +3,6 @@ node_modules/
 .DS_Store
 .env*
 .dev.vars*
+*.jks
+*.keystore
+ios-simulator.zip

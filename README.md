@@ -4,7 +4,7 @@ Jogo independente de navegador para PC e celular, com controles por teclado e to
 
 [Jogar Streets of Rage Brasa](https://brasa-arcade.pages.dev/streets) · [Central Brasa Arcade](https://brasa-arcade.pages.dev/)
 
-Panorama dos dois produtos e próximas entregas: [OVERVIEW.md](OVERVIEW.md).
+Panorama dos dois produtos: [OVERVIEW.md](OVERVIEW.md). Entregas e validações pendentes: [RELEASE-STATUS.md](RELEASE-STATUS.md). Controles remapeáveis, acessibilidade e dificuldade estão no botão Configurações. A campanha de rua salva o progresso neste aparelho. Há salas para duas pessoas pela internet quando o servidor está conectado; veja [ONLINE.md](ONLINE.md). Inventário de mídia: [ASSET-LICENSES.md](ASSET-LICENSES.md).
 
 ## Rodar
 
@@ -22,7 +22,7 @@ Alternativa: no painel Cloudflare, Workers & Pages → criar Pages → conectar 
 
 ## Aplicativo no celular
 
-O manifesto e o service worker permitem instalar a PWA no Android e no Safari do iPhone. Primeiro abra a versão HTTPS e use Instalar ou Adicionar à Tela de Início. O áudio começa depois de tocar em Jogar. Os arquivos já visitados podem funcionar sem rede enquanto o navegador mantiver o cache; trilhas não são garantidas offline. Uma versão nativa para as lojas ainda não foi empacotada.
+O manifesto e o service worker permitem instalar a PWA no Android e no Safari do iPhone. Primeiro abra a versão HTTPS e use Instalar ou Adicionar à Tela de Início. O áudio começa depois de tocar em Jogar. Os arquivos já visitados podem funcionar sem rede enquanto o navegador mantiver o cache; trilhas não são garantidas offline. Projetos nativos Android/iOS e instruções de compilação estão em [NATIVE.md](NATIVE.md). Pacotes de teste ficam nos artefatos do workflow Native builds, em GitHub Actions.
 
 ## Física e arte
 

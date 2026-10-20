@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Streets of Rage Brasa</string>
+    <string name="title_activity_main">Streets of Rage Brasa</string>
+    <string name="package_name">dev.brasaarcade.streets</string>
+    <string name="custom_url_scheme">dev.brasaarcade.streets</string>
+</resources>

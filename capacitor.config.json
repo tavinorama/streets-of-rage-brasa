@@ -1,0 +1,16 @@
+{
+  "appId": "dev.brasaarcade.streets",
+  "appName": "Streets of Rage Brasa",
+  "webDir": "dist",
+  "backgroundColor": "#102429",
+  "android": {
+    "backgroundColor": "#102429"
+  },
+  "ios": {
+    "backgroundColor": "#102429",
+    "contentInset": "always"
+  },
+  "server": {
+    "androidScheme": "https"
+  }
+}
