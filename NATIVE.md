@@ -23,3 +23,7 @@ A política de privacidade está em `dist/privacy.html`. A indicação 16+ no pr
 Esta beta inclui a configuração do servidor online público e a correção da animação dos corpos derrotados. O conteúdo dos pacotes foi comparado aos módulos do commit da release.
 
 Versão 0.3.1 (build 31): mute persistente dentro da arena, finalizações individuais com prévia e correção de queda na derrota por tempo.
+
+## Preparação 0.3.3 / build 33
+
+Projetos atualizados; o workflow também gera AAB de release sem assinatura. Assinatura Android opcional usa variáveis de ambiente e um workflow manual. Veja STORE-RELEASE.md e store-listing.json. A nova compilação e os pacotes serão vinculados na release beta-v33-2026-10-20; o pacote anterior acima permanece histórico até a nova compilação concluir.

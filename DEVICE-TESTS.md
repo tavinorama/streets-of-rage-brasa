@@ -30,3 +30,7 @@ Registrar modelo, sistema, navegador/versão, orientação e qualidade visual. A
 ## Balanceamento com jogadores
 
 Os níveis História/Padrão/Arcade possuem multiplicadores explícitos de dano, resistência, velocidade, cadência e número de atacantes simultâneos. A CPU usa tempos de reação por dificuldade. A campanha limita ataques simultâneos e sinaliza golpes. Os testes verificam esses efeitos e a estabilidade do combate; ainda é necessário colher retorno de jogadores sobre diversão, clareza dos golpes e dificuldade. Registrar personagem, fase, dificuldade, duração, mortes e motivo de desistência. Não tratar bots como sessões humanas de teste.
+
+## Evidência da revisão 0.3.3
+
+Execução automática de 28 campanhas (196 fases completas), cobrindo os 16 personagens e uma matriz dos lados/dificuldades/solo/dupla; protocolo remoto aprovado para pausa e retorno dos dois papéis com atrasos artificiais de envio. Arquivos JSON em validation/. Isso amplia a cobertura técnica, mas não substitui a matriz física nem feedback de jogadores. O ambiente local não possui adb ou simuladores Xcode disponíveis.

@@ -22,3 +22,15 @@ Atualizado em 20/10/2026. Este arquivo distingue implementação de validação 
 A seleção dos bairros segue documentada como editorial e não como ranking nacional. Os testes de inventário não substituem análise jurídica; a indicação 16+ do protótipo não é classificação oficial das lojas.
 
 Atualização v31: 15 folhas de figurino refeitas com letras nas próprias roupas; etiquetas flutuantes e equipamentos sobrepostos retirados. Dezesseis finalizações com quatro etapas, cenários e falas de paródia individuais, além de prévia com linha do tempo. Mute de música persistente dentro da arena, inclusive em tela cheia; propriedade nativa muted e pausa explícita.
+
+## Atualização 0.3.3 / build 33
+
+- Corrigida a rotação do primeiro quadro da queda: zero não é mais substituído por um corpo completamente deitado. Regressão verifica continuidade e contato com o piso.
+- Golpes passam por antecipação, contato e recuperação seguindo o relógio do dano; pausa de impacto limitada a 30–65 ms. Gravidade de derrotados continua normalmente. Finalizações recebem aproximação de câmera no impacto, respeitando movimento reduzido. A arte continua baseada em três poses, sem novos ciclos desenhados quadro a quadro.
+- Chefes e cobradores recompõem a guarda após golpes consecutivos; especiais deixam de dar proteção quase contínua. Energia e pontuação contam o dano efetivo, evitando bônus por dano excedente.
+- 28 campanhas automatizadas completas: 16 personagens no Padrão e combinações dos dois lados, três dificuldades, solo e dupla. Todas chegaram à fase 7 e à vitória, sem estado inválido. São bots com comandos normais, não sessões humanas. Relatório: validation/campaign-balance.json; reprodução: node scripts/balance-campaign.mjs no repositório Streets.
+- 75 testes locais aprovados; mais quatro verificações do relay público, incluindo snapshots reais dos dois jogos, atrasos de envio de 40–230 ms, pausa/retomada e reconexão de host e convidado. Relatório: validation/online-resilience.json. Os dois clientes foram executados neste computador, sem alegação de redes físicas diferentes.
+- Cliente online descarta snapshots antigos, limpa comandos presos na reconexão, cancela tentativas de uma sala abandonada e exibe tempo de resposta ao servidor.
+- Projetos nativos atualizados para 0.3.3 / 33. CI passa a gerar AAB sem assinatura além de APK debug e app iOS de simulador. Workflow manual de assinatura Android preparado, dependente da chave do titular. Nenhum secret de assinatura disponível nos repositórios durante esta revisão.
+
+Continuam dependentes de recursos externos: sessões humanas de balanceamento, aparelhos Android/iPhone, redes físicas distintas e assinatura/contas/revisão das lojas. Esses itens não foram marcados como concluídos.

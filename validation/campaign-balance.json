@@ -1,0 +1,487 @@
+{
+  "method": "Scripted controls at 60 Hz, fixed seed 12345, no direct damage or HP modification. Not human playtesting.",
+  "results": [
+    {
+      "fighter": "lula",
+      "side": "left",
+      "difficulty": "standard",
+      "mode": "solo",
+      "result": "victory",
+      "stage": 7,
+      "seconds": 282,
+      "score": 85498,
+      "kills": 70,
+      "hits": 13,
+      "downs": 0,
+      "clears": 7,
+      "lives": [
+        3
+      ]
+    },
+    {
+      "fighter": "flavio",
+      "side": "right",
+      "difficulty": "standard",
+      "mode": "solo",
+      "result": "victory",
+      "stage": 7,
+      "seconds": 203,
+      "score": 85572,
+      "kills": 70,
+      "hits": 8,
+      "downs": 0,
+      "clears": 7,
+      "lives": [
+        3
+      ]
+    },
+    {
+      "fighter": "nikolas",
+      "side": "left",
+      "difficulty": "standard",
+      "mode": "solo",
+      "result": "victory",
+      "stage": 7,
+      "seconds": 273,
+      "score": 85460,
+      "kills": 70,
+      "hits": 15,
+      "downs": 0,
+      "clears": 7,
+      "lives": [
+        3
+      ]
+    },
+    {
+      "fighter": "janja",
+      "side": "right",
+      "difficulty": "standard",
+      "mode": "solo",
+      "result": "victory",
+      "stage": 7,
+      "seconds": 309,
+      "score": 85548,
+      "kills": 70,
+      "hits": 0,
+      "downs": 0,
+      "clears": 7,
+      "lives": [
+        3
+      ]
+    },
+    {
+      "fighter": "janones",
+      "side": "left",
+      "difficulty": "standard",
+      "mode": "solo",
+      "result": "victory",
+      "stage": 7,
+      "seconds": 273,
+      "score": 85120,
+      "kills": 70,
+      "hits": 13,
+      "downs": 0,
+      "clears": 7,
+      "lives": [
+        3
+      ]
+    },
+    {
+      "fighter": "daniella",
+      "side": "right",
+      "difficulty": "standard",
+      "mode": "solo",
+      "result": "victory",
+      "stage": 7,
+      "seconds": 234,
+      "score": 85273,
+      "kills": 70,
+      "hits": 9,
+      "downs": 0,
+      "clears": 7,
+      "lives": [
+        3
+      ]
+    },
+    {
+      "fighter": "tarcisio",
+      "side": "left",
+      "difficulty": "standard",
+      "mode": "solo",
+      "result": "victory",
+      "stage": 7,
+      "seconds": 241,
+      "score": 85439,
+      "kills": 70,
+      "hits": 4,
+      "downs": 0,
+      "clears": 7,
+      "lives": [
+        3
+      ]
+    },
+    {
+      "fighter": "dino",
+      "side": "right",
+      "difficulty": "standard",
+      "mode": "solo",
+      "result": "victory",
+      "stage": 7,
+      "seconds": 249,
+      "score": 85344,
+      "kills": 70,
+      "hits": 9,
+      "downs": 0,
+      "clears": 7,
+      "lives": [
+        3
+      ]
+    },
+    {
+      "fighter": "moraes",
+      "side": "left",
+      "difficulty": "standard",
+      "mode": "solo",
+      "result": "victory",
+      "stage": 7,
+      "seconds": 235,
+      "score": 85188,
+      "kills": 70,
+      "hits": 7,
+      "downs": 0,
+      "clears": 7,
+      "lives": [
+        3
+      ]
+    },
+    {
+      "fighter": "mendonca",
+      "side": "right",
+      "difficulty": "standard",
+      "mode": "solo",
+      "result": "victory",
+      "stage": 7,
+      "seconds": 322,
+      "score": 85548,
+      "kills": 70,
+      "hits": 0,
+      "downs": 0,
+      "clears": 7,
+      "lives": [
+        3
+      ]
+    },
+    {
+      "fighter": "vorcaro",
+      "side": "left",
+      "difficulty": "standard",
+      "mode": "solo",
+      "result": "victory",
+      "stage": 7,
+      "seconds": 282,
+      "score": 85498,
+      "kills": 70,
+      "hits": 13,
+      "downs": 0,
+      "clears": 7,
+      "lives": [
+        3
+      ]
+    },
+    {
+      "fighter": "jair",
+      "side": "right",
+      "difficulty": "standard",
+      "mode": "solo",
+      "result": "victory",
+      "stage": 7,
+      "seconds": 234,
+      "score": 85140,
+      "kills": 70,
+      "hits": 9,
+      "downs": 0,
+      "clears": 7,
+      "lives": [
+        3
+      ]
+    },
+    {
+      "fighter": "ana",
+      "side": "left",
+      "difficulty": "standard",
+      "mode": "solo",
+      "result": "victory",
+      "stage": 7,
+      "seconds": 208,
+      "score": 85609,
+      "kills": 70,
+      "hits": 6,
+      "downs": 0,
+      "clears": 7,
+      "lives": [
+        3
+      ]
+    },
+    {
+      "fighter": "roberta",
+      "side": "right",
+      "difficulty": "standard",
+      "mode": "solo",
+      "result": "victory",
+      "stage": 7,
+      "seconds": 309,
+      "score": 85548,
+      "kills": 70,
+      "hits": 0,
+      "downs": 0,
+      "clears": 7,
+      "lives": [
+        3
+      ]
+    },
+    {
+      "fighter": "lulinha",
+      "side": "left",
+      "difficulty": "standard",
+      "mode": "solo",
+      "result": "victory",
+      "stage": 7,
+      "seconds": 273,
+      "score": 85120,
+      "kills": 70,
+      "hits": 13,
+      "downs": 0,
+      "clears": 7,
+      "lives": [
+        3
+      ]
+    },
+    {
+      "fighter": "marcal",
+      "side": "right",
+      "difficulty": "standard",
+      "mode": "solo",
+      "result": "victory",
+      "stage": 7,
+      "seconds": 208,
+      "score": 85874,
+      "kills": 70,
+      "hits": 8,
+      "downs": 0,
+      "clears": 7,
+      "lives": [
+        3
+      ]
+    },
+    {
+      "fighter": "lula",
+      "side": "left",
+      "difficulty": "story",
+      "mode": "solo",
+      "result": "victory",
+      "stage": 7,
+      "seconds": 251,
+      "score": 76948,
+      "kills": 70,
+      "hits": 9,
+      "downs": 0,
+      "clears": 7,
+      "lives": [
+        3
+      ]
+    },
+    {
+      "fighter": "lula",
+      "side": "left",
+      "difficulty": "story",
+      "mode": "local",
+      "result": "victory",
+      "stage": 7,
+      "seconds": 276,
+      "score": 111222,
+      "kills": 112,
+      "hits": 8,
+      "downs": 0,
+      "clears": 7,
+      "lives": [
+        3,
+        3
+      ]
+    },
+    {
+      "fighter": "lula",
+      "side": "left",
+      "difficulty": "standard",
+      "mode": "solo",
+      "result": "victory",
+      "stage": 7,
+      "seconds": 282,
+      "score": 85498,
+      "kills": 70,
+      "hits": 13,
+      "downs": 0,
+      "clears": 7,
+      "lives": [
+        3
+      ]
+    },
+    {
+      "fighter": "lula",
+      "side": "left",
+      "difficulty": "standard",
+      "mode": "local",
+      "result": "victory",
+      "stage": 7,
+      "seconds": 297,
+      "score": 125762,
+      "kills": 112,
+      "hits": 7,
+      "downs": 0,
+      "clears": 7,
+      "lives": [
+        3,
+        3
+      ]
+    },
+    {
+      "fighter": "lula",
+      "side": "left",
+      "difficulty": "arcade",
+      "mode": "solo",
+      "result": "victory",
+      "stage": 7,
+      "seconds": 303,
+      "score": 93486,
+      "kills": 70,
+      "hits": 12,
+      "downs": 0,
+      "clears": 7,
+      "lives": [
+        3
+      ]
+    },
+    {
+      "fighter": "lula",
+      "side": "left",
+      "difficulty": "arcade",
+      "mode": "local",
+      "result": "victory",
+      "stage": 7,
+      "seconds": 317,
+      "score": 138825,
+      "kills": 112,
+      "hits": 6,
+      "downs": 0,
+      "clears": 7,
+      "lives": [
+        3,
+        3
+      ]
+    },
+    {
+      "fighter": "flavio",
+      "side": "right",
+      "difficulty": "story",
+      "mode": "solo",
+      "result": "victory",
+      "stage": 7,
+      "seconds": 192,
+      "score": 76706,
+      "kills": 70,
+      "hits": 6,
+      "downs": 0,
+      "clears": 7,
+      "lives": [
+        3
+      ]
+    },
+    {
+      "fighter": "flavio",
+      "side": "right",
+      "difficulty": "story",
+      "mode": "local",
+      "result": "victory",
+      "stage": 7,
+      "seconds": 189,
+      "score": 111210,
+      "kills": 112,
+      "hits": 8,
+      "downs": 0,
+      "clears": 7,
+      "lives": [
+        3,
+        3
+      ]
+    },
+    {
+      "fighter": "flavio",
+      "side": "right",
+      "difficulty": "standard",
+      "mode": "solo",
+      "result": "victory",
+      "stage": 7,
+      "seconds": 203,
+      "score": 85572,
+      "kills": 70,
+      "hits": 8,
+      "downs": 0,
+      "clears": 7,
+      "lives": [
+        3
+      ]
+    },
+    {
+      "fighter": "flavio",
+      "side": "right",
+      "difficulty": "standard",
+      "mode": "local",
+      "result": "victory",
+      "stage": 7,
+      "seconds": 197,
+      "score": 125826,
+      "kills": 112,
+      "hits": 7,
+      "downs": 0,
+      "clears": 7,
+      "lives": [
+        3,
+        3
+      ]
+    },
+    {
+      "fighter": "flavio",
+      "side": "right",
+      "difficulty": "arcade",
+      "mode": "solo",
+      "result": "victory",
+      "stage": 7,
+      "seconds": 207,
+      "score": 93397,
+      "kills": 70,
+      "hits": 8,
+      "downs": 0,
+      "clears": 7,
+      "lives": [
+        3
+      ]
+    },
+    {
+      "fighter": "flavio",
+      "side": "right",
+      "difficulty": "arcade",
+      "mode": "local",
+      "result": "victory",
+      "stage": 7,
+      "seconds": 201,
+      "score": 139095,
+      "kills": 112,
+      "hits": 8,
+      "downs": 0,
+      "clears": 7,
+      "lives": [
+        3,
+        3
+      ]
+    }
+  ]
+}
