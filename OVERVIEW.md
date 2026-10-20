@@ -49,7 +49,7 @@ A PWA contém manifesto, ícones, instalação pela tela inicial e cache de arqu
 
 `npm run check` verifica referências estáticas, importações, entradas da PWA, arquivos do service worker, limites das imagens e 48 poses do elenco. Depois executa os testes das regras de jogo. Há testes específicos para a queda após o fim de round, inimigos derrotados no ar e jogadores derrotados antes do reaparecimento ou do game over.
 
-A integração possui 38 testes; as distribuições possuem 16 (Street Brasa) e 27 (Streets of Rage Brasa). Existem testes compartilhados, portanto os números não devem ser somados como casos únicos.
+A integração possui 41 testes; as distribuições possuem 16 (Street Brasa) e 30 (Streets of Rage Brasa). Existem testes compartilhados, portanto os números não devem ser somados como casos únicos.
 
 Os dois repositórios GitHub são públicos. Existe uma versão integrada hospedada em https://street-brasa-2026.otaviofranca.chatgpt.site, com acesso privado que exige login ChatGPT. Ela não é um endereço Pages da conta Cloudflare do usuário.
 
