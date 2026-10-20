@@ -15,3 +15,7 @@ O workflow **Native builds** executa a compilação Android em Linux e a compila
 Para Google Play: gerar AAB de release com uma chave de assinatura sob controle do titular, criar o cadastro e concluir a ficha, classificação e revisão. Para App Store/TestFlight: conta Apple Developer, equipe de assinatura, identificador, certificados/perfis e envio pelo Xcode/App Store Connect. Nenhuma credencial ou chave de release foi criada ou incluída no repositório.
 
 A política de privacidade está em `dist/privacy.html`. A indicação 16+ no protótipo é editorial; as lojas exigem questionário próprio. Testar em aparelhos físicos antes de distribuir ao público.
+
+## Beta compilada em 20/10/2026
+
+[Baixar pacotes de teste](https://github.com/tavinorama/streets-of-rage-brasa/releases/tag/beta-2026-10-20) · [Compilação verificada](https://github.com/tavinorama/streets-of-rage-brasa/actions/runs/39484936836). Android: APK de depuração. iOS: somente simulador, sem assinatura para iPhone físico.

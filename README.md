@@ -29,3 +29,7 @@ O manifesto e o service worker permitem instalar a PWA no Android e no Safari do
 Simulação 2D em passos de 1/60 s: gravidade, aceleração, frenagem, impulso e molas amortecidas para cabelo/tecido. As 48 poses do elenco usam recorte por silhueta, apoios dos pés e sombras de contato. Esta técnica não equivale a corpos 3D ou captura de movimento. Retratos da seleção e poses de combate compartilham as mesmas reconstruções de aparência fotográfica. As fotografias documentais do dossiê têm créditos em `dist/photo-credits.json`; poses de combate e cenários são reconstruções fictícias. Prompts e registros de pesquisa acompanham o projeto.
 
 Música instrumental com velocidade ajustável e efeitos procedurais. Créditos em `dist/music-credits.html`. Paródia independente; citações reais estão separadas das falas e ações fictícias.
+
+## Pacotes de teste Android/iOS
+
+[Baixar a beta técnica](https://github.com/tavinorama/streets-of-rage-brasa/releases/tag/beta-2026-10-20). APK Android de depuração e pacote iOS para o simulador do Xcode. Para instalar em iPhone físico ou enviar às lojas, veja [NATIVE.md](NATIVE.md).

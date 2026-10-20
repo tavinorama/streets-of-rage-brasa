@@ -11,7 +11,7 @@ Atualizado em 20/10/2026. Este arquivo distingue implementação de validação 
 - [x] Servidor de salas para dois convidados com WebSockets, host autoritativo, validação de pacotes e limite de participantes; verificação local com dois clientes.
 - [ ] Publicação do servidor online: depende de autorizar Workers no Cloudflare; a credencial anterior permite Pages.
 - [x] Projetos Android e iOS gerados para os dois jogos, com ícones derivados do SVG próprio e workflow de compilação.
-- [ ] Conferir conclusão dos builds remotos Android/iOS e disponibilizar artefatos.
+- [x] Builds remotos Android/iOS concluídos para os dois jogos; APK de depuração e aplicativo iOS para simulador disponíveis nas releases beta dos repositórios.
 - [ ] Medições e testes em aparelhos físicos: não há Android/iPhone conectado ou toolchain nativa completa neste ambiente.
 - [ ] Rodadas de balanceamento com jogadores humanos e testes de latência em redes diferentes.
 - [ ] Envio às lojas: depende das contas de desenvolvedor, assinatura, ficha, classificação e revisão de Apple/Google.
