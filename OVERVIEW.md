@@ -41,7 +41,7 @@ A pasta `street-brasa/` é a integração dos dois jogos e da central de seleç�
 
 ## Celular e aplicativo
 
-Implementados: layout responsivo em retrato e paisagem, direcional e botões de toque, tratamento de múltiplos ponteiros, pausa, tela cheia quando disponível, menor resolução e malha de animação para toque. A base foi conferida em emulação de navegador; ainda faltam medições em celulares Android e iPhones físicos. Não há uma taxa de quadros garantida por aparelho.
+Implementados: expansão para toda a área disponível, tela cheia nativa quando permitida e expansão dentro da página quando indisponível; composição em paisagem para celulares, botões de pelo menos 44 px, saída e pausa sempre acessíveis, ajuste a barras do navegador e áreas seguras; layout responsivo em retrato e paisagem, direcional e botões de toque, tratamento de múltiplos ponteiros, pausa, tela cheia quando disponível, menor resolução e malha de animação para toque. A base foi conferida em emulação de navegador; ainda faltam medições em celulares Android e iPhones físicos. Não há uma taxa de quadros garantida por aparelho.
 
 A PWA contém manifesto, ícones, instalação pela tela inicial e cache de arquivos utilizados. O primeiro acesso depende de rede e o cache pode ser removido pelo navegador. A música não tem funcionamento offline garantido. Ainda faltam empacotamento nativo, assinatura e processo de publicação nas lojas. A campanha não possui salvamento de progresso; preferências de áudio são persistidas.
 
@@ -49,7 +49,7 @@ A PWA contém manifesto, ícones, instalação pela tela inicial e cache de arqu
 
 `npm run check` verifica referências estáticas, importações, entradas da PWA, arquivos do service worker, limites das imagens e 48 poses do elenco. Depois executa os testes das regras de jogo. Há testes específicos para a queda após o fim de round, inimigos derrotados no ar e jogadores derrotados antes do reaparecimento ou do game over.
 
-A integração possui 36 testes; as distribuições possuem 14 (Street Brasa) e 25 (Streets of Rage Brasa). Existem testes compartilhados, portanto os números não devem ser somados como casos únicos.
+A integração possui 38 testes; as distribuições possuem 16 (Street Brasa) e 27 (Streets of Rage Brasa). Existem testes compartilhados, portanto os números não devem ser somados como casos únicos.
 
 Os dois repositórios GitHub são públicos. Existe uma versão integrada hospedada em https://street-brasa-2026.otaviofranca.chatgpt.site, com acesso privado que exige login ChatGPT. Ela não é um endereço Pages da conta Cloudflare do usuário.
 
